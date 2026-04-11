@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+    <rect width="1280" height="720" fill="#F8F9FA" />
+    <text x="60" y="70" font-family="Arial Black" font-size="28" fill="#333333">业务结构 · 智能云基础设施</text>
+    <rect x="60" y="80" width="320" height="4" fill="#2932E1" />
+    <text x="1100" y="80" font-family="Arial Black" font-size="42" fill="#2932E1" text-anchor="end">198 亿</text>
+    <text x="1100" y="105" font-family="Arial" font-size="13" fill="#666" text-anchor="end">同比 +34%</text>
+    <path fill="#F5F5F5" d="M68,130 H612 A8,8 0 0 1 620,138 V212 A8,8 0 0 1 612,220 H68 A8,8 0 0 1 60,212 V138 A8,8 0 0 1 68,130 Z" />
+    <text x="100" y="165" font-family="Arial" font-size="13" fill="#555"><tspan font-weight="bold">构成：</tspan>AI 算力（GPU/昆仑芯）、存储、网络、私有云/混合云</text>
+    <text x="100" y="195" font-family="Arial" font-size="12" fill="#666">核心主力业务，占智能云总收入 66%</text>
+    <path fill="#FFFFFF" filter="url(#shadow)" d="M72,250 H328 A12,12 0 0 1 340,262 V428 A12,12 0 0 1 328,440 H72 A12,12 0 0 1 60,428 V262 A12,12 0 0 1 72,250 Z" />
+    <path fill="#FEF9E7" d="M72,250 H328 A12,12 0 0 1 340,262 V283 A12,12 0 0 1 328,295 H72 A12,12 0 0 1 60,283 V262 A12,12 0 0 1 72,250 Z" />
+    <text x="200" y="280" font-family="Arial Black" font-size="14" fill="#F39C12" text-anchor="middle">🚀 大模型训练爆发</text>
+    <text x="80" y="320" font-family="Arial" font-size="12" fill="#555">服务字节、快手、</text>
+    <text x="80" y="340" font-family="Arial" font-size="12" fill="#555">智谱 AI、MiniMax 等</text>
+    <text x="200" y="380" font-family="Arial" font-size="12" fill="#E67E22" text-anchor="middle" font-weight="bold">万卡级集群订单大增</text>
+    <text x="80" y="415" font-family="Arial" font-size="11" fill="#999">头部客户需求旺盛</text>
+    <path fill="#FFFFFF" filter="url(#shadow)" d="M372,250 H628 A12,12 0 0 1 640,262 V428 A12,12 0 0 1 628,440 H372 A12,12 0 0 1 360,428 V262 A12,12 0 0 1 372,250 Z" />
+    <path fill="#E8F6F3" d="M372,250 H628 A12,12 0 0 1 640,262 V283 A12,12 0 0 1 628,295 H372 A12,12 0 0 1 360,283 V262 A12,12 0 0 1 372,250 Z" />
+    <text x="500" y="280" font-family="Arial Black" font-size="14" fill="#1ABC9C" text-anchor="middle">💎 昆仑芯规模化</text>
+    <text x="380" y="320" font-family="Arial" font-size="12" fill="#555">全年交付<tspan fill="#2932E1" font-weight="bold">超 30 万片</tspan></text>
+    <text x="500" y="360" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">70% 外部客户</text>
+    <text x="500" y="385" font-family="Arial" font-size="12" fill="#27AE60" text-anchor="middle" font-weight="bold">成本下降 25%+</text>
+    <text x="500" y="415" font-family="Arial" font-size="11" fill="#999" text-anchor="middle">自研芯片成本优势</text>
+    <path fill="#FFFFFF" filter="url(#shadow)" d="M672,250 H928 A12,12 0 0 1 940,262 V428 A12,12 0 0 1 928,440 H672 A12,12 0 0 1 660,428 V262 A12,12 0 0 1 672,250 Z" />
+    <path fill="#EBF5FB" d="M672,250 H928 A12,12 0 0 1 940,262 V283 A12,12 0 0 1 928,295 H672 A12,12 0 0 1 660,283 V262 A12,12 0 0 1 672,250 Z" />
+    <text x="800" y="280" font-family="Arial Black" font-size="14" fill="#2932E1" text-anchor="middle">🏦 政企/金融刚需</text>
+    <text x="800" y="320" font-family="Arial" font-size="12" fill="#555" text-anchor="middle">80% 央企</text>
+    <text x="800" y="345" font-family="Arial" font-size="12" fill="#555" text-anchor="middle">100% 系统重要性银行</text>
+    <text x="800" y="385" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">金融 AI 云市占率</text>
+    <text x="800" y="405" font-family="Arial Black" font-size="18" fill="#2932E1" text-anchor="middle">38%</text>
+    <text x="800" y="430" font-family="Arial" font-size="11" fill="#999" text-anchor="middle">深度渗透</text>
+    <path fill="#FFFFFF" filter="url(#shadow)" d="M972,250 H1228 A12,12 0 0 1 1240,262 V428 A12,12 0 0 1 1228,440 H972 A12,12 0 0 1 960,428 V262 A12,12 0 0 1 972,250 Z" />
+    <path fill="#FDEDEC" d="M972,250 H1228 A12,12 0 0 1 1240,262 V283 A12,12 0 0 1 1228,295 H972 A12,12 0 0 1 960,283 V262 A12,12 0 0 1 972,250 Z" />
+    <text x="1100" y="280" font-family="Arial Black" font-size="14" fill="#E74C3C" text-anchor="middle">⚡ 天池超节点</text>
+    <text x="980" y="320" font-family="Arial" font-size="12" fill="#555" text-anchor="middle">512 卡集群落地</text>
+    <text x="1100" y="350" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">支持万亿参数训练</text>
+    <text x="1100" y="390" font-family="Arial" font-size="12" fill="#C0392B" text-anchor="middle" font-weight="bold">单价提升 30%+</text>
+    <text x="1100" y="420" font-family="Arial" font-size="11" fill="#999" text-anchor="middle">高端算力溢价</text>
+    <text x="60" y="680" font-family="Arial" font-size="12" fill="#999999">百度智能云 2025 年财报分析 | 7 / 14</text>
+</svg>

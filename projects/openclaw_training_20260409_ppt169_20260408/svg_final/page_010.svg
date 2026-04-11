@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#ffffff"/>
+  <rect width="1280" height="8" fill="#1a365d"/>
+  <text x="60" y="70" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="36" font-weight="bold" fill="#1a365d">记忆使用规范</text>
+  <rect x="60" y="90" width="100" height="4" fill="#ed8936" rx="2"/>
+  <!-- 左侧：读取规则 -->
+  <g transform="translate(60, 130)">
+    <rect width="580" height="500" rx="12" fill="#ebf8ff" stroke="#3182ce" stroke-width="2"/>
+    <text x="30" y="45" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold" fill="#1a365d">会话启动时读取</text>
+    <text x="30" y="80" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" fill="#4a5568">每次主会话启动时（必须按顺序）：</text>
+    <g transform="translate(30, 110)">
+      <circle cx="15" cy="15" r="8" fill="#3182ce"/>
+      <text x="35" y="20" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="15" fill="#1a365d">读取 SOUL.md（人格定义）</text>
+    </g>
+    <g transform="translate(30, 150)">
+      <circle cx="15" cy="15" r="8" fill="#38b2ac"/>
+      <text x="35" y="20" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="15" fill="#1a365d">读取 USER.md（用户信息）</text>
+    </g>
+    <g transform="translate(30, 190)">
+      <circle cx="15" cy="15" r="8" fill="#ed8936"/>
+      <text x="35" y="20" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="15" fill="#1a365d">读取 MEMORY.md（长期记忆）</text>
+    </g>
+    <g transform="translate(30, 230)">
+      <circle cx="15" cy="15" r="8" fill="#805ad5"/>
+      <text x="35" y="20" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="15" fill="#1a365d">扫描最近 2 天的 memory/</text>
+    </g>
+    <g transform="translate(30, 270)">
+      <circle cx="15" cy="15" r="8" fill="#e53e3e"/>
+      <text x="35" y="20" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="15" fill="#1a365d">读取 ~/self-improving/ 相关文件</text>
+    </g>
+    <text x="30" y="340" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" fill="#4a5568">⚠️ 注意：仅主会话需要完整读取</text>
+  </g>
+  <!-- 右侧：写入规则 -->
+  <g transform="translate(660, 130)">
+    <rect width="580" height="500" rx="12" fill="#fef3e2" stroke="#ed8936" stroke-width="2"/>
+    <text x="30" y="45" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold" fill="#1a365d">写入规则</text>
+    <text x="30" y="80" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" fill="#4a5568">根据内容类型选择写入位置：</text>
+    <g transform="translate(30, 110)">
+      <rect x="0" y="0" width="520" height="70" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+      <circle cx="25" cy="35" r="10" fill="#3182ce"/>
+      <text x="50" y="28" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="15" font-weight="bold" fill="#1a365d">事实性事件</text>
+      <text x="50" y="52" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#718096">→ memory/YYYY-MM-DD.md</text>
+    </g>
+    <g transform="translate(30, 190)">
+      <rect x="0" y="0" width="520" height="70" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+      <circle cx="25" cy="35" r="10" fill="#38b2ac"/>
+      <text x="50" y="28" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="15" font-weight="bold" fill="#1a365d">重要决策/洞察</text>
+      <text x="50" y="52" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#718096">→ MEMORY.md</text>
+    </g>
+    <g transform="translate(30, 270)">
+      <rect x="0" y="0" width="520" height="70" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+      <circle cx="25" cy="35" r="10" fill="#ed8936"/>
+      <text x="50" y="28" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="15" font-weight="bold" fill="#1a365d">执行优化规则</text>
+      <text x="50" y="52" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#718096">→ ~/self-improving/memory.md</text>
+    </g>
+    <g transform="translate(30, 350)">
+      <rect x="0" y="0" width="520" height="70" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+      <circle cx="25" cy="35" r="10" fill="#805ad5"/>
+      <text x="50" y="28" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="15" font-weight="bold" fill="#1a365d">领域特定知识</text>
+      <text x="50" y="52" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#718096">→ ~/self-improving/domains/&lt;domain&gt;.md</text>
+    </g>
+    <g transform="translate(30, 430)">
+      <rect x="0" y="0" width="520" height="70" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+      <circle cx="25" cy="35" r="10" fill="#e53e3e"/>
+      <text x="50" y="28" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="15" font-weight="bold" fill="#1a365d">用户纠正</text>
+      <text x="50" y="52" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#718096">→ ~/self-improving/corrections.md（立即写入）</text>
+    </g>
+  </g>
+  <text x="1240" y="700" text-anchor="end" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#a0aec0">10 / 38</text>
+</svg>

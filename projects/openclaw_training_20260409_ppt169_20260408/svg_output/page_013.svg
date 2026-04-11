@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#ffffff"/>
+  <rect width="1280" height="8" fill="#1a365d"/>
+  <text x="60" y="70" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="36" font-weight="bold" fill="#1a365d">SubAgent 架构</text>
+  <rect x="60" y="90" width="100" height="4" fill="#ed8936" rx="2"/>
+  <!-- 两种类型对比 -->
+  <g transform="translate(60, 140)">
+    <rect width="560" height="420" rx="12" fill="#ebf8ff" stroke="#3182ce" stroke-width="2"/>
+    <text x="30" y="45" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold" fill="#1a365d">subagent</text>
+    <text x="30" y="75" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" fill="#4a5568">通用子任务执行</text>
+    <rect x="30" y="110" width="500" height="260" rx="8" fill="#ffffff"/>
+    <text x="50" y="145" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="15" fill="#1a365d" font-weight="bold">runtime: "subagent"</text>
+    <text x="50" y="180" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">• 通用子任务</text>
+    <text x="50" y="210" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">• run（单次执行）</text>
+    <text x="50" y="240" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">• session（持久会话）</text>
+    <text x="50" y="280" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#718096">常用 Agent ID:</text>
+    <text x="50" y="310" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#3182ce">ai_intel, tech_analyst,</text>
+    <text x="50" y="335" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#3182ce">content_creator, main</text>
+  </g>
+  <g transform="translate(660, 140)">
+    <rect width="560" height="420" rx="12" fill="#faf5ff" stroke="#805ad5" stroke-width="2"/>
+    <text x="30" y="45" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold" fill="#1a365d">acp</text>
+    <text x="30" y="75" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" fill="#4a5568">ACP harness 集成</text>
+    <rect x="30" y="110" width="500" height="260" rx="8" fill="#ffffff"/>
+    <text x="50" y="145" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="15" fill="#1a365d" font-weight="bold">runtime: "acp"</text>
+    <text x="50" y="180" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">• ACP harness 集成</text>
+    <text x="50" y="210" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">• thread（线程绑定）</text>
+    <text x="50" y="240" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">• session（持久会话）</text>
+    <text x="50" y="280" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#718096">典型场景:</text>
+    <text x="50" y="310" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#805ad5">Codex / Claude Code / Cursor</text>
+    <text x="50" y="335" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#805ad5">等 AI 编程助手集成</text>
+  </g>
+  <!-- 调用示例 -->
+  <g transform="translate(60, 580)">
+    <rect width="1160" height="80" rx="8" fill="#1a365d"/>
+    <text x="30" y="40" font-family="monospace" font-size="14" fill="#a0aec0">sessions_spawn(runtime="subagent", agent_id="tech_analyst", task="...", mode="run", timeoutSeconds=1800)</text>
+  </g>
+  <text x="1240" y="700" text-anchor="end" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#a0aec0">13 / 38</text>
+</svg>

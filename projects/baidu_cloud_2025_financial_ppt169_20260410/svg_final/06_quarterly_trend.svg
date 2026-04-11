@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+    <rect width="1280" height="720" fill="#F8F9FA" />
+    <text x="60" y="70" font-family="Arial Black" font-size="28" fill="#333333">分季度表现 · 季度趋势分析</text>
+    <rect x="60" y="80" width="280" height="4" fill="#2932E1" />
+    <path fill="#FFFFFF" filter="url(#shadow)" d="M72,120 H1208 A12,12 0 0 1 1220,132 V258 A12,12 0 0 1 1208,270 H72 A12,12 0 0 1 60,258 V132 A12,12 0 0 1 72,120 Z" />
+    <path fill="#FEF9E7" d="M72,120 H1208 A12,12 0 0 1 1220,132 V158 A12,12 0 0 1 1208,170 H72 A12,12 0 0 1 60,158 V132 A12,12 0 0 1 72,120 Z" />
+    <text x="90" y="153" font-family="Arial Black" font-size="16" fill="#F39C12">1️⃣ 增速逐季抬升</text>
+    <text x="90" y="195" font-family="Arial" font-size="14" fill="#555">Q1(28%) → Q2(31%) → Q3(32%) → Q4(41%)，AI 需求加速释放</text>
+    <path fill="#F7DC6F" d="M804,140 H866 A4,4 0 0 1 870,144 V236 A4,4 0 0 1 866,240 H804 A4,4 0 0 1 800,236 V144 A4,4 0 0 1 804,140 Z" />
+    <text x="835" y="230" font-family="Arial" font-size="11" fill="#333" text-anchor="middle">28%</text>
+    <text x="835" y="250" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">Q1</text>
+    <path fill="#F5B041" d="M884,140 H946 A4,4 0 0 1 950,144 V246 A4,4 0 0 1 946,250 H884 A4,4 0 0 1 880,246 V144 A4,4 0 0 1 884,140 Z" />
+    <text x="915" y="230" font-family="Arial" font-size="11" fill="#333" text-anchor="middle">31%</text>
+    <text x="915" y="250" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">Q2</text>
+    <path fill="#F39C12" d="M964,140 H1026 A4,4 0 0 1 1030,144 V251 A4,4 0 0 1 1026,255 H964 A4,4 0 0 1 960,251 V144 A4,4 0 0 1 964,140 Z" />
+    <text x="995" y="230" font-family="Arial" font-size="11" fill="#333" text-anchor="middle">32%</text>
+    <text x="995" y="250" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">Q3</text>
+    <path fill="#E67E22" d="M1044,140 H1106 A4,4 0 0 1 1110,144 V271 A4,4 0 0 1 1106,275 H1044 A4,4 0 0 1 1040,271 V144 A4,4 0 0 1 1044,140 Z" />
+    <text x="1075" y="230" font-family="Arial" font-size="11" fill="#333" text-anchor="middle">41%</text>
+    <text x="1075" y="250" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">Q4</text>
+    <path fill="#FFFFFF" filter="url(#shadow)" d="M72,295 H1208 A12,12 0 0 1 1220,307 V433 A12,12 0 0 1 1208,445 H72 A12,12 0 0 1 60,433 V307 A12,12 0 0 1 72,295 Z" />
+    <path fill="#E8F6F3" d="M72,295 H1208 A12,12 0 0 1 1220,307 V333 A12,12 0 0 1 1208,345 H72 A12,12 0 0 1 60,333 V307 A12,12 0 0 1 72,295 Z" />
+    <text x="90" y="328" font-family="Arial Black" font-size="16" fill="#1ABC9C">2️⃣ Q4 拐点</text>
+    <text x="90" y="370" font-family="Arial" font-size="14" fill="#555">单季收入<tspan fill="#2932E1" font-weight="bold" font-size="16">88 亿</tspan>（占全年 29%），算力订阅<tspan fill="#E74C3C" font-weight="bold" font-size="16">+143%</tspan>增速，企业从试点 → 规模化采购</text>
+    <path fill="#FFFFFF" filter="url(#shadow)" d="M72,470 H1208 A12,12 0 0 1 1220,482 V608 A12,12 0 0 1 1208,620 H72 A12,12 0 0 1 60,608 V482 A12,12 0 0 1 72,470 Z" />
+    <path fill="#EBF5FB" d="M72,470 H1208 A12,12 0 0 1 1220,482 V508 A12,12 0 0 1 1208,520 H72 A12,12 0 0 1 60,508 V482 A12,12 0 0 1 72,470 Z" />
+    <text x="90" y="503" font-family="Arial Black" font-size="16" fill="#2932E1">3️⃣ 结构优化</text>
+    <text x="90" y="545" font-family="Arial" font-size="14" fill="#555">高毛利 MaaS/模型服务占比从 2024 年<tspan font-weight="bold" font-size="16">13%</tspan> → 2025 年<tspan font-weight="bold" font-size="16">22%</tspan>，拉动整体毛利率提升</text>
+    <path fill="#E8EAED" d="M909,515 H1071 A9,9 0 0 1 1080,524 V524 A9,9 0 0 1 1071,533 H909 A9,9 0 0 1 900,524 V524 A9,9 0 0 1 909,515 Z" />
+    <path fill="#2932E1" d="M909,515 H1008 A9,9 0 0 1 1017,524 V524 A9,9 0 0 1 1008,533 H909 A9,9 0 0 1 900,524 V524 A9,9 0 0 1 909,515 Z" />
+    <text x="990" y="528" font-family="Arial" font-size="10" fill="#FFFFFF" text-anchor="middle">2024: 13%</text>
+    <path fill="#E8EAED" d="M909,545 H1071 A9,9 0 0 1 1080,554 V554 A9,9 0 0 1 1071,563 H909 A9,9 0 0 1 900,554 V554 A9,9 0 0 1 909,545 Z" />
+    <path fill="#5C67FF" d="M909,545 H1053 A9,9 0 0 1 1062,554 V554 A9,9 0 0 1 1053,563 H909 A9,9 0 0 1 900,554 V554 A9,9 0 0 1 909,545 Z" />
+    <text x="990" y="558" font-family="Arial" font-size="10" fill="#FFFFFF" text-anchor="middle">2025: 22%</text>
+    <text x="60" y="680" font-family="Arial" font-size="12" fill="#999999">百度智能云 2025 年财报分析 | 6 / 14</text>
+</svg>

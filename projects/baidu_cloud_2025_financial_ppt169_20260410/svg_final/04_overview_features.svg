@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+    <rect width="1280" height="720" fill="#F8F9FA" />
+    <text x="60" y="70" font-family="Arial Black" font-size="28" fill="#333333">整体业绩概览 · 整体特征</text>
+    <rect x="60" y="80" width="280" height="4" fill="#2932E1" />
+    <path fill="#FFFFFF" filter="url(#shadow)" d="M72,120 H608 A12,12 0 0 1 620,132 V368 A12,12 0 0 1 608,380 H72 A12,12 0 0 1 60,368 V132 A12,12 0 0 1 72,120 Z" />
+    <path fill="#FEF9E7" d="M72,120 H608 A12,12 0 0 1 620,132 V158 A12,12 0 0 1 608,170 H72 A12,12 0 0 1 60,158 V132 A12,12 0 0 1 72,120 Z" />
+    <text x="340" y="153" font-family="Arial Black" font-size="18" fill="#F39C12" text-anchor="middle">📈 增长韧性强</text>
+    <text x="100" y="200" font-family="Arial" font-size="14" fill="#555">在百度总营收同比 -3% 背景下</text>
+    <text x="340" y="260" font-family="Arial Black" font-size="42" fill="#27AE60" text-anchor="middle">+34%</text>
+    <text x="340" y="295" font-family="Arial" font-size="14" fill="#666" text-anchor="middle">智能云逆势高增</text>
+    <path fill="#FFFFFF" filter="url(#shadow)" d="M672,120 H1208 A12,12 0 0 1 1220,132 V368 A12,12 0 0 1 1208,380 H672 A12,12 0 0 1 660,368 V132 A12,12 0 0 1 672,120 Z" />
+    <path fill="#E8F6F3" d="M672,120 H1208 A12,12 0 0 1 1220,132 V158 A12,12 0 0 1 1208,170 H672 A12,12 0 0 1 660,158 V132 A12,12 0 0 1 672,120 Z" />
+    <text x="940" y="153" font-family="Arial Black" font-size="18" fill="#1ABC9C" text-anchor="middle">⚡ AI 算力爆发</text>
+    <text x="700" y="200" font-family="Arial" font-size="14" fill="#555">AI 高性能计算订阅 Q4 同比</text>
+    <text x="940" y="260" font-family="Arial Black" font-size="42" fill="#E74C3C" text-anchor="middle">+143%</text>
+    <text x="940" y="295" font-family="Arial" font-size="14" fill="#666" text-anchor="middle">核心增长极</text>
+    <path fill="#FFFFFF" filter="url(#shadow)" d="M72,410 H608 A12,12 0 0 1 620,422 V618 A12,12 0 0 1 608,630 H72 A12,12 0 0 1 60,618 V422 A12,12 0 0 1 72,410 Z" />
+    <path fill="#EBF5FB" d="M72,410 H608 A12,12 0 0 1 620,422 V448 A12,12 0 0 1 608,460 H72 A12,12 0 0 1 60,448 V422 A12,12 0 0 1 72,410 Z" />
+    <text x="340" y="443" font-family="Arial Black" font-size="18" fill="#2932E1" text-anchor="middle">🏗️ 全栈壁垒</text>
+    <text x="340" y="485" font-family="Arial" font-size="13" fill="#555" text-anchor="middle">昆仑芯 → 天池智算 → 千帆 MaaS → 文心大模型 → 行业 Agent</text>
+    <text x="340" y="520" font-family="Arial" font-size="13" fill="#666" text-anchor="middle">完整闭环落地</text>
+    <text x="340" y="560" font-family="Arial" font-size="12" fill="#999" text-anchor="middle">自研芯片 | 智算平台 | 模型服务 | 大模型 | 智能体应用</text>
+    <path fill="#FFFFFF" filter="url(#shadow)" d="M672,410 H1208 A12,12 0 0 1 1220,422 V618 A12,12 0 0 1 1208,630 H672 A12,12 0 0 1 660,618 V422 A12,12 0 0 1 672,410 Z" />
+    <path fill="#FDEDEC" d="M672,410 H1208 A12,12 0 0 1 1220,422 V448 A12,12 0 0 1 1208,460 H672 A12,12 0 0 1 660,448 V422 A12,12 0 0 1 672,410 Z" />
+    <text x="940" y="443" font-family="Arial Black" font-size="18" fill="#E74C3C" text-anchor="middle">💰 盈利阶段</text>
+    <text x="940" y="490" font-family="Arial" font-size="14" fill="#555" text-anchor="middle">2025 年仍处高投入期，整体未盈利</text>
+    <text x="940" y="530" font-family="Arial" font-size="13" fill="#666" text-anchor="middle">AI 算力/高毛利 MaaS 利润率持续改善</text>
+    <text x="60" y="680" font-family="Arial" font-size="12" fill="#999999">百度智能云 2025 年财报分析 | 4 / 14</text>
+</svg>

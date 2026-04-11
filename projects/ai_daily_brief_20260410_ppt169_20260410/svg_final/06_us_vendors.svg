@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#CF002E" />
+      <stop offset="100%" stop-color="#8B0020" />
+    </linearGradient>
+  </defs>
+  
+  
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  
+  
+  <rect x="0" y="0" width="1280" height="80" fill="#F8F9FA" />
+  <rect x="60" y="75" width="1160" height="5" fill="url(#headerGradient)" />
+  
+  
+  <text x="60" y="50" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="35" font-weight="bold">
+    美国厂商 AI 动态
+  </text>
+  
+  
+  <path fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1" d="M68,120 H612 A8,8 0 0 1 620,128 V592 A8,8 0 0 1 612,600 H68 A8,8 0 0 1 60,592 V128 A8,8 0 0 1 68,120 Z" />
+  <path fill="#333333" d="M68,120 H612 A8,8 0 0 1 620,128 V162 A8,8 0 0 1 612,170 H68 A8,8 0 0 1 60,162 V128 A8,8 0 0 1 68,120 Z" />
+  <text x="90" y="155" fill="#FFFFFF" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold">
+    OpenAI、Google 员工支持 Anthropic
+  </text>
+  
+  <text x="90" y="210" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold">
+    事件背景
+  </text>
+  <path fill="#F8F9FA" d="M96,225 H584 A6,6 0 0 1 590,231 V309 A6,6 0 0 1 584,315 H96 A6,6 0 0 1 90,309 V231 A6,6 0 0 1 96,225 Z" />
+  <text x="110" y="255" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17">
+    Anthropic 拒绝让国防部 unrestricted access 其 AI 模型后，
+  </text>
+  <text x="110" y="285" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17">
+    被标记为供应链风险
+  </text>
+  
+  <text x="90" y="350" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold">
+    行业响应
+  </text>
+  <path fill="#333333" d="M93,365 H103 A3,3 0 0 1 106,368 V378 A3,3 0 0 1 103,381 H93 A3,3 0 0 1 90,378 V368 A3,3 0 0 1 93,365 Z" />
+  <text x="115" y="380" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    30+ 名员工提交法庭之友简报
+  </text>
+  <path fill="#333333" d="M93,395 H103 A3,3 0 0 1 106,398 V408 A3,3 0 0 1 103,411 H93 A3,3 0 0 1 90,408 V398 A3,3 0 0 1 93,395 Z" />
+  <text x="115" y="410" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    来自 OpenAI 和 Google DeepMind
+  </text>
+  <path fill="#333333" d="M93,425 H103 A3,3 0 0 1 106,428 V438 A3,3 0 0 1 103,441 H93 A3,3 0 0 1 90,438 V428 A3,3 0 0 1 93,425 Z" />
+  <text x="115" y="440" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    包括 Google DeepMind 首席科学家 Jeff Dean
+  </text>
+  
+  <path fill="#F8F9FA" stroke="#333333" stroke-width="1" d="M96,480 H584 A6,6 0 0 1 590,486 V554 A6,6 0 0 1 584,560 H96 A6,6 0 0 1 90,554 V486 A6,6 0 0 1 96,480 Z" />
+  <text x="110" y="510" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" font-weight="bold">
+    💡 行业影响
+  </text>
+  <text x="110" y="540" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">
+    OpenAI 员工公开支持竞争对手，反映 AI 行业对军事应用的伦理担忧
+  </text>
+  
+  
+  <path fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1" d="M668,120 H1212 A8,8 0 0 1 1220,128 V592 A8,8 0 0 1 1212,600 H668 A8,8 0 0 1 660,592 V128 A8,8 0 0 1 668,120 Z" />
+  <path fill="#4285F4" d="M668,120 H1212 A8,8 0 0 1 1220,128 V162 A8,8 0 0 1 1212,170 H668 A8,8 0 0 1 660,162 V128 A8,8 0 0 1 668,120 Z" />
+  <text x="690" y="155" fill="#FFFFFF" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold">
+    Google DeepMind Genie 3
+  </text>
+  
+  <text x="690" y="210" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold">
+    世界模型 (World Model)
+  </text>
+  <path fill="#F0F7FF" d="M696,225 H1184 A6,6 0 0 1 1190,231 V399 A6,6 0 0 1 1184,405 H696 A6,6 0 0 1 690,399 V231 A6,6 0 0 1 696,225 Z" />
+  
+  
+  <path fill="#FFFFFF" stroke="#4285F4" stroke-width="2" d="M728,250 H862 A8,8 0 0 1 870,258 V362 A8,8 0 0 1 862,370 H728 A8,8 0 0 1 720,362 V258 A8,8 0 0 1 728,250 Z" />
+  <text x="795" y="290" text-anchor="middle" fill="#4285F4" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold">用户输入</text>
+  <text x="795" y="315" text-anchor="middle" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14">文本/图像</text>
+  <polygon points="870,310 900,310 900,305 910,315 900,325 900,320 870,320" fill="#4285F4" />
+  <path fill="#FFFFFF" stroke="#4285F4" stroke-width="2" d="M918,250 H1052 A8,8 0 0 1 1060,258 V362 A8,8 0 0 1 1052,370 H918 A8,8 0 0 1 910,362 V258 A8,8 0 0 1 918,250 Z" />
+  <text x="985" y="290" text-anchor="middle" fill="#4285F4" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold">世界模拟</text>
+  <text x="985" y="315" text-anchor="middle" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14">实时交互</text>
+  <polygon points="1060,310 1090,310 1090,305 1100,315 1090,325 1090,320 1060,320" fill="#4285F4" />
+  <path fill="#FFFFFF" stroke="#4285F4" stroke-width="2" d="M1108,250 H1152 A8,8 0 0 1 1160,258 V362 A8,8 0 0 1 1152,370 H1108 A8,8 0 0 1 1100,362 V258 A8,8 0 0 1 1108,250 Z" />
+  <text x="1130" y="290" text-anchor="middle" fill="#4285F4" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14" font-weight="bold">输出</text>
+  <text x="1130" y="315" text-anchor="middle" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="12">交互世界</text>
+  
+  <text x="690" y="440" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold">
+    技术特点
+  </text>
+  <path fill="#4285F4" d="M693,455 H703 A3,3 0 0 1 706,458 V468 A3,3 0 0 1 703,471 H693 A3,3 0 0 1 690,468 V458 A3,3 0 0 1 693,455 Z" />
+  <text x="715" y="470" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    用户可生成世界模拟并实时交互
+  </text>
+  <path fill="#4285F4" d="M693,485 H703 A3,3 0 0 1 706,488 V498 A3,3 0 0 1 703,501 H693 A3,3 0 0 1 690,498 V488 A3,3 0 0 1 693,485 Z" />
+  <text x="715" y="500" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    在社交媒体引发热议
+  </text>
+  <path fill="#4285F4" d="M693,515 H703 A3,3 0 0 1 706,518 V528 A3,3 0 0 1 703,531 H693 A3,3 0 0 1 690,528 V518 A3,3 0 0 1 693,515 Z" />
+  <text x="715" y="530" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    基础世界模型新突破
+  </text>
+  
+  
+  <text x="1220" y="700" text-anchor="end" fill="#999999" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13">
+    2026-04-10 | 06
+  </text>
+</svg>

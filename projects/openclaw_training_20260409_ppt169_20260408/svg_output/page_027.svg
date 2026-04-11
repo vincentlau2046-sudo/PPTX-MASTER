@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#ffffff"/>
+  <rect width="1280" height="8" fill="#1a365d"/>
+  <text x="60" y="70" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="36" font-weight="bold" fill="#1a365d">PPT-Master 核心工作流</text>
+  <rect x="60" y="90" width="100" height="4" fill="#ed8936" rx="2"/>
+  <!-- 工作流步骤 -->
+  <g transform="translate(80, 160)">
+    <rect x="0" y="0" width="200" height="100" rx="12" fill="#3182ce"/>
+    <text x="100" y="45" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">1. 源内容处理</text>
+    <text x="100" y="75" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#bee3f8">PDF/DOCX→MD</text>
+  </g>
+  <g transform="translate(300, 160)">
+    <rect x="0" y="0" width="200" height="100" rx="12" fill="#38b2ac"/>
+    <text x="100" y="45" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">2. 项目初始化</text>
+    <text x="100" y="75" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#b2f5ea">创建目录结构</text>
+  </g>
+  <g transform="translate(520, 160)">
+    <rect x="0" y="0" width="200" height="100" rx="12" fill="#ed8936"/>
+    <text x="100" y="35" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">3. 设计规范</text>
+    <text x="100" y="65" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="12" fill="#feebc8">Eight Confirmations</text>
+    <text x="100" y="85" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="12" fill="#e53e3e" font-weight="bold">⛔ BLOCKING</text>
+  </g>
+  <g transform="translate(740, 160)">
+    <rect x="0" y="0" width="200" height="100" rx="12" fill="#805ad5"/>
+    <text x="100" y="45" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">4. SVG 生成</text>
+    <text x="100" y="75" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#e9d8fd">逐页生成</text>
+  </g>
+  <g transform="translate(960, 160)">
+    <rect x="0" y="0" width="200" height="100" rx="12" fill="#e53e3e"/>
+    <text x="100" y="45" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">5. 导出 PPTX</text>
+    <text x="100" y="75" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#fed7d7">原生 + 兼容</text>
+  </g>
+  <!-- 箭头 -->
+  <path d="M280 210 L300 210" stroke="#1a365d" stroke-width="2" fill="none"/>
+  <path d="M500 210 L520 210" stroke="#1a365d" stroke-width="2" fill="none"/>
+  <path d="M720 210 L740 210" stroke="#1a365d" stroke-width="2" fill="none"/>
+  <path d="M940 210 L960 210" stroke="#1a365d" stroke-width="2" fill="none"/>
+  <!-- 质量检查 -->
+  <g transform="translate(300, 300)">
+    <rect x="0" y="0" width="680" height="120" rx="8" fill="#ebf8ff" stroke="#3182ce" stroke-width="2"/>
+    <text x="30" y="35" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#1a365d">5.1 质量检查</text>
+    <text x="30" y="65" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">svg_quality_checker.py - 检查 SVG 格式、布局、图表正确性</text>
+    <text x="30" y="95" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">如有问题 → 返回步骤 4 重新生成</text>
+  </g>
+  <!-- 交付说明 -->
+  <g transform="translate(100, 450)">
+    <rect width="1080" height="200" rx="12" fill="#f7fafc" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="30" y="45" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold" fill="#1a365d">输出保证</text>
+    <g transform="translate(30, 80)">
+      <circle cx="15" cy="15" r="8" fill="#38b2ac"/>
+      <text x="40" y="20" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="15" fill="#4a5568">原生可编辑的 PowerPoint 形状（非图片）</text>
+    </g>
+    <g transform="translate(30, 115)">
+      <circle cx="15" cy="15" r="8" fill="#ed8936"/>
+      <text x="40" y="20" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="15" fill="#4a5568">支持所有 Office 版本（含 PNG 后备）</text>
+    </g>
+    <g transform="translate(30, 150)">
+      <circle cx="15" cy="15" r="8" fill="#805ad5"/>
+      <text x="40" y="20" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="15" fill="#4a5568">专业设计模板（20+ 可选）</text>
+    </g>
+    <g transform="translate(450, 80)">
+      <circle cx="15" cy="15" r="8" fill="#e53e3e"/>
+      <text x="40" y="20" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="15" fill="#4a5568">完整的图表、图标、布局系统</text>
+    </g>
+    <g transform="translate(450, 115)">
+      <circle cx="15" cy="15" r="8" fill="#3182ce"/>
+      <text x="40" y="20" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="15" fill="#4a5568">企业级质量标准</text>
+    </g>
+    <g transform="translate(450, 150)">
+      <circle cx="15" cy="15" r="8" fill="#dd6b20"/>
+      <text x="40" y="20" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="15" fill="#4a5568">一键导出，无需人工干预</text>
+    </g>
+  </g>
+  <text x="1240" y="700" text-anchor="end" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#a0aec0">27 / 38</text>
+</svg>

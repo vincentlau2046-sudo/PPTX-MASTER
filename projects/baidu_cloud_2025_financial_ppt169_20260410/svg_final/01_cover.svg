@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+    <defs>
+        <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#FFFFFF" />
+            <stop offset="100%" style="stop-color:#F8F9FA" />
+        </linearGradient>
+        <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#2932E1" />
+            <stop offset="100%" style="stop-color:#5C67FF" />
+        </linearGradient>
+    </defs>
+    <rect width="1280" height="720" fill="url(#bgGrad)" />
+    <rect width="1280" height="200" fill="url(#blueGrad)" />
+    <text x="640" y="100" font-family="Arial Black" font-size="42" fill="#FFFFFF" text-anchor="middle">百度智能云 2025 年财报分析</text>
+    <text x="640" y="145" font-family="Arial" font-size="18" fill="#E0E0FF" text-anchor="middle">AI 云兑现元年 · 全栈能力规模化落地</text>
+    <path fill="#FFFFFF" filter="url(#shadow)" d="M348,280 H932 A8,8 0 0 1 940,288 V352 A8,8 0 0 1 932,360 H348 A8,8 0 0 1 340,352 V288 A8,8 0 0 1 348,280 Z" />
+    <text x="640" y="315" font-family="Arial" font-size="14" fill="#666666" text-anchor="middle">数据基准：百度集团 2026 年 2 月 26 日发布 2025 年 Q4 及全年财报</text>
+    <text x="640" y="340" font-family="Arial" font-size="14" fill="#666666" text-anchor="middle">财年周期：2025 年 1 月 1 日 — 2025 年 12 月 31 日</text>
+    <text x="640" y="680" font-family="Arial" font-size="12" fill="#999999" text-anchor="middle">2026 年 4 月 · 内部汇报材料 | 1 / 14</text>
+</svg>

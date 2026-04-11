@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#ffffff"/>
+  <rect x="0" y="0" width="1280" height="8" fill="#1a365d"/>
+  <text x="60" y="60" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#718096">国际形势日报 | 2026-04-09</text>
+  <text x="60" y="100" font-family="Noto Sans CJK SC, sans-serif" font-size="32" font-weight="bold" fill="#1a365d">头条 · 深度解析</text>
+  <rect x="60" y="115" width="100" height="4" fill="#ed8936" rx="2"/>
+  <text x="60" y="160" font-family="Noto Sans CJK SC, sans-serif" font-size="28" font-weight="bold" fill="#1a365d">美伊停火现曙光，但局势仍脆弱 🟡</text>
+  <text x="60" y="210" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#2d3748">4 月 8 日，美国总统特朗普宣布同意与伊朗停火两周，以便最终敲定协议。</text>
+  <text x="60" y="245" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#2d3748">巴基斯坦作为调解方提出"两步走"策略：</text>
+  <text x="80" y="275" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#4a5568">• 立即停火、重新开放霍尔木兹海峡</text>
+  <text x="80" y="300" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#4a5568">• 15-20 天内达成最终协议</text>
+  <rect x="60" y="340" width="540" height="1" fill="#e2e8f0"/>
+  <text x="60" y="370" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="bold" fill="#1a365d">影响：</text>
+  <text x="80" y="400" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">• 全球油价应声回落，布伦特原油从 110 美元高位小幅下跌</text>
+  <text x="80" y="425" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">• 股市风险偏好回升，欧美亚股市集体上涨</text>
+  <text x="80" y="450" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">• 霍尔木兹海峡通航有望恢复，缓解全球能源供应链压力</text>
+  <rect x="60" y="480" width="540" height="1" fill="#e2e8f0"/>
+  <text x="60" y="510" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="bold" fill="#ed8936">风险提示：</text>
+  <text x="80" y="540" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">• 以色列尚未明确表态支持停火，可能成为变数</text>
+  <text x="80" y="565" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">• 伊朗要求安全保障条款，双方立场仍有差距</text>
+  <text x="80" y="590" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">• 过去多次停火协议破裂，市场信任度低</text>
+  <rect x="1100" y="680" width="120" height="30" rx="4" fill="#ed8936"/>
+  <text x="1160" y="700" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#ffffff" font-weight="bold">🟡 中等风险</text>
+</svg>

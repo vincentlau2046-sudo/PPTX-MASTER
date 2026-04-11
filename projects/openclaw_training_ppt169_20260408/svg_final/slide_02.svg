@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  
+  <!-- Title -->
+  <text x="80" y="80" font-family="Noto Sans SC Bold, sans-serif" font-size="36" fill="#1E293B">
+    目录
+  </text>
+  
+  <!-- Content -->
+  <text x="80" y="160" font-family="Noto Sans SC Bold, sans-serif" font-size="24" fill="#2563EB">
+    1. 原理篇：OpenClaw 技术基础
+  </text>
+  
+  <text x="80" y="220" font-family="Noto Sans SC Bold, sans-serif" font-size="24" fill="#2563EB">
+    2. 实践篇 1：第一个 Cron 定时任务
+  </text>
+  
+  <text x="80" y="280" font-family="Noto Sans SC Bold, sans-serif" font-size="24" fill="#2563EB">
+    3. 实践篇 2：第一个技能开发
+  </text>
+  
+  <text x="80" y="340" font-family="Noto Sans SC Bold, sans-serif" font-size="24" fill="#2563EB">
+    4. 实践篇 3：Multi-Agent 体系开发
+  </text>
+  
+  <text x="80" y="400" font-family="Noto Sans SC Bold, sans-serif" font-size="24" fill="#2563EB">
+    5. Q&A 与实战演示
+  </text>
+  
+  <!-- Training duration -->
+  <text x="80" y="500" font-family="Noto Sans SC Regular, sans-serif" font-size="20" fill="#64748B">
+    培训时长: 2.5 小时
+  </text>
+  
+  <!-- Decorative line -->
+  <line x1="80" y1="120" x2="400" y2="120" stroke="#2563EB" stroke-width="3"/>
+</svg>

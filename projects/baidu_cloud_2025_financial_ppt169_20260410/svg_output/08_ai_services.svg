@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+    <rect width="1280" height="720" fill="#F8F9FA"/>
+    <text x="60" y="70" font-family="Arial Black" font-size="28" fill="#333333">业务结构 · AI 应用与服务</text>
+    <rect x="60" y="80" width="300" height="4" fill="#2932E1"/>
+    <text x="1100" y="80" font-family="Arial Black" font-size="42" fill="#2932E1" text-anchor="end">102 亿</text>
+    <text x="1100" y="105" font-family="Arial" font-size="13" fill="#666" text-anchor="end">同比 +34%</text>
+    <rect x="60" y="130" width="560" height="90" fill="#F5F5F5" rx="8"/>
+    <text x="100" y="165" font-family="Arial" font-size="13" fill="#555"><tspan font-weight="bold">构成：</tspan>千帆 MaaS、文心大模型服务、行业 AI 解决方案、智能体、数字人</text>
+    <text x="100" y="195" font-family="Arial" font-size="12" fill="#666">高毛利业务，占智能云总收入 34%</text>
+    <rect x="60" y="250" width="560" height="190" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="60" y="250" width="560" height="45" rx="12" fill="#EBF5FB"/>
+    <text x="340" y="280" font-family="Arial Black" font-size="16" fill="#2932E1" text-anchor="middle">🌊 千帆 MaaS 平台</text>
+    <text x="340" y="315" font-family="Arial" font-size="13" fill="#555" text-anchor="middle">模型训练/微调/推理/Agent 开发一体化</text>
+    <text x="340" y="360" font-family="Arial Black" font-size="24" fill="#27AE60" text-anchor="middle">Token 消耗月增 50%+</text>
+    <text x="340" y="395" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">一站式模型服务，降低企业 AI 使用门槛</text>
+    <text x="340" y="425" font-family="Arial" font-size="11" fill="#999" text-anchor="middle">平台化效应显著</text>
+    <rect x="660" y="250" width="560" height="190" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="660" y="250" width="560" height="45" rx="12" fill="#FEF9E7"/>
+    <text x="940" y="280" font-family="Arial Black" font-size="16" fill="#F39C12" text-anchor="middle">🧠 文心大模型 4.0</text>
+    <text x="940" y="315" font-family="Arial" font-size="13" fill="#555" text-anchor="middle">2025 年迭代至 4.0 版本</text>
+    <text x="940" y="360" font-family="Arial Black" font-size="20" fill="#E67E22" text-anchor="middle">企业付费调用量季度翻倍</text>
+    <text x="940" y="395" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">全模态、长文本、工具调用、智能体能力</text>
+    <text x="940" y="425" font-family="Arial" font-size="11" fill="#999" text-anchor="middle">技术领先优势</text>
+    <rect x="60" y="470" width="560" height="150" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="60" y="470" width="560" height="45" rx="12" fill="#E8F6F3"/>
+    <text x="340" y="500" font-family="Arial Black" font-size="16" fill="#1ABC9C" text-anchor="middle">🏭 行业 AI 落地</text>
+    <text x="340" y="540" font-family="Arial" font-size="13" fill="#555" text-anchor="middle">金融风控 | 智能制造 | 自动驾驶云 | 电网智能调度</text>
+    <text x="340" y="575" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">规模化交付，垂直行业深度渗透</text>
+    <text x="340" y="605" font-family="Arial" font-size="11" fill="#999" text-anchor="middle">行业 Know-how 积累</text>
+    <rect x="660" y="470" width="560" height="150" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="660" y="470" width="560" height="45" rx="12" fill="#FDEDEC"/>
+    <text x="940" y="500" font-family="Arial Black" font-size="16" fill="#E74C3C" text-anchor="middle">🤖 超级智能体</text>
+    <text x="940" y="540" font-family="Arial" font-size="13" fill="#555" text-anchor="middle">"百度伐谋"获 2000+ 企业试用</text>
+    <text x="940" y="575" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">"曦灵"数字人商业化落地</text>
+    <text x="940" y="605" font-family="Arial" font-size="11" fill="#999" text-anchor="middle">Agent 生态布局</text>
+    <text x="60" y="680" font-family="Arial" font-size="12" fill="#999999">百度智能云 2025 年财报分析 | 8 / 14</text>
+</svg>

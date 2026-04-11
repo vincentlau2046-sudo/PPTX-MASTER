@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#CF002E"/>
+      <stop offset="100%" stop-color="#8B0020"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  
+  <!-- Header bar -->
+  <rect x="0" y="0" width="1280" height="80" fill="#F8F9FA"/>
+  <rect x="60" y="75" width="1160" height="5" fill="url(#headerGradient)"/>
+  
+  <!-- Page title -->
+  <text x="60" y="50" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="35" font-weight="bold">
+    趋势洞察：智能体长程任务成为新战场
+  </text>
+  
+  <!-- Left content -->
+  <text x="60" y="140" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold">
+    核心指标
+  </text>
+  
+  <rect x="60" y="165" width="540" height="110" fill="#FFF5F5" stroke="#CF002E" stroke-width="1" rx="8"/>
+  <rect x="60" y="165" width="6" height="110" fill="#CF002E" rx="8"/>
+  <text x="90" y="200" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold">
+    8 小时级持续工作能力
+  </text>
+  <text x="90" y="230" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">
+    GLM-5.1 实现 8 小时持续工作，可自主完成 1200 步复杂操作
+  </text>
+  <text x="90" y="260" fill="#CF002E" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" font-weight="bold">
+    新标杆：8 小时 + 自治任务
+  </text>
+  
+  <rect x="60" y="290" width="540" height="110" fill="#F0F7FF" stroke="#0066CC" stroke-width="1" rx="8"/>
+  <rect x="60" y="290" width="6" height="110" fill="#0066CC" rx="8"/>
+  <text x="90" y="325" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold">
+    长文本调用需求爆发
+  </text>
+  <text x="90" y="355" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">
+    MiniMax M2.5 带动 100K-1M 长文本调用需求
+  </text>
+  <text x="90" y="385" fill="#0066CC" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" font-weight="bold">
+    Agent 工作流成为主要消耗场景
+  </text>
+  
+  <!-- Right chart -->
+  <text x="680" y="140" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold">
+    Agent 工作流调用量增长趋势
+  </text>
+  
+  <rect x="680" y="160" width="520" height="240" fill="#F8F9FA" rx="8"/>
+  
+  <!-- Chart area -->
+  <line x1="730" y1="360" x2="1150" y2="360" stroke="#999999" stroke-width="2"/>
+  <line x1="730" y1="200" x2="730" y2="360" stroke="#999999" stroke-width="2"/>
+  
+  <!-- Growth curve -->
+  <polyline points="730,340 800,330 870,310 940,280 1010,240 1080,190 1150,150" fill="none" stroke="#CF002E" stroke-width="3"/>
+  <circle cx="730" cy="340" r="5" fill="#CF002E"/>
+  <circle cx="870" cy="310" r="5" fill="#CF002E"/>
+  <circle cx="1010" cy="240" r="5" fill="#CF002E"/>
+  <circle cx="1150" cy="150" r="5" fill="#CF002E"/>
+  
+  <!-- Area under curve -->
+  <path d="M730,340 L800,330 L870,310 L940,280 L1010,240 L1080,190 L1150,150 L1150,360 L730,360 Z" fill="#CF002E" fill-opacity="0.1"/>
+  
+  <!-- X-axis labels -->
+  <text x="730" y="385" text-anchor="middle" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13">2025 Q4</text>
+  <text x="940" y="385" text-anchor="middle" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13">2026 Q1</text>
+  <text x="1150" y="385" text-anchor="middle" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13">2026 Q2</text>
+  
+  <!-- Y-axis label -->
+  <text x="710" y="280" text-anchor="end" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13">调用量</text>
+  <text x="710" y="300" text-anchor="end" fill="#CF002E" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13" font-weight="bold">↑</text>
+  
+  <!-- Impact section -->
+  <text x="60" y="490" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold">
+    后续影响
+  </text>
+  
+  <rect x="60" y="515" width="360" height="120" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1" rx="8"/>
+  <text x="85" y="550" fill="#CF002E" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold">🏢 中小企业</text>
+  <text x="85" y="575" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">可部署 7×24 小时自治智能体</text>
+  <text x="85" y="600" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">人力成本大幅降低</text>
+  
+  <rect x="460" y="515" width="360" height="120" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1" rx="8"/>
+  <text x="485" y="550" fill="#0066CC" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold">👨‍💻 从业者</text>
+  <text x="485" y="575" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">需掌握智能体编排、长程任务分解</text>
+  <text x="485" y="600" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">自我纠错等新技能</text>
+  
+  <rect x="860" y="515" width="360" height="120" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1" rx="8"/>
+  <text x="885" y="550" fill="#00AA55" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold">📈 市场</text>
+  <text x="885" y="575" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">2026 年下半年，支持 8 小时 + 持续工作</text>
+  <text x="885" y="600" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">的模型将成为企业采购标配</text>
+  
+  <!-- Footer -->
+  <text x="1220" y="700" text-anchor="end" fill="#999999" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13">
+    2026-04-10 | 09
+  </text>
+</svg>

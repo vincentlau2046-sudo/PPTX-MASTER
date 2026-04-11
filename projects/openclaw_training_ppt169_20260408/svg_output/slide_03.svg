@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  
+  <!-- Title -->
+  <text x="80" y="80" font-family="Noto Sans SC Bold, sans-serif" font-size="36" fill="#1E293B">
+    1.1 OpenClaw 介绍
+  </text>
+  
+  <!-- What is OpenClaw? -->
+  <text x="80" y="160" font-family="Noto Sans SC Bold, sans-serif" font-size="28" fill="#1E293B">
+    OpenClaw 是什么？
+  </text>
+  
+  <!-- Bullet points -->
+  <text x="100" y="220" font-family="Noto Sans SC Regular, sans-serif" font-size="20" fill="#1E293B">
+    • AI Agent 操作系统
+  </text>
+  
+  <text x="100" y="260" font-family="Noto Sans SC Regular, sans-serif" font-size="20" fill="#1E293B">
+    • 让 AI 从"聊天机器人"变成"自主执行者"
+  </text>
+  
+  <text x="100" y="300" font-family="Noto Sans SC Regular, sans-serif" font-size="20" fill="#1E293B">
+    • 支持复杂任务的自动化和持续化
+  </text>
+  
+  <text x="100" y="340" font-family="Noto Sans SC Regular, sans-serif" font-size="20" fill="#1E293B">
+    • 提供企业级任务监控和质量保障
+  </text>
+  
+  <!-- Core Value -->
+  <text x="80" y="420" font-family="Noto Sans SC Bold, sans-serif" font-size="28" fill="#1E293B">
+    核心价值
+  </text>
+  
+  <text x="100" y="480" font-family="Noto Sans SC Regular, sans-serif" font-size="20" fill="#1E293B">
+    • 会话管理：主会话、子会话、隔离会话
+  </text>
+  
+  <text x="100" y="520" font-family="Noto Sans SC Regular, sans-serif" font-size="20" fill="#1E293B">
+    • 任务调度：Cron 定时任务、Heartbeat 心跳机制
+  </text>
+  
+  <text x="100" y="560" font-family="Noto Sans SC Regular, sans-serif" font-size="20" fill="#1E293B">
+    • 技能系统：可扩展的技能开发和执行框架
+  </text>
+  
+  <text x="100" y="600" font-family="Noto Sans SC Regular, sans-serif" font-size="20" fill="#1E293B">
+    • Multi-Agent：多 Agent 协同工作体系
+  </text>
+  
+  <text x="100" y="640" font-family="Noto Sans SC Regular, sans-serif" font-size="20" fill="#1E293B">
+    • 记忆系统：短期记忆、长期记忆、自我改进记忆
+  </text>
+  
+  <!-- Decorative line -->
+  <line x1="80" y1="120" x2="400" y2="120" stroke="#2563EB" stroke-width="3"/>
+</svg>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#CF002E"/>
+      <stop offset="100%" stop-color="#8B0020"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  
+  <!-- Header bar -->
+  <rect x="0" y="0" width="1280" height="80" fill="#F8F9FA"/>
+  <rect x="60" y="75" width="1160" height="5" fill="url(#headerGradient)"/>
+  
+  <!-- Page title -->
+  <text x="60" y="50" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="35" font-weight="bold">
+    大模型动态：智谱 GLM-5.1 发布
+  </text>
+  
+  <!-- Left content area -->
+  <text x="60" y="140" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold">
+    关键指标
+  </text>
+  
+  <!-- Key points with icons -->
+  <rect x="60" y="160" width="20" height="20" fill="#CF002E" rx="4"/>
+  <text x="95" y="178" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20">
+    唯一达到 8 小时级持续工作的开源模型
+  </text>
+  
+  <rect x="60" y="200" width="20" height="20" fill="#CF002E" rx="4"/>
+  <text x="95" y="218" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20">
+    SWE-bench Pro 超越 GPT-5.4 与 Claude Opus 4.6
+  </text>
+  
+  <rect x="60" y="240" width="20" height="20" fill="#CF002E" rx="4"/>
+  <text x="95" y="258" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20">
+    8 小时构建 Linux 桌面（1200 余步操作）
+  </text>
+  
+  <rect x="60" y="280" width="20" height="20" fill="#CF002E" rx="4"/>
+  <text x="95" y="298" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20">
+    向量数据库优化吞吐提升 6.9 倍
+  </text>
+  
+  <text x="60" y="350" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold">
+    工程能力展示
+  </text>
+  
+  <rect x="60" y="375" width="540" height="100" fill="#F8F9FA" stroke="#E5E5E5" stroke-width="1" rx="8"/>
+  <text x="85" y="410" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    3108 → 21472 QPS
+  </text>
+  <text x="85" y="445" fill="#999999" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">
+    向量数据库吞吐量提升
+  </text>
+  <text x="450" y="428" fill="#CF002E" font-family="Arial, Microsoft YaHei, sans-serif" font-size="28" font-weight="bold">
+    +591%
+  </text>
+  
+  <!-- Right chart area -->
+  <text x="680" y="140" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold">
+    SWE-bench Pro 性能对比
+  </text>
+  
+  <!-- Bar chart background -->
+  <rect x="680" y="160" width="520" height="220" fill="#F8F9FA" rx="8"/>
+  
+  <!-- Bars -->
+  <!-- GLM-5.1 -->
+  <rect x="720" y="200" width="120" height="140" fill="#CF002E" rx="4"/>
+  <text x="780" y="190" text-anchor="middle" fill="#CF002E" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold">GLM-5.1</text>
+  <text x="780" y="355" text-anchor="middle" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold">68.5%</text>
+  
+  <!-- GPT-5.4 -->
+  <rect x="880" y="220" width="120" height="120" fill="#0066CC" rx="4"/>
+  <text x="940" y="190" text-anchor="middle" fill="#0066CC" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold">GPT-5.4</text>
+  <text x="940" y="355" text-anchor="middle" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">62.3%</text>
+  
+  <!-- Claude Opus 4.6 -->
+  <rect x="1040" y="230" width="120" height="110" fill="#333333" rx="4"/>
+  <text x="1100" y="190" text-anchor="middle" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold">Claude 4.6</text>
+  <text x="1100" y="355" text-anchor="middle" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">58.9%</text>
+  
+  <!-- Price adjustment notice -->
+  <rect x="680" y="420" width="520" height="80" fill="#FFF5F5" stroke="#CF002E" stroke-width="1" rx="8"/>
+  <text x="710" y="455" fill="#CF002E" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold">
+    ⚠️ 价格调整
+  </text>
+  <text x="710" y="485" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">
+    智谱 GLM 提价 10%，Coding 场景缓存 Token 价格接近 Claude Sonnet 4.6 水平
+  </text>
+  
+  <!-- Footer -->
+  <text x="1220" y="700" text-anchor="end" fill="#999999" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13">
+    2026-04-10 | 03
+  </text>
+</svg>

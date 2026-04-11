@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0a1628"/>
+  
+  <!-- Header -->
+  <rect x="60" y="50" width="1160" height="60" fill="#1a2744" rx="12"/>
+  <text x="100" y="90" font-family="Microsoft YaHei, Arial" font-size="36" font-weight="bold" fill="#3b82f6">今日看点</text>
+  <text x="300" y="90" font-family="Microsoft YaHei, Arial" font-size="36" font-weight="bold" fill="#3b82f6">（4 月 9 日预判）</text>
+  
+  <!-- Forecast table -->
+  <rect x="100" y="140" width="1080" height="480" fill="#1a2744" rx="12"/>
+  
+  <!-- Header -->
+  <rect x="100" y="140" width="1080" height="50" fill="#253559" rx="12"/>
+  <text x="150" y="175" font-family="Arial" font-size="18" font-weight="bold" fill="#e5e7eb">事件</text>
+  <text x="550" y="175" font-family="Arial" font-size="18" font-weight="bold" fill="#e5e7eb">时间</text>
+  <text x="800" y="175" font-family="Arial" font-size="18" font-weight="bold" fill="#e5e7eb">重要性</text>
+  <text x="1000" y="175" font-family="Arial" font-size="18" font-weight="bold" fill="#e5e7eb">预期影响</text>
+  
+  <!-- Rows -->
+  <text x="150" y="230" font-family="Microsoft YaHei, Arial" font-size="16" fill="#e5e7eb">美伊最后期限截止</text>
+  <text x="550" y="230" font-family="Arial" font-size="16" fill="#9ca3af">4 月 7 日 20 时</text>
+  <text x="800" y="230" font-family="Arial" font-size="16" fill="#ef4444">⭐⭐⭐⭐⭐</text>
+  <text x="1000" y="230" font-family="Microsoft YaHei, Arial" font-size="16" fill="#9ca3af">油价或突破$120</text>
+  
+  <text x="150" y="275" font-family="Microsoft YaHei, Arial" font-size="16" fill="#e5e7eb">美国 3 月 CPI 数据</text>
+  <text x="550" y="275" font-family="Arial" font-size="16" fill="#9ca3af">20:30</text>
+  <text x="800" y="275" font-family="Arial" font-size="16" fill="#60a5fa">⭐⭐⭐⭐</text>
+  <text x="1000" y="275" font-family="Microsoft YaHei, Arial" font-size="16" fill="#9ca3af">影响美联储预期</text>
+  
+  <text x="150" y="320" font-family="Microsoft YaHei, Arial" font-size="16" fill="#e5e7eb">OPEC+ 增产实施</text>
+  <text x="550" y="320" font-family="Arial" font-size="16" fill="#9ca3af">4 月起</text>
+  <text x="800" y="320" font-family="Arial" font-size="16" fill="#60a5fa">⭐⭐⭐</text>
+  <text x="1000" y="320" font-family="Microsoft YaHei, Arial" font-size="16" fill="#9ca3af">实际供应难增加</text>
+  
+  <text x="150" y="365" font-family="Microsoft YaHei, Arial" font-size="16" fill="#e5e7eb">俄乌谈判进展</text>
+  <text x="550" y="365" font-family="Arial" font-size="16" fill="#9ca3af">待定</text>
+  <text x="800" y="365" font-family="Arial" font-size="16" fill="#60a5fa">⭐⭐⭐</text>
+  <text x="1000" y="365" font-family="Microsoft YaHei, Arial" font-size="16" fill="#9ca3af">双边接触继续</text>
+  
+  <!-- Footer -->
+  <text x="1200" y="650" text-anchor="end" font-family="Arial" font-size="14" fill="#9ca3af">7 / 8</text>
+</svg>

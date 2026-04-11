@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  
+  <!-- Title -->
+  <text x="640" y="320" font-family="Noto Sans SC Bold, sans-serif" font-size="44" fill="#1E293B" text-anchor="middle" dominant-baseline="middle">
+    谢谢！
+  </text>
+  
+  <!-- Contact Info -->
+  <text x="640" y="420" font-family="Noto Sans SC Regular, sans-serif" font-size="24" fill="#64748B" text-anchor="middle" dominant-baseline="middle">
+    演讲者：Vincent
+  </text>
+  
+  <text x="640" y="460" font-family="Noto Sans SC Regular, sans-serif" font-size="24" fill="#64748B" text-anchor="middle" dominant-baseline="middle">
+    日期：2026 年 4 月 9 日
+  </text>
+  
+  <text x="640" y="500" font-family="Noto Sans SC Regular, sans-serif" font-size="24" fill="#64748B" text-anchor="middle" dominant-baseline="middle">
+    版本：v1.0
+  </text>
+  
+  <!-- Q&A -->
+  <text x="640" y="580" font-family="Noto Sans SC Bold, sans-serif" font-size="32" fill="#2563EB" text-anchor="middle" dominant-baseline="middle">
+    Q&A 时间
+  </text>
+  
+  <!-- Decorative element -->
+  <rect x="300" y="600" width="680" height="4" fill="#2563EB" rx="2"/>
+</svg>

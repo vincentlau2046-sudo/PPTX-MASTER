@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+    <rect width="1280" height="720" fill="#F8F9FA"/>
+    <text x="60" y="70" font-family="Arial Black" font-size="28" fill="#333333">关键战略 · 千帆 MaaS 平台</text>
+    <rect x="60" y="80" width="280" height="4" fill="#2932E1"/>
+    <rect x="60" y="120" width="1160" height="110" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="60" y="120" width="1160" height="55" rx="12" fill="#2932E1"/>
+    <text x="110" y="158" font-family="Arial Black" font-size="18" fill="#FFFFFF">💡 核心动作</text>
+    <text x="640" y="158" font-family="Arial" font-size="15" fill="#E0E0FF" text-anchor="middle">一站式模型商店、行业大模型定制、智能体开发工具链</text>
+    <rect x="60" y="265" width="360" height="230" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="60" y="265" width="360" height="50" rx="12" fill="#FEF9E7"/>
+    <text x="240" y="298" font-family="Arial Black" font-size="15" fill="#F39C12" text-anchor="middle">📈 收入高增</text>
+    <text x="240" y="360" font-family="Arial Black" font-size="36" fill="#E67E22" text-anchor="middle">+225%</text>
+    <text x="240" y="400" font-family="Arial" font-size="13" fill="#666" text-anchor="middle">MaaS 收入增长</text>
+    <text x="240" y="435" font-family="Arial" font-size="12" fill="#999" text-anchor="middle">占比升至 22%</text>
+    <text x="240" y="465" font-family="Arial" font-size="11" fill="#999" text-anchor="middle">平台化效应</text>
+    <rect x="440" y="265" width="360" height="230" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="440" y="265" width="360" height="50" rx="12" fill="#E8F6F3"/>
+    <text x="620" y="298" font-family="Arial Black" font-size="15" fill="#1ABC9C" text-anchor="middle">💎 高毛利拉动</text>
+    <text x="620" y="360" font-family="Arial Black" font-size="32" fill="#27AE60" text-anchor="middle">65%~70%</text>
+    <text x="620" y="400" font-family="Arial" font-size="13" fill="#666" text-anchor="middle">MaaS 毛利率</text>
+    <text x="620" y="435" font-family="Arial" font-size="12" fill="#999" text-anchor="middle">拉动整体盈利改善</text>
+    <text x="620" y="465" font-family="Arial" font-size="11" fill="#999" text-anchor="middle">高附加值服务</text>
+    <rect x="820" y="265" width="400" height="230" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="820" y="265" width="400" height="50" rx="12" fill="#EBF5FB"/>
+    <text x="1020" y="298" font-family="Arial Black" font-size="15" fill="#2932E1" text-anchor="middle">👥 客户粘性提升</text>
+    <text x="1020" y="345" font-family="Arial" font-size="13" fill="#555" text-anchor="middle">客户 LTV <tspan fill="#27AE60" font-weight="bold" font-size="18">+60%</tspan> | 流失率 <tspan fill="#E74C3C" font-weight="bold" font-size="18">-15%</tspan></text>
+    <text x="1020" y="395" font-family="Arial" font-size="13" fill="#666" text-anchor="middle">外部收入占比 90%+</text>
+    <text x="1020" y="430" font-family="Arial" font-size="12" fill="#999" text-anchor="middle">平台化效应显著</text>
+    <text x="1020" y="465" font-family="Arial" font-size="11" fill="#999" text-anchor="middle">生态锁定效应</text>
+    <rect x="60" y="525" width="1160" height="75" fill="#F5F5F5" rx="8"/>
+    <text x="640" y="560" font-family="Arial" font-size="13" fill="#666" text-anchor="middle">千帆 MaaS 平台是百度智能云商业化成功的核心引擎，实现收入、毛利、客户粘性三重提升</text>
+    <text x="640" y="585" font-family="Arial" font-size="11" fill="#999" text-anchor="middle">模型商店 | 行业定制 | 智能体工具链 | Token 消耗月增 50%+</text>
+    <text x="60" y="680" font-family="Arial" font-size="12" fill="#999999">百度智能云 2025 年财报分析 | 11 / 14</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#ffffff"/>
+  <rect x="0" y="0" width="1280" height="8" fill="#1a365d"/>
+  <text x="60" y="60" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#718096">国际形势日报 | 2026-04-09</text>
+  <text x="60" y="100" font-family="Noto Sans CJK SC, sans-serif" font-size="32" font-weight="bold" fill="#1a365d">简讯速读</text>
+  <rect x="60" y="115" width="100" height="4" fill="#ed8936" rx="2"/>
+  <!-- 简讯列表 -->
+  <g transform="translate(60, 150)">
+    <rect x="0" y="0" width="1160" height="60" rx="4" fill="#f7fafc"/>
+    <circle cx="30" cy="30" r="12" fill="#3182ce"/>
+    <text x="30" y="35" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#ffffff" font-weight="bold">1</text>
+    <text x="60" y="36" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">OPEC+ 同意 4 月每日增产 20.6 万桶，超去年第 4 季增产水平</text>
+  </g>
+  <g transform="translate(60, 220)">
+    <rect x="0" y="0" width="1160" height="60" rx="4" fill="#f7fafc"/>
+    <circle cx="30" cy="30" r="12" fill="#3182ce"/>
+    <text x="30" y="35" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#ffffff" font-weight="bold">2</text>
+    <text x="60" y="36" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">中国外交部敦促各方立即停止军事行动，尽快启动和谈进程解决伊朗问题</text>
+  </g>
+  <g transform="translate(60, 290)">
+    <rect x="0" y="0" width="1160" height="60" rx="4" fill="#f7fafc"/>
+    <circle cx="30" cy="30" r="12" fill="#3182ce"/>
+    <text x="30" y="35" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#ffffff" font-weight="bold">3</text>
+    <text x="60" y="36" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">欧盟与澳大利亚达成全面贸易协定，取消约 98% 商品进口关税</text>
+  </g>
+  <g transform="translate(60, 360)">
+    <rect x="0" y="0" width="1160" height="60" rx="4" fill="#f7fafc"/>
+    <circle cx="30" cy="30" r="12" fill="#3182ce"/>
+    <text x="30" y="35" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#ffffff" font-weight="bold">4</text>
+    <text x="60" y="36" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">日本拟修改"防卫装备转移三原则"，原则允许出口杀伤性武器</text>
+  </g>
+  <g transform="translate(60, 430)">
+    <rect x="0" y="0" width="1160" height="60" rx="4" fill="#f7fafc"/>
+    <circle cx="30" cy="30" r="12" fill="#3182ce"/>
+    <text x="30" y="35" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#ffffff" font-weight="bold">5</text>
+    <text x="60" y="36" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">朝鲜黑客被指攻入美国软件公司，数千企业恐受影响，目标指向加密货币</text>
+  </g>
+  <g transform="translate(60, 500)">
+    <rect x="0" y="0" width="1160" height="60" rx="4" fill="#f7fafc"/>
+    <circle cx="30" cy="30" r="12" fill="#3182ce"/>
+    <text x="30" y="35" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#ffffff" font-weight="bold">6</text>
+    <text x="60" y="36" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">美联储降息预期降温，市场预计今年降息 50 个基点，时间点从夏季推迟至秋季</text>
+  </g>
+  <text x="60" y="600" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#718096">共 6 条简讯</text>
+</svg>

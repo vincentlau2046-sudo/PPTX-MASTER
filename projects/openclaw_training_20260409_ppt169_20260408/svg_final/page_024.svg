@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#ffffff"/>
+  <rect width="1280" height="8" fill="#1a365d"/>
+  <text x="60" y="70" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="36" font-weight="bold" fill="#1a365d">技能开发流程</text>
+  <rect x="60" y="90" width="100" height="4" fill="#ed8936" rx="2"/>
+  <!-- 六步骤 -->
+  <g transform="translate(100, 150)">
+    <rect x="0" y="0" width="180" height="120" rx="12" fill="#3182ce"/>
+    <text x="90" y="50" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="36" font-weight="bold" fill="#ffffff">1</text>
+    <text x="90" y="85" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">需求分析</text>
+  </g>
+  <g transform="translate(300, 150)">
+    <rect x="0" y="0" width="180" height="120" rx="12" fill="#38b2ac"/>
+    <text x="90" y="50" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="36" font-weight="bold" fill="#ffffff">2</text>
+    <text x="90" y="85" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">设计结构</text>
+  </g>
+  <g transform="translate(500, 150)">
+    <rect x="0" y="0" width="180" height="120" rx="12" fill="#ed8936"/>
+    <text x="90" y="50" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="36" font-weight="bold" fill="#ffffff">3</text>
+    <text x="90" y="85" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">编写代码</text>
+  </g>
+  <g transform="translate(700, 150)">
+    <rect x="0" y="0" width="180" height="120" rx="12" fill="#805ad5"/>
+    <text x="90" y="50" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="36" font-weight="bold" fill="#ffffff">4</text>
+    <text x="90" y="85" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">测试验证</text>
+  </g>
+  <g transform="translate(900, 150)">
+    <rect x="0" y="0" width="180" height="120" rx="12" fill="#e53e3e"/>
+    <text x="90" y="50" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="36" font-weight="bold" fill="#ffffff">5</text>
+    <text x="90" y="85" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">文档编写</text>
+  </g>
+  <g transform="translate(1100, 150)">
+    <rect x="0" y="0" width="180" height="120" rx="12" fill="#2b6cb0"/>
+    <text x="90" y="50" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="36" font-weight="bold" fill="#ffffff">6</text>
+    <text x="90" y="85" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">发布部署</text>
+  </g>
+  <!-- 箭头 -->
+  <path d="M280 210 L300 210" stroke="#1a365d" stroke-width="2" fill="none"/>
+  <path d="M480 210 L500 210" stroke="#1a365d" stroke-width="2" fill="none"/>
+  <path d="M680 210 L700 210" stroke="#1a365d" stroke-width="2" fill="none"/>
+  <path d="M880 210 L900 210" stroke="#1a365d" stroke-width="2" fill="none"/>
+  <path d="M1080 210 L1100 210" stroke="#1a365d" stroke-width="2" fill="none"/>
+  <!-- 技能文件结构 -->
+  <g transform="translate(100, 320)">
+    <rect width="1080" height="340" rx="12" fill="#f7fafc" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="30" y="45" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold" fill="#1a365d">技能文件结构</text>
+    <rect x="30" y="70" width="300" height="240" rx="8" fill="#1a365d"/>
+    <text x="50" y="105" font-family="monospace" font-size="15" fill="#38b2ac">skills/&lt;skill-name&gt;/</text>
+    <text x="70" y="140" font-family="monospace" font-size="14" fill="#e2e8f0">├── SKILL.md  (必须)</text>
+    <text x="70" y="170" font-family="monospace" font-size="14" fill="#e2e8f0">├── scripts/  (必须)</text>
+    <text x="70" y="200" font-family="monospace" font-size="14" fill="#e2e8f0">├── references/ (可选)</text>
+    <text x="70" y="230" font-family="monospace" font-size="14" fill="#e2e8f0">├── templates/ (可选)</text>
+    <text x="70" y="260" font-family="monospace" font-size="14" fill="#e2e8f0">└── output/   (可选)</text>
+    <rect x="350" y="70" width="720" height="240" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+    <text x="370" y="105" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#1a365d">SKILL.md 核心结构</text>
+    <text x="370" y="140" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">• 触发规则 - 关键词匹配</text>
+    <text x="370" y="170" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">• 执行流程 - 步骤说明</text>
+    <text x="370" y="200" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">• 工具调用 - exec/message/write</text>
+    <text x="370" y="230" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">• 错误处理 - 降级策略</text>
+    <text x="370" y="260" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">• 输出规范 - 交付格式</text>
+  </g>
+  <text x="1240" y="700" text-anchor="end" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#a0aec0">24 / 38</text>
+</svg>

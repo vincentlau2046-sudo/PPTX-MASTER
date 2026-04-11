@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+    <defs>
+        <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#2932E1" />
+            <stop offset="100%" style="stop-color:#5C67FF" />
+        </linearGradient>
+    </defs>
+    <rect width="1280" height="720" fill="#F8F9FA" />
+    <rect width="1280" height="180" fill="url(#blueGrad)" />
+    <text x="640" y="80" font-family="Arial Black" font-size="36" fill="#FFFFFF" text-anchor="middle">总结：AI 云兑现元年</text>
+    <text x="640" y="125" font-family="Arial" font-size="16" fill="#E0E0FF" text-anchor="middle">百度智能云 2025 年核心洞察</text>
+    <path fill="#FFFFFF" filter="url(#shadow)" d="M72,200 H608 A12,12 0 0 1 620,212 V398 A12,12 0 0 1 608,410 H72 A12,12 0 0 1 60,398 V212 A12,12 0 0 1 72,200 Z" />
+    <path fill="#FEF9E7" d="M72,200 H608 A12,12 0 0 1 620,212 V243 A12,12 0 0 1 608,255 H72 A12,12 0 0 1 60,243 V212 A12,12 0 0 1 72,200 Z" />
+    <text x="340" y="235" font-family="Arial Black" font-size="16" fill="#F39C12" text-anchor="middle">✅ 高增长验证</text>
+    <text x="340" y="280" font-family="Arial" font-size="14" fill="#555" text-anchor="middle">总收入 300 亿，同比 +34%</text>
+    <text x="340" y="315" font-family="Arial" font-size="13" fill="#666" text-anchor="middle">在百度整体 -3% 背景下逆势高增</text>
+    <text x="340" y="355" font-family="Arial" font-size="12" fill="#999" text-anchor="middle">AI 成为核心增长引擎</text>
+    <text x="340" y="385" font-family="Arial" font-size="11" fill="#999" text-anchor="middle">增长质量</text>
+    <path fill="#FFFFFF" filter="url(#shadow)" d="M672,200 H1208 A12,12 0 0 1 1220,212 V398 A12,12 0 0 1 1208,410 H672 A12,12 0 0 1 660,398 V212 A12,12 0 0 1 672,200 Z" />
+    <path fill="#E8F6F3" d="M672,200 H1208 A12,12 0 0 1 1220,212 V243 A12,12 0 0 1 1208,255 H672 A12,12 0 0 1 660,243 V212 A12,12 0 0 1 672,200 Z" />
+    <text x="940" y="235" font-family="Arial Black" font-size="16" fill="#1ABC9C" text-anchor="middle">✅ 全栈壁垒形成</text>
+    <text x="940" y="280" font-family="Arial" font-size="14" fill="#555" text-anchor="middle">昆仑芯 → 天池 → 千帆 → 文心 → Agent</text>
+    <text x="940" y="315" font-family="Arial" font-size="13" fill="#666" text-anchor="middle">完整技术闭环落地</text>
+    <text x="940" y="355" font-family="Arial" font-size="12" fill="#999" text-anchor="middle">自研芯片 + 平台化双轮驱动</text>
+    <text x="940" y="385" font-family="Arial" font-size="11" fill="#999" text-anchor="middle">技术壁垒</text>
+    <path fill="#FFFFFF" filter="url(#shadow)" d="M72,435 H608 A12,12 0 0 1 620,447 V613 A12,12 0 0 1 608,625 H72 A12,12 0 0 1 60,613 V447 A12,12 0 0 1 72,435 Z" />
+    <path fill="#EBF5FB" d="M72,435 H608 A12,12 0 0 1 620,447 V478 A12,12 0 0 1 608,490 H72 A12,12 0 0 1 60,478 V447 A12,12 0 0 1 72,435 Z" />
+    <text x="340" y="470" font-family="Arial Black" font-size="16" fill="#2932E1" text-anchor="middle">✅ 市场地位稳固</text>
+    <text x="340" y="515" font-family="Arial" font-size="14" fill="#555" text-anchor="middle">AI 云全栈市占率 40.2% 行业第一</text>
+    <text x="340" y="550" font-family="Arial" font-size="13" fill="#666" text-anchor="middle">大模型中标 109 个/9 亿 双第一</text>
+    <text x="340" y="585" font-family="Arial" font-size="12" fill="#999" text-anchor="middle">政企/金融深度渗透</text>
+    <text x="340" y="610" font-family="Arial" font-size="11" fill="#999" text-anchor="middle">市场地位</text>
+    <path fill="#FFFFFF" filter="url(#shadow)" d="M672,435 H1208 A12,12 0 0 1 1220,447 V613 A12,12 0 0 1 1208,625 H672 A12,12 0 0 1 660,613 V447 A12,12 0 0 1 672,435 Z" />
+    <path fill="#FDEDEC" d="M672,435 H1208 A12,12 0 0 1 1220,447 V478 A12,12 0 0 1 1208,490 H672 A12,12 0 0 1 660,478 V447 A12,12 0 0 1 672,435 Z" />
+    <text x="940" y="470" font-family="Arial Black" font-size="16" fill="#E74C3C" text-anchor="middle">⚠️ 投入期持续</text>
+    <text x="940" y="515" font-family="Arial" font-size="14" fill="#555" text-anchor="middle">2025 年仍处高投入期，整体未盈利</text>
+    <text x="940" y="550" font-family="Arial" font-size="13" fill="#666" text-anchor="middle">AI 算力/高毛利 MaaS 利润率改善</text>
+    <text x="940" y="585" font-family="Arial" font-size="12" fill="#999" text-anchor="middle">平衡投入与回报是关键</text>
+    <text x="940" y="610" font-family="Arial" font-size="11" fill="#999" text-anchor="middle">盈利挑战</text>
+    <text x="60" y="680" font-family="Arial" font-size="12" fill="#999999">百度智能云 2025 年财报分析 | 14 / 14</text>
+</svg>

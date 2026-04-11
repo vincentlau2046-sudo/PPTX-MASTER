@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0a1628"/>
+  <rect x="0" y="0" width="1280" height="720" fill="url(#bgDecor)"/>
+  
+  <defs>
+    <radialGradient id="bgDecor" cx="80%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Main text -->
+  <text x="640" y="280" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="48" font-weight="bold" fill="#e5e7eb">感谢观看</text>
+  
+  <text x="640" y="360" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="28" fill="#9ca3af">明日同一时间更新</text>
+  
+  <!-- Footer -->
+  <text x="640" y="600" text-anchor="middle" font-family="Arial" font-size="16" fill="#9ca3af">数据来源：公开新闻报道 | 仅供参考，不构成投资建议</text>
+  <text x="640" y="650" text-anchor="middle" font-family="Arial" font-size="14" fill="#9ca3af">AI 自动生成 | 2026-04-08</text>
+</svg>

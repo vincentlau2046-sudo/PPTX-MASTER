@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect width="1280" height="6" fill="#1565C0"/>
+  <text x="60" y="45" font-family="Microsoft YaHei, Arial" font-size="31" font-weight="bold" fill="#1A1A1A">🚀 重磅头条</text>
+  <rect x="60" y="55" width="100" height="3" fill="#1565C0" rx="1.5"/>
+  
+  <text x="60" y="90" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">**为什么重要**：NVIDIA 在 GTC 2026 正式揭晓 Rubin 平台，单芯片 50 petaflops FP4 推理性能，较 Blackwell </text>
+  
+  <text x="60" y="140" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">**关键数据**：</text>
+  
+  <text x="60" y="190" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">- 50 PFLOPS FP4 推理 / 35 PFLOPS FP4 训练</text>
+  
+  <text x="60" y="240" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">- 288GB HBM4 内存，13 TB/s 带宽</text>
+  
+  <text x="60" y="290" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">- 2026 年产能 20-30 万片（受限于 TSMC 封装和 HBM4 供应）</text>
+  
+  <text x="60" y="340" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">- Vera CPU 集成 88 个 ARM 核心，NVLink 6 带宽 3.6 TB/s</text>
+  
+  <text x="60" y="390" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">**深层解读**：产能限制反而强化了 NVIDIA 的定价权。供需失衡下，Rubin 将成为 2026-2027 年 AI 工厂的&quot;硬通货&quot;。微软、CoreWe</text>
+  
+  <text x="60" y="440" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">**为什么重要**：2026 年 3 月成为 AI 模型史上发布最密集的月份。三款旗舰模型在 Intelligence Index 上几乎并列（57.17-57</text>
+  
+</svg>

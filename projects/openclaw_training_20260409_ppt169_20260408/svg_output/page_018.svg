@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#ffffff"/>
+  <rect width="1280" height="8" fill="#1a365d"/>
+  <text x="60" y="70" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="36" font-weight="bold" fill="#1a365d">创建 Cron 任务五步骤</text>
+  <rect x="60" y="90" width="100" height="4" fill="#ed8936" rx="2"/>
+  <!-- 五步骤 -->
+  <g transform="translate(100, 160)">
+    <rect x="0" y="0" width="220" height="160" rx="12" fill="#3182ce"/>
+    <text x="110" y="50" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="48" font-weight="bold" fill="#ffffff">01</text>
+    <text x="110" y="90" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">明确任务目标</text>
+    <text x="110" y="130" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#bee3f8">要做什么？输出什么？</text>
+  </g>
+  <g transform="translate(340, 160)">
+    <rect x="0" y="0" width="220" height="160" rx="12" fill="#38b2ac"/>
+    <text x="110" y="50" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="48" font-weight="bold" fill="#ffffff">02</text>
+    <text x="110" y="90" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">设计执行流程</text>
+    <text x="110" y="130" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#b2f5ea">Agent 需要执行哪些步骤</text>
+  </g>
+  <g transform="translate(580, 160)">
+    <rect x="0" y="0" width="220" height="160" rx="12" fill="#ed8936"/>
+    <text x="110" y="50" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="48" font-weight="bold" fill="#ffffff">03</text>
+    <text x="110" y="90" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">配置 Cron Job</text>
+    <text x="110" y="130" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#feebc8">时间/会话/payload/delivery</text>
+  </g>
+  <g transform="translate(820, 160)">
+    <rect x="0" y="0" width="220" height="160" rx="12" fill="#805ad5"/>
+    <text x="110" y="50" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="48" font-weight="bold" fill="#ffffff">04</text>
+    <text x="110" y="90" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">测试验证</text>
+    <text x="110" y="130" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#e9d8fd">手动触发测试</text>
+  </g>
+  <g transform="translate(1060, 160)">
+    <rect x="0" y="0" width="220" height="160" rx="12" fill="#e53e3e"/>
+    <text x="110" y="50" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="48" font-weight="bold" fill="#ffffff">05</text>
+    <text x="110" y="90" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">监控优化</text>
+    <text x="110" y="130" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#fed7d7">观察执行情况，调整参数</text>
+  </g>
+  <!-- 箭头连接 -->
+  <path d="M320 240 L340 240" stroke="#1a365d" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+  <path d="M560 240 L580 240" stroke="#1a365d" stroke-width="2" fill="none"/>
+  <path d="M800 240 L820 240" stroke="#1a365d" stroke-width="2" fill="none"/>
+  <path d="M1040 240 L1060 240" stroke="#1a365d" stroke-width="2" fill="none"/>
+  <!-- 底部说明 -->
+  <g transform="translate(100, 380)">
+    <rect width="1080" height="280" rx="12" fill="#f7fafc" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="30" y="45" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold" fill="#1a365d">关键配置项</text>
+    <g transform="translate(30, 80)">
+      <circle cx="15" cy="15" r="8" fill="#3182ce"/>
+      <text x="40" y="20" font-family="monospace" font-size="14" fill="#4a5568">schedule.kind: cron / every / at</text>
+    </g>
+    <g transform="translate(30, 115)">
+      <circle cx="15" cy="15" r="8" fill="#38b2ac"/>
+      <text x="40" y="20" font-family="monospace" font-size="14" fill="#4a5568">schedule.expr: "0 8 * * 1-5"</text>
+    </g>
+    <g transform="translate(30, 150)">
+      <circle cx="15" cy="15" r="8" fill="#ed8936"/>
+      <text x="40" y="20" font-family="monospace" font-size="14" fill="#4a5568">sessionTarget: isolated / main / session:xxx</text>
+    </g>
+    <g transform="translate(30, 185)">
+      <circle cx="15" cy="15" r="8" fill="#805ad5"/>
+      <text x="40" y="20" font-family="monospace" font-size="14" fill="#4a5568">payload.kind: agentTurn / systemEvent</text>
+    </g>
+    <g transform="translate(30, 220)">
+      <circle cx="15" cy="15" r="8" fill="#e53e3e"/>
+      <text x="40" y="20" font-family="monospace" font-size="14" fill="#4a5568">delivery.mode: announce / webhook / none</text>
+    </g>
+    <g transform="translate(30, 255)">
+      <circle cx="15" cy="15" r="8" fill="#dd6b20"/>
+      <text x="40" y="20" font-family="monospace" font-size="14" fill="#4a5568">timeoutSeconds: 1800 (30分钟)</text>
+    </g>
+  </g>
+  <text x="1240" y="700" text-anchor="end" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#a0aec0">18 / 38</text>
+</svg>

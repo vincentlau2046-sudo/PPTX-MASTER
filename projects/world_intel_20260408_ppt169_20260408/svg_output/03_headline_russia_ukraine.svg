@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0a1628"/>
+  
+  <!-- Header -->
+  <rect x="60" y="50" width="1160" height="60" fill="#1a2744" rx="12"/>
+  <text x="100" y="90" font-family="Microsoft YaHei, Arial" font-size="36" font-weight="bold" fill="#3b82f6">头条深度</text>
+  
+  <!-- Risk indicator -->
+  <rect x="1000" y="60" width="200" height="40" fill="#f59e0b" rx="8"/>
+  <text x="1100" y="88" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#FFFFFF">🟡 中危</text>
+  
+  <!-- Content -->
+  <text x="100" y="170" font-family="Microsoft YaHei, Arial" font-size="32" font-weight="bold" fill="#e5e7eb">俄乌能源设施互袭升级</text>
+  <text x="100" y="220" font-family="Microsoft YaHei, Arial" font-size="20" fill="#9ca3af">谈判处于暂停状态</text>
+  
+  <!-- Key points -->
+  <rect x="100" y="260" width="1080" height="320" fill="#1a2744" rx="12"/>
+  
+  <text x="140" y="310" font-family="Microsoft YaHei, Arial" font-size="20" fill="#e5e7eb">• 俄对乌克兰敖德萨发动大规模无人机袭击</text>
+  <text x="140" y="350" font-family="Microsoft YaHei, Arial" font-size="20" fill="#e5e7eb">• 乌反击袭击俄罗斯新罗西斯克港石油设施</text>
+  <text x="140" y="390" font-family="Microsoft YaHei, Arial" font-size="20" fill="#e5e7eb">• 俄罗斯境内约 50 万户家庭遭遇停电</text>
+  <text x="140" y="430" font-family="Microsoft YaHei, Arial" font-size="20" fill="#e5e7eb">• 乌称自 1 月底以来收复 480 平方公里领土</text>
+  <text x="140" y="470" font-family="Microsoft YaHei, Arial" font-size="20" fill="#e5e7eb">• 三方谈判暂停，双边接触仍在继续</text>
+  
+  <!-- Source -->
+  <text x="100" y="650" font-family="Arial" font-size="14" fill="#9ca3af">来源：网易</text>
+  <text x="1200" y="650" text-anchor="end" font-family="Arial" font-size="14" fill="#9ca3af">3 / 8</text>
+</svg>

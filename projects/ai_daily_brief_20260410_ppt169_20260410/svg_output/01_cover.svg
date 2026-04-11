@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#CF002E"/>
+      <stop offset="100%" stop-color="#8B0020"/>
+    </linearGradient>
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F0F0F0"/>
+    </linearGradient>
+    <radialGradient id="decorGradient" cx="90%" cy="10%" r="40%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1280" height="720" fill="url(#bgGradient)"/>
+  <rect width="1280" height="720" fill="url(#decorGradient)"/>
+  
+  <!-- Decorative lines -->
+  <rect x="60" y="200" width="200" height="4" fill="#FFFFFF" fill-opacity="0.3"/>
+  <rect x="60" y="520" width="120" height="3" fill="#FFFFFF" fill-opacity="0.5"/>
+  
+  <!-- Main Title -->
+  <text x="640" y="280" text-anchor="middle" fill="url(#titleGradient)" font-family="Arial, Microsoft YaHei, sans-serif" font-size="60" font-weight="bold">
+    AI 每日洞察报告
+  </text>
+  
+  <!-- Date -->
+  <text x="640" y="340" text-anchor="middle" fill="#FFFFFF" fill-opacity="0.9" font-family="Arial, Microsoft YaHei, sans-serif" font-size="32" font-weight="normal">
+    2026 年 4 月 10 日
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="640" y="420" text-anchor="middle" fill="#FFFFFF" fill-opacity="0.85" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="normal">
+    全球 AI 前沿动态 · 中美厂商进展 · 商业化落地
+  </text>
+  
+  <!-- Footer info -->
+  <text x="640" y="580" text-anchor="middle" fill="#FFFFFF" fill-opacity="0.7" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="normal">
+    零壹情报
+  </text>
+  
+  <!-- Bottom right decorative element -->
+  <rect x="1100" y="600" width="120" height="4" fill="#FFFFFF" fill-opacity="0.4"/>
+</svg>

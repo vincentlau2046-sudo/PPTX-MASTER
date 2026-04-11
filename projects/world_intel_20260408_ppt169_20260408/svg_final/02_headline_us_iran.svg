@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0a1628"/>
+  
+  <!-- Header -->
+  <rect x="60" y="50" width="1160" height="60" fill="#1a2744" rx="12"/>
+  <text x="100" y="90" font-family="Microsoft YaHei, Arial" font-size="36" font-weight="bold" fill="#3b82f6">头条深度</text>
+  
+  <!-- Risk indicator -->
+  <rect x="1000" y="60" width="200" height="40" fill="#ef4444" rx="8"/>
+  <text x="1100" y="88" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#FFFFFF">🔴 高危</text>
+  
+  <!-- Content -->
+  <text x="100" y="170" font-family="Microsoft YaHei, Arial" font-size="32" font-weight="bold" fill="#e5e7eb">美伊停火谈判陷入僵局</text>
+  <text x="100" y="220" font-family="Microsoft YaHei, Arial" font-size="20" fill="#9ca3af">霍尔木兹海峡持续关闭</text>
+  
+  <!-- Key points -->
+  <rect x="100" y="260" width="1080" height="320" fill="#1a2744" rx="12"/>
+  
+  <text x="140" y="310" font-family="Microsoft YaHei, Arial" font-size="20" fill="#e5e7eb">• 特朗普设定 4 月 7 日晚 8 时为最后期限</text>
+  <text x="140" y="350" font-family="Microsoft YaHei, Arial" font-size="20" fill="#e5e7eb">• 要求伊朗重新开放霍尔木兹海峡</text>
+  <text x="140" y="390" font-family="Microsoft YaHei, Arial" font-size="20" fill="#e5e7eb">• 海峡关闭导致全球每日减少 1200-1500 万桶石油供应</text>
+  <text x="140" y="430" font-family="Microsoft YaHei, Arial" font-size="20" fill="#e5e7eb">• 伊朗已发射约 500 枚导弹袭击以色列</text>
+  <text x="140" y="470" font-family="Microsoft YaHei, Arial" font-size="20" fill="#e5e7eb">• 若谈判破裂，美国可能打击伊朗民用基础设施</text>
+  
+  <!-- Source -->
+  <text x="100" y="650" font-family="Arial" font-size="14" fill="#9ca3af">来源：新华网 | 俄罗斯卫星通讯社</text>
+  <text x="1200" y="650" text-anchor="end" font-family="Arial" font-size="14" fill="#9ca3af">2 / 8</text>
+</svg>

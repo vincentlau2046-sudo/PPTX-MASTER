@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+    <rect width="1280" height="720" fill="#F8F9FA" />
+    <text x="60" y="70" font-family="Arial Black" font-size="28" fill="#333333">核心风险与挑战</text>
+    <rect x="60" y="80" width="240" height="4" fill="#2932E1" />
+    <path fill="#FFFFFF" filter="url(#shadow)" d="M72,120 H608 A12,12 0 0 1 620,132 V298 A12,12 0 0 1 608,310 H72 A12,12 0 0 1 60,298 V132 A12,12 0 0 1 72,120 Z" />
+    <path fill="#FDEDEC" d="M72,120 H608 A12,12 0 0 1 620,132 V158 A12,12 0 0 1 608,170 H72 A12,12 0 0 1 60,158 V132 A12,12 0 0 1 72,120 Z" />
+    <text x="340" y="153" font-family="Arial Black" font-size="16" fill="#E74C3C" text-anchor="middle">⚠️ 行业竞争加剧</text>
+    <text x="100" y="195" font-family="Arial" font-size="13" fill="#555">• 阿里云、华为云、腾讯云持续加大 AI 投入</text>
+    <text x="100" y="220" font-family="Arial" font-size="13" fill="#555">• 价格战压力可能影响利润率</text>
+    <text x="100" y="245" font-family="Arial" font-size="13" fill="#555">• 需要持续保持技术领先优势</text>
+    <text x="340" y="285" font-family="Arial" font-size="11" fill="#999" text-anchor="middle">竞争格局</text>
+    <path fill="#FFFFFF" filter="url(#shadow)" d="M672,120 H1208 A12,12 0 0 1 1220,132 V298 A12,12 0 0 1 1208,310 H672 A12,12 0 0 1 660,298 V132 A12,12 0 0 1 672,120 Z" />
+    <path fill="#FEF9E7" d="M672,120 H1208 A12,12 0 0 1 1220,132 V158 A12,12 0 0 1 1208,170 H672 A12,12 0 0 1 660,158 V132 A12,12 0 0 1 672,120 Z" />
+    <text x="940" y="153" font-family="Arial Black" font-size="16" fill="#F39C12" text-anchor="middle">💸 高资本开支压力</text>
+    <text x="700" y="195" font-family="Arial" font-size="13" fill="#555">• 2025 年智算投入 250~280 亿元</text>
+    <text x="700" y="220" font-family="Arial" font-size="13" fill="#555">• 昆仑芯研发 + 产能扩张持续投入</text>
+    <text x="700" y="245" font-family="Arial" font-size="13" fill="#555">• 短期盈利承压，需平衡投入与回报</text>
+    <text x="940" y="285" font-family="Arial" font-size="11" fill="#999" text-anchor="middle">投入压力</text>
+    <path fill="#FFFFFF" filter="url(#shadow)" d="M72,335 H608 A12,12 0 0 1 620,347 V513 A12,12 0 0 1 608,525 H72 A12,12 0 0 1 60,513 V347 A12,12 0 0 1 72,335 Z" />
+    <path fill="#F5EEF8" d="M72,335 H608 A12,12 0 0 1 620,347 V373 A12,12 0 0 1 608,385 H72 A12,12 0 0 1 60,373 V347 A12,12 0 0 1 72,335 Z" />
+    <text x="340" y="368" font-family="Arial Black" font-size="16" fill="#9B59B6" text-anchor="middle">🔄 技术迭代风险</text>
+    <text x="100" y="410" font-family="Arial" font-size="13" fill="#555">• 大模型技术快速演进，需持续研发投入</text>
+    <text x="100" y="435" font-family="Arial" font-size="13" fill="#555">• 国际头部模型（GPT-5 等）可能形成代差</text>
+    <text x="100" y="460" font-family="Arial" font-size="13" fill="#555">• 人才竞争激烈，核心技术人员流失风险</text>
+    <text x="340" y="500" font-family="Arial" font-size="11" fill="#999" text-anchor="middle">技术风险</text>
+    <path fill="#FFFFFF" filter="url(#shadow)" d="M672,335 H1208 A12,12 0 0 1 1220,347 V513 A12,12 0 0 1 1208,525 H672 A12,12 0 0 1 660,513 V347 A12,12 0 0 1 672,335 Z" />
+    <path fill="#EBF5FB" d="M672,335 H1208 A12,12 0 0 1 1220,347 V373 A12,12 0 0 1 1208,385 H672 A12,12 0 0 1 660,373 V347 A12,12 0 0 1 672,335 Z" />
+    <text x="940" y="368" font-family="Arial Black" font-size="16" fill="#2932E1" text-anchor="middle">🌍 宏观经济环境</text>
+    <text x="700" y="410" font-family="Arial" font-size="13" fill="#555">• 企业 IT 预算可能受经济波动影响</text>
+    <text x="700" y="435" font-family="Arial" font-size="13" fill="#555">• AI 项目 ROI 验证周期较长</text>
+    <text x="700" y="460" font-family="Arial" font-size="13" fill="#555">• 政企客户决策周期长、回款慢</text>
+    <text x="940" y="500" font-family="Arial" font-size="11" fill="#999" text-anchor="middle">宏观风险</text>
+    <path fill="#E8F6F3" d="M68,550 H1212 A8,8 0 0 1 1220,558 V612 A8,8 0 0 1 1212,620 H68 A8,8 0 0 1 60,612 V558 A8,8 0 0 1 68,550 Z" />
+    <text x="90" y="580" font-family="Arial Black" font-size="14" fill="#1ABC9C">💡 应对策略：</text>
+    <text x="210" y="580" font-family="Arial" font-size="13" fill="#555">持续技术创新 · 优化成本结构 · 深化行业落地 · 加强生态合作</text>
+    <text x="60" y="680" font-family="Arial" font-size="12" fill="#999999">百度智能云 2025 年财报分析 | 13 / 14</text>
+</svg>

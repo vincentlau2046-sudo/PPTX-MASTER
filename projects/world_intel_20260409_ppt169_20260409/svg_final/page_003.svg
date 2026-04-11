@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#ffffff" />
+  <rect x="0" y="0" width="1280" height="8" fill="#1a365d" />
+  <text x="60" y="60" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#718096">国际形势日报 | 2026-04-09</text>
+  <text x="60" y="100" font-family="Noto Sans CJK SC, sans-serif" font-size="32" font-weight="bold" fill="#1a365d">头条 · 深度解析</text>
+  <path fill="#ed8936" d="M62,115 H158 A2,2 0 0 1 160,117 V117 A2,2 0 0 1 158,119 H62 A2,2 0 0 1 60,117 V117 A2,2 0 0 1 62,115 Z" />
+  <text x="60" y="160" font-family="Noto Sans CJK SC, sans-serif" font-size="28" font-weight="bold" fill="#1a365d">俄乌冲突进入深度胶着 🔴</text>
+  <text x="60" y="210" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#2d3748">俄罗斯国防部 4 月 1 日宣布完全控制卢甘斯克地区行政边界。</text>
+  <text x="60" y="245" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#2d3748">4 月 6-8 日，双方在顿涅茨克、扎波罗热等多方向持续激战，单日战斗冲突达 120 次。</text>
+  <rect x="60" y="290" width="540" height="1" fill="#e2e8f0" />
+  <text x="60" y="320" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="bold" fill="#1a365d">影响：</text>
+  <text x="80" y="350" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">• 乌克兰提出"能源休战"提议，俄方尚未回应</text>
+  <text x="80" y="375" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">• 美俄乌三方谈判处于暂停状态，美国因中东事务缠身</text>
+  <text x="80" y="400" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">• 双方持续打击对方能源基础设施，经济战与军事对抗深度交织</text>
+  <rect x="60" y="430" width="540" height="1" fill="#e2e8f0" />
+  <text x="60" y="460" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="bold" fill="#e53e3e">风险提示：</text>
+  <text x="80" y="490" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">• 前线平民伤亡持续，人道主义危机加剧</text>
+  <text x="80" y="515" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">• 冲突长期化趋势明显，和平谈判进程停滞</text>
+  <text x="80" y="540" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">• 可能外溢至周边国家，影响欧洲能源安全</text>
+  <path fill="#e53e3e" d="M1104,680 H1216 A4,4 0 0 1 1220,684 V706 A4,4 0 0 1 1216,710 H1104 A4,4 0 0 1 1100,706 V684 A4,4 0 0 1 1104,680 Z" />
+  <text x="1160" y="700" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#ffffff" font-weight="bold">🔴 高风险</text>
+</svg>

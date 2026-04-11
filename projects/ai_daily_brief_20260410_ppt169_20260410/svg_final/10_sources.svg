@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#CF002E" />
+      <stop offset="100%" stop-color="#8B0020" />
+    </linearGradient>
+  </defs>
+  
+  
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  
+  
+  <rect x="0" y="0" width="1280" height="80" fill="#F8F9FA" />
+  <rect x="60" y="75" width="1160" height="5" fill="url(#headerGradient)" />
+  
+  
+  <text x="60" y="50" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="35" font-weight="bold">
+    信息来源
+  </text>
+  
+  
+  <path fill="#F8F9FA" d="M68,120 H1212 A8,8 0 0 1 1220,128 V162 A8,8 0 0 1 1212,170 H68 A8,8 0 0 1 60,162 V128 A8,8 0 0 1 68,120 Z" />
+  <text x="100" y="152" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold">信息来源</text>
+  <text x="500" y="152" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold">可信度</text>
+  <text x="750" y="152" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold">链接数</text>
+  <text x="950" y="152" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold">报道主题</text>
+  
+  
+  
+  <path fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1" d="M66,180 H1214 A6,6 0 0 1 1220,186 V224 A6,6 0 0 1 1214,230 H66 A6,6 0 0 1 60,224 V186 A6,6 0 0 1 66,180 Z" />
+  <text x="100" y="212" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17">IT 之家</text>
+  <text x="500" y="212" fill="#FFAA00" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20">⭐⭐⭐⭐⭐</text>
+  <text x="750" y="212" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17">2</text>
+  <text x="950" y="212" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">智谱 GLM-5.1 发布</text>
+  
+  
+  <path fill="#F8F9FA" stroke="#E5E5E5" stroke-width="1" d="M66,240 H1214 A6,6 0 0 1 1220,246 V284 A6,6 0 0 1 1214,290 H66 A6,6 0 0 1 60,284 V246 A6,6 0 0 1 66,240 Z" />
+  <text x="100" y="272" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17">21 经济网 / 财联社</text>
+  <text x="500" y="272" fill="#FFAA00" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20">⭐⭐⭐⭐⭐</text>
+  <text x="750" y="272" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17">2</text>
+  <text x="950" y="272" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">Kimi K2.5 登顶榜单</text>
+  
+  
+  <path fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1" d="M66,300 H1214 A6,6 0 0 1 1220,306 V344 A6,6 0 0 1 1214,350 H66 A6,6 0 0 1 60,344 V306 A6,6 0 0 1 66,300 Z" />
+  <text x="100" y="332" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17">WIRED</text>
+  <text x="500" y="332" fill="#FFAA00" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20">⭐⭐⭐⭐⭐</text>
+  <text x="750" y="332" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17">2</text>
+  <text x="950" y="332" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">OpenAI/Google 支持 Anthropic</text>
+  
+  
+  <path fill="#F8F9FA" stroke="#E5E5E5" stroke-width="1" d="M66,360 H1214 A6,6 0 0 1 1220,366 V404 A6,6 0 0 1 1214,410 H66 A6,6 0 0 1 60,404 V366 A6,6 0 0 1 66,360 Z" />
+  <text x="100" y="392" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17">澎湃新闻</text>
+  <text x="500" y="392" fill="#FFAA00" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20">⭐⭐⭐⭐⭐</text>
+  <text x="750" y="392" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17">3</text>
+  <text x="950" y="392" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">中国厂商动态</text>
+  
+  
+  <path fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1" d="M66,420 H1214 A6,6 0 0 1 1220,426 V464 A6,6 0 0 1 1214,470 H66 A6,6 0 0 1 60,464 V426 A6,6 0 0 1 66,420 Z" />
+  <text x="100" y="452" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17">阿里云文档</text>
+  <text x="500" y="452" fill="#FFAA00" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20">⭐⭐⭐⭐⭐</text>
+  <text x="750" y="452" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17">1</text>
+  <text x="950" y="452" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">Qwen3.5 系列更新</text>
+  
+  
+  <path fill="#F8F9FA" stroke="#E5E5E5" stroke-width="1" d="M66,480 H1214 A6,6 0 0 1 1220,486 V524 A6,6 0 0 1 1214,530 H66 A6,6 0 0 1 60,524 V486 A6,6 0 0 1 66,480 Z" />
+  <text x="100" y="512" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17">BIGAI 官方博客</text>
+  <text x="500" y="512" fill="#FFAA00" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20">⭐⭐⭐⭐⭐</text>
+  <text x="750" y="512" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17">1</text>
+  <text x="950" y="512" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">AGI 通用智能体突破</text>
+  
+  
+  <path fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1" d="M66,540 H1214 A6,6 0 0 1 1220,546 V584 A6,6 0 0 1 1214,590 H66 A6,6 0 0 1 60,584 V546 A6,6 0 0 1 66,540 Z" />
+  <text x="100" y="572" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17">Nebius 官方公告</text>
+  <text x="500" y="572" fill="#FFAA00" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20">⭐⭐⭐⭐⭐</text>
+  <text x="750" y="572" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17">1</text>
+  <text x="950" y="572" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">Tavily 被 4 亿美元收购</text>
+  
+  
+  <path fill="#F0F7FF" stroke="#0066CC" stroke-width="1" d="M66,610 H1214 A6,6 0 0 1 1220,616 V654 A6,6 0 0 1 1214,660 H66 A6,6 0 0 1 60,654 V616 A6,6 0 0 1 66,610 Z" />
+  <text x="90" y="642" fill="#0066CC" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold">
+    📊 本报告基于公开信息整理，所有来源可信度均为五星，投资/决策请自行核实。
+  </text>
+  
+  
+  <text x="640" y="700" text-anchor="middle" fill="#999999" font-family="Arial, Microsoft YaHei, sans-serif" font-size="14">
+    © 2026 零壹情报 | 每日更新
+  </text>
+  <text x="1220" y="700" text-anchor="end" fill="#999999" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13">
+    2026-04-10 | 10
+  </text>
+</svg>

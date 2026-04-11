@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#1a365d"/>
+  <text x="640" y="280" text-anchor="middle" font-family="Noto Sans CJK SC, Source Han Sans SC, sans-serif" font-size="48" font-weight="bold" fill="#ffffff">感谢关注</text>
+  <rect x="440" y="310" width="400" height="4" fill="#ed8936" rx="2"/>
+  <text x="640" y="360" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="24" fill="#a0aec0">国际形势日报</text>
+  <text x="640" y="400" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#e2e8f0">2026 年 4 月 9 日（周四）</text>
+  <text x="640" y="450" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="18" fill="#718096">明天见</text>
+  <text x="640" y="650" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#718096">风险提示：🔴 高风险  🟡 中风险  🟢 低风险</text>
+  <text x="640" y="680" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="12" fill="#4a5568">本简报仅供参考，不构成投资建议</text>
+</svg>

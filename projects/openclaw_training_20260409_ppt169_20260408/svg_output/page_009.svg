@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="pyramidGrad1" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a365d"/>
+      <stop offset="100%" style="stop-color:#3182ce"/>
+    </linearGradient>
+    <linearGradient id="pyramidGrad2" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#2c5282"/>
+      <stop offset="100%" style="stop-color:#38b2ac"/>
+    </linearGradient>
+    <linearGradient id="pyramidGrad3" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#ed8936"/>
+      <stop offset="100%" style="stop-color:#f6ad55"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="#ffffff"/>
+  <rect width="1280" height="8" fill="#1a365d"/>
+  <text x="60" y="70" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="36" font-weight="bold" fill="#1a365d">记忆架构：三层体系</text>
+  <rect x="60" y="90" width="100" height="4" fill="#ed8936" rx="2"/>
+  <!-- 金字塔 -->
+  <g transform="translate(340, 180)">
+    <!-- 顶层 -->
+    <polygon points="300,0 540,120 60,120" fill="url(#pyramidGrad3)"/>
+    <text x="300" y="70" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">自我改进记忆</text>
+    <text x="300" y="95" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#fffaf0">~/self-improving/</text>
+    <!-- 中层 -->
+    <polygon points="60,130 540,130 600,280 0,280" fill="url(#pyramidGrad2)"/>
+    <text x="300" y="200" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">长期记忆</text>
+    <text x="300" y="230" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#e6fffa">MEMORY.md</text>
+    <!-- 底层 -->
+    <polygon points="0,290 600,290 700,440 -100,440" fill="url(#pyramidGrad1)"/>
+    <text x="300" y="360" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">短期记忆</text>
+    <text x="300" y="390" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#a0aec0">Session Context</text>
+  </g>
+  <!-- 右侧说明 -->
+  <g transform="translate(700, 180)">
+    <rect width="480" height="420" rx="12" fill="#f7fafc" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="30" y="45" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#1a365d">各层详情</text>
+    <!-- 顶层说明 -->
+    <circle cx="50" cy="90" r="12" fill="#ed8936"/>
+    <text x="80" y="97" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#1a365d">自我改进记忆</text>
+    <text x="30" y="125" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">• 执行优化规则 (memory.md)</text>
+    <text x="30" y="150" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">• 领域专用知识 (domains/)</text>
+    <text x="30" y="175" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">• 项目特定配置 (projects/)</text>
+    <text x="30" y="200" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">• 错误和修正 (corrections.md)</text>
+    <!-- 中层说明 -->
+    <circle cx="50" cy="260" r="12" fill="#38b2ac"/>
+    <text x="80" y="267" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#1a365d">长期记忆</text>
+    <text x="30" y="295" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">• 用户背景和偏好</text>
+    <text x="30" y="320" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">• 重要决策和事件</text>
+    <text x="30" y="345" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">• 项目上下文</text>
+    <!-- 底层说明 -->
+    <circle cx="50" cy="400" r="12" fill="#3182ce"/>
+    <text x="80" y="407" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#1a365d">短期记忆</text>
+    <text x="30" y="435" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">• 当前会话消息历史</text>
+    <text x="30" y="460" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">• 工具调用结果</text>
+    <text x="30" y="485" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">• 临时变量</text>
+  </g>
+  <text x="1240" y="700" text-anchor="end" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#a0aec0">09 / 38</text>
+</svg>

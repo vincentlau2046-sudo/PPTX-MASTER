@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#ffffff" />
+  <rect x="0" y="0" width="1280" height="8" fill="#1a365d" />
+  <text x="60" y="60" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#718096">国际形势日报 | 2026-04-09</text>
+  <text x="60" y="100" font-family="Noto Sans CJK SC, sans-serif" font-size="32" font-weight="bold" fill="#1a365d">今日看点 · 明日预判</text>
+  <path fill="#ed8936" d="M62,115 H208 A2,2 0 0 1 210,117 V117 A2,2 0 0 1 208,119 H62 A2,2 0 0 1 60,117 V117 A2,2 0 0 1 62,115 Z" />
+  <text x="60" y="150" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#718096">以下是需要密切关注的重点事件</text>
+  
+  <rect x="60" y="175" width="1160" height="50" fill="#1a365d" />
+  <text x="80" y="205" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">事件</text>
+  <text x="400" y="205" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">时间</text>
+  <text x="650" y="205" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">重要性</text>
+  <text x="900" y="205" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">预期影响</text>
+  
+  <rect x="60" y="225" width="1160" height="60" fill="#f7fafc" />
+  <text x="80" y="260" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#1a365d">美伊停火协议进展</text>
+  <text x="400" y="260" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">全天</text>
+  <text x="650" y="260" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="bold" fill="#e53e3e">⭐⭐⭐⭐⭐</text>
+  <text x="900" y="260" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">油价、股市、避险资产</text>
+  
+  <rect x="60" y="285" width="1160" height="60" fill="#ffffff" />
+  <text x="80" y="320" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#1a365d">匈牙利国会选举</text>
+  <text x="400" y="320" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">4月12日</text>
+  <text x="650" y="320" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="bold" fill="#ed8936">⭐⭐⭐⭐</text>
+  <text x="900" y="320" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">欧盟内部政治格局</text>
+  
+  <rect x="60" y="345" width="1160" height="60" fill="#f7fafc" />
+  <text x="80" y="380" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#1a365d">美国 CPI 数据</text>
+  <text x="400" y="380" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">4月10日</text>
+  <text x="650" y="380" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="bold" fill="#ed8936">⭐⭐⭐⭐</text>
+  <text x="900" y="380" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">美联储政策预期</text>
+  
+  <rect x="60" y="405" width="1160" height="60" fill="#ffffff" />
+  <text x="80" y="440" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#1a365d">OPEC+ 月度会议</text>
+  <text x="400" y="440" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">4月5日</text>
+  <text x="650" y="440" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="bold" fill="#3182ce">⭐⭐⭐</text>
+  <text x="900" y="440" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">油价走势</text>
+  
+  <rect x="60" y="465" width="1160" height="60" fill="#f7fafc" />
+  <text x="80" y="500" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#1a365d">中国 CPI/PPI</text>
+  <text x="400" y="500" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">4月11日</text>
+  <text x="650" y="500" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="bold" fill="#3182ce">⭐⭐⭐</text>
+  <text x="900" y="500" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">经济复苏信号</text>
+  
+  <rect x="60" y="545" width="1160" height="1" fill="#e2e8f0" />
+  <text x="60" y="575" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="bold" fill="#1a365d">策略建议</text>
+  <text x="60" y="605" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">• 重点关注美伊停火谈判进展，油价短期波动较大</text>
+  <text x="60" y="630" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">• 匈牙利大选可能影响欧盟对俄政策立场</text>
+  <text x="60" y="655" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">• 美国 CPI 数据若高于预期，可能强化美联储观望态度</text>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect width="1280" height="6" fill="#1565C0"/>
+  <text x="60" y="45" font-family="Microsoft YaHei, Arial" font-size="31" font-weight="bold" fill="#1A1A1A">📊 PESTEL 宏观分析</text>
+  <rect x="60" y="55" width="100" height="3" fill="#1565C0" rx="1.5"/>
+  
+  <text x="60" y="90" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">- EU AI Act 高风险条款 2026 年 8 月 2 日生效，违规罚款最高达全球营收 7%</text>
+  
+  <text x="60" y="140" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">- 中国网络安全法修订案 2026 年 1 月生效，强化 AI 风险评估和伦理治理</text>
+  
+  <text x="60" y="190" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">- 韩国 AI Basic Act 2026 年 1 月 22 日生效，成为全球第二部综合性 AI 法律</text>
+  
+  <text x="60" y="240" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">- 新加坡发布全球首个 Agentic AI 治理框架</text>
+  
+  <text x="60" y="290" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">- 2026 年 Q1 全球 AI 融资$3000 亿，创单季度纪录</text>
+  
+  <text x="60" y="340" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">- Anthropic 估值$3500 亿，Sequoia 领投</text>
+  
+  <text x="60" y="390" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">- 95% 企业生成式 AI 试点失败，ROI 成为 2026 年核心议题</text>
+  
+  <text x="60" y="440" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">- AI 成本优化需求爆发，企业期望削减 60-95% AI 支出</text>
+  
+</svg>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#CF002E" />
+      <stop offset="100%" stop-color="#8B0020" />
+    </linearGradient>
+  </defs>
+  
+  
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  
+  
+  <rect x="0" y="0" width="1280" height="80" fill="#F8F9FA" />
+  <rect x="60" y="75" width="1160" height="5" fill="url(#headerGradient)" />
+  
+  
+  <text x="60" y="50" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="35" font-weight="bold">
+    核心摘要（30 秒速览）
+  </text>
+  
+  
+  <path fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1" d="M68,120 H412 A8,8 0 0 1 420,128 V392 A8,8 0 0 1 412,400 H68 A8,8 0 0 1 60,392 V128 A8,8 0 0 1 68,120 Z" />
+  <path fill="#CF002E" d="M63,120 H63 A3,8 0 0 1 66,128 V392 A3,8 0 0 1 63,400 H63 A3,8 0 0 1 60,392 V128 A3,8 0 0 1 63,120 Z" />
+  <text x="90" y="165" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold">
+    智谱 GLM-5.1 发布
+  </text>
+  <text x="90" y="205" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    • 全球首个 8 小时持续工作
+  </text>
+  <text x="90" y="235" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    • SWE-bench Pro 超越 Claude
+  </text>
+  <text x="90" y="265" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    • 8 小时构建 Linux 桌面
+  </text>
+  <text x="90" y="295" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    • 吞吐提升 6.9 倍
+  </text>
+  <text x="90" y="335" fill="#CF002E" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold">
+    国产模型首次突破
+  </text>
+  
+  
+  <path fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1" d="M468,120 H812 A8,8 0 0 1 820,128 V392 A8,8 0 0 1 812,400 H468 A8,8 0 0 1 460,392 V128 A8,8 0 0 1 468,120 Z" />
+  <path fill="#0066CC" d="M463,120 H463 A3,8 0 0 1 466,128 V392 A3,8 0 0 1 463,400 H463 A3,8 0 0 1 460,392 V128 A3,8 0 0 1 463,120 Z" />
+  <text x="490" y="165" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold">
+    Kimi K2.5 登顶榜单
+  </text>
+  <text x="490" y="205" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    • 24 小时登顶 LMarena 首位
+  </text>
+  <text x="490" y="235" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    • 调度 100 个专业分身
+  </text>
+  <text x="490" y="265" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    • 并行处理 1500 步骤
+  </text>
+  <text x="490" y="295" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    • Kilo Code 默认模型
+  </text>
+  <text x="490" y="335" fill="#0066CC" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold">
+    性能接近顶尖闭源模型
+  </text>
+  
+  
+  <path fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1" d="M868,120 H1212 A8,8 0 0 1 1220,128 V392 A8,8 0 0 1 1212,400 H868 A8,8 0 0 1 860,392 V128 A8,8 0 0 1 868,120 Z" />
+  <path fill="#00AA55" d="M863,120 H863 A3,8 0 0 1 866,128 V392 A3,8 0 0 1 863,400 H863 A3,8 0 0 1 860,392 V128 A3,8 0 0 1 863,120 Z" />
+  <text x="890" y="165" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold">
+    AGI 通用智能体突破
+  </text>
+  <text x="890" y="205" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    • Science 杂志报道
+  </text>
+  <text x="890" y="235" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    • 全球首个通用智能体
+  </text>
+  <text x="890" y="265" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    • 耗资&lt;600 万美元
+  </text>
+  <text x="890" y="295" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    • 小计算能力大作为
+  </text>
+  <text x="890" y="335" fill="#00AA55" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold">
+    中国科研里程碑
+  </text>
+  
+  
+  <path fill="#F8F9FA" stroke="#CF002E" stroke-width="2" d="M68,440 H1212 A8,8 0 0 1 1220,448 V572 A8,8 0 0 1 1212,580 H68 A8,8 0 0 1 60,572 V448 A8,8 0 0 1 68,440 Z" />
+  <path fill="#CF002E" d="M64,440 H64 A4,8 0 0 1 68,448 V572 A4,8 0 0 1 64,580 H64 A4,8 0 0 1 60,572 V448 A4,8 0 0 1 64,440 Z" />
+  <text x="100" y="485" fill="#CF002E" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold">
+    🔑 核心结论
+  </text>
+  <text x="100" y="530" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="normal">
+    2026 年 Q2 开源模型已具备与闭源模型正面竞争能力，智能体长程任务执行成为新战场。
+  </text>
+  
+  
+  <text x="1220" y="700" text-anchor="end" fill="#999999" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13">
+    2026-04-10 | 02
+  </text>
+</svg>

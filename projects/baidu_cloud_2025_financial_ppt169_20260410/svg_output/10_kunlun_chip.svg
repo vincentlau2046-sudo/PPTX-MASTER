@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+    <rect width="1280" height="720" fill="#F8F9FA"/>
+    <text x="60" y="70" font-family="Arial Black" font-size="28" fill="#333333">关键战略 · 昆仑芯 AI 芯片</text>
+    <rect x="60" y="80" width="280" height="4" fill="#2932E1"/>
+    <rect x="60" y="120" width="1160" height="110" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="60" y="120" width="1160" height="55" rx="12" fill="#2932E1"/>
+    <text x="110" y="158" font-family="Arial Black" font-size="18" fill="#FFFFFF">💡 核心动作</text>
+    <text x="640" y="158" font-family="Arial" font-size="15" fill="#E0E0FF" text-anchor="middle">二代昆仑芯（P800）量产，覆盖训练/微调/推理全栈</text>
+    <rect x="60" y="265" width="360" height="230" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="60" y="265" width="360" height="50" rx="12" fill="#FEF9E7"/>
+    <text x="240" y="298" font-family="Arial Black" font-size="15" fill="#F39C12" text-anchor="middle">📈 新增长曲线</text>
+    <text x="240" y="360" font-family="Arial Black" font-size="36" fill="#2932E1" text-anchor="middle">超 50 亿元</text>
+    <text x="240" y="400" font-family="Arial" font-size="13" fill="#666" text-anchor="middle">芯片相关收入</text>
+    <text x="240" y="435" font-family="Arial" font-size="12" fill="#999" text-anchor="middle">成为独立增长引擎</text>
+    <text x="240" y="465" font-family="Arial" font-size="11" fill="#999" text-anchor="middle">商业化成功</text>
+    <rect x="440" y="265" width="360" height="230" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="440" y="265" width="360" height="50" rx="12" fill="#E8F6F3"/>
+    <text x="620" y="298" font-family="Arial Black" font-size="15" fill="#1ABC9C" text-anchor="middle">💰 成本优化</text>
+    <text x="620" y="360" font-family="Arial Black" font-size="32" fill="#27AE60" text-anchor="middle">-25%~-30%</text>
+    <text x="620" y="400" font-family="Arial" font-size="13" fill="#666" text-anchor="middle">云基础设施成本下降</text>
+    <text x="620" y="435" font-family="Arial" font-size="12" fill="#999" text-anchor="middle">毛利率改善 +3~+5pct</text>
+    <text x="620" y="465" font-family="Arial" font-size="11" fill="#999" text-anchor="middle">自研替代优势</text>
+    <rect x="820" y="265" width="400" height="230" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+    <rect x="820" y="265" width="400" height="50" rx="12" fill="#EBF5FB"/>
+    <text x="1020" y="298" font-family="Arial Black" font-size="15" fill="#2932E1" text-anchor="middle">🛡️ 国产替代壁垒</text>
+    <text x="1020" y="350" font-family="Arial" font-size="14" fill="#555" text-anchor="middle">强化自主可控能力</text>
+    <text x="1020" y="395" font-family="Arial Black" font-size="28" fill="#27AE60" text-anchor="middle">政企订单 +40%</text>
+    <text x="1020" y="435" font-family="Arial" font-size="13" fill="#666" text-anchor="middle">国产芯片首选供应商</text>
+    <text x="1020" y="465" font-family="Arial" font-size="11" fill="#999" text-anchor="middle">政策红利 + 技术实力</text>
+    <rect x="60" y="525" width="1160" height="75" fill="#F5F5F5" rx="8"/>
+    <text x="640" y="560" font-family="Arial" font-size="13" fill="#666" text-anchor="middle">昆仑芯规模化商用是百度智能云 2025 年核心竞争力之一，实现成本优化与收入增长双赢</text>
+    <text x="640" y="585" font-family="Arial" font-size="11" fill="#999" text-anchor="middle">自研芯片战略 | 全栈覆盖 | 外部客户占比 70% | 成本下降 25%+</text>
+    <text x="60" y="680" font-family="Arial" font-size="12" fill="#999999">百度智能云 2025 年财报分析 | 10 / 14</text>
+</svg>

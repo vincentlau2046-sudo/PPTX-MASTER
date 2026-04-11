@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#ffffff"/>
+  <rect width="1280" height="8" fill="#1a365d"/>
+  <text x="60" y="70" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="36" font-weight="bold" fill="#1a365d">通信问题与解决方案</text>
+  <rect x="60" y="90" width="100" height="4" fill="#ed8936" rx="2"/>
+  <g transform="translate(60, 130)">
+    <rect width="1160" height="520" rx="12" fill="#f7fafc" stroke="#e2e8f0" stroke-width="2"/>
+    <!-- 问题1 -->
+    <g transform="translate(30, 30)">
+      <rect x="0" y="0" width="360" height="140" rx="8" fill="#fff5f5" stroke="#e53e3e"/>
+      <text x="20" y="35" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#e53e3e">问题 1：子 Agent 未启动</text>
+      <text x="20" y="65" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#4a5568">根因：主 Agent 只打印命令，</text>
+      <text x="20" y="85" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#4a5568">未调用 sessions_spawn 工具</text>
+      <text x="20" y="120" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" font-weight="bold" fill="#1a365d">解决：直接调用 sessions_spawn() 工具</text>
+    </g>
+    <!-- 问题2 -->
+    <g transform="translate(410, 30)">
+      <rect x="0" y="0" width="360" height="140" rx="8" fill="#fef3e2" stroke="#ed8936"/>
+      <text x="20" y="35" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#ed8936">问题 2：上下文丢失</text>
+      <text x="20" y="65" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#4a5568">根因：工作空间隔离，文件不共享</text>
+      <text x="20" y="120" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" font-weight="bold" fill="#1a365d">解决：使用共享目录 shared/</text>
+    </g>
+    <!-- 问题3 -->
+    <g transform="translate(790, 30)">
+      <rect x="0" y="0" width="360" height="140" rx="8" fill="#faf5ff" stroke="#805ad5"/>
+      <text x="20" y="35" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#805ad5">问题 3：飞书推送冲突</text>
+      <text x="20" y="65" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#4a5568">根因：多个 Agent 同时推送飞书</text>
+      <text x="20" y="120" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" font-weight="bold" fill="#1a365d">解决：只有主 Agent 负责最终推送</text>
+    </g>
+    <!-- 验证方法 -->
+    <g transform="translate(30, 200)">
+      <text x="0" y="30" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#1a365d">验证方法</text>
+      <g transform="translate(0, 55)">
+        <circle cx="15" cy="15" r="8" fill="#3182ce"/>
+        <text x="40" y="20" font-family="monospace" font-size="14" fill="#4a5568">subagents list - 查看子 Agent 列表</text>
+      </g>
+      <g transform="translate(0, 90)">
+        <circle cx="15" cy="15" r="8" fill="#38b2ac"/>
+        <text x="40" y="20" font-family="monospace" font-size="14" fill="#4a5568">sessions_list - 查看会话列表</text>
+      </g>
+      <g transform="translate(0, 125)">
+        <circle cx="15" cy="15" r="8" fill="#ed8936"/>
+        <text x="40" y="20" font-family="monospace" font-size="14" fill="#4a5568">cat shared/task_status.md - 任务状态</text>
+      </g>
+    </g>
+    <!-- 最佳实践 -->
+    <g transform="translate(400, 200)">
+      <rect x="0" y="0" width="760" height="260" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+      <text x="20" y="35" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#1a365d">最佳实践</text>
+      <text x="20" y="70" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">1. 子 Agent 输出到共享文件：</text>
+      <text x="40" y="100" font-family="monospace" font-size="13" fill="#718096">write(path="shared/ai_intel_output.md", ...)</text>
+      <text x="20" y="135" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">2. 主 Agent 读取并推送：</text>
+      <text x="40" y="165" font-family="monospace" font-size="13" fill="#718096">read(path="shared/ai_intel_output.md")</text>
+      <text x="40" y="195" font-family="monospace" font-size="13" fill="#718096">message(channel="feishu", to="...", message="...")</text>
+      <text x="20" y="230" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">3. task 参数中包含完整上下文</text>
+    </g>
+  </g>
+  <text x="1240" y="700" text-anchor="end" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#a0aec0">32 / 38</text>
+</svg>

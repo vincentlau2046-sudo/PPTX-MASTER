@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+    <defs>
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#F8F9FA;stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#76B900;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#5FA000;stop-opacity:1" />
+        </linearGradient>
+        <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+            <feOffset dx="0" dy="2" result="offsetblur"/>
+            <feComponentTransfer>
+                <feFuncA type="linear" slope="0.15"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    
+    <!-- 背景 -->
+    <rect width="1280" height="720" fill="url(#bgGradient)"/>
+
+    <!-- 标题 -->
+    <text x="60" y="80" font-family="Arial Black, Microsoft YaHei" font-size="32" font-weight="bold" fill="#1A1A1A">
+        其他业务板块 - 协同增长
+    </text>
+    <rect x="60" y="95" width="120" height="4" rx="2" fill="#76B900"/>
+    
+    <!-- 专业可视化 -->
+    <g filter="url(#shadow)">
+        <rect x="60" y="140" width="360" height="200" rx="12" fill="#FFFFFF" stroke="#E8EAED" stroke-width="1"/>
+        <rect x="60" y="140" width="8" height="200" rx="4" fill="#76B900"/>
+        <text x="100" y="180" font-family="Arial Black, Microsoft YaHei" font-size="18" font-weight="bold" fill="#1A1A1A">专业可视化业务</text>
+        <text x="100" y="220" font-family="Arial Black, Microsoft YaHei" font-size="32" font-weight="bold" fill="#76B900">32.00 亿</text>
+        <text x="100" y="250" font-family="Arial, Microsoft YaHei" font-size="14" fill="#5FA000">同比 +70.0% · 占总营收 1.5%</text>
+        <text x="100" y="285" font-family="Arial, Microsoft YaHei" font-size="12" fill="#666666">• 工业元宇宙、AI 设计、数字孪生</text>
+        <text x="100" y="305" font-family="Arial, Microsoft YaHei" font-size="12" fill="#666666">• RTX PRO 专业显卡需求爆发</text>
+        <text x="380" y="170" font-family="Arial Black, Microsoft YaHei" font-size="48" font-weight="bold" fill="#76B900" opacity="0.1">高增长</text>
+    </g>
+    
+    <!-- 汽车业务 -->
+    <g filter="url(#shadow)">
+        <rect x="460" y="140" width="360" height="200" rx="12" fill="#FFFFFF" stroke="#E8EAED" stroke-width="1"/>
+        <rect x="460" y="140" width="8" height="200" rx="4" fill="#76B900"/>
+        <text x="500" y="180" font-family="Arial Black, Microsoft YaHei" font-size="18" font-weight="bold" fill="#1A1A1A">汽车业务</text>
+        <text x="500" y="220" font-family="Arial Black, Microsoft YaHei" font-size="32" font-weight="bold" fill="#76B900">23.00 亿</text>
+        <text x="500" y="250" font-family="Arial, Microsoft YaHei" font-size="14" fill="#5FA000">同比 +39.0% · 占总营收 1.1%</text>
+        <text x="500" y="285" font-family="Arial, Microsoft YaHei" font-size="12" fill="#666666">• 自动驾驶平台量产落地</text>
+        <text x="500" y="305" font-family="Arial, Microsoft YaHei" font-size="12" fill="#666666">• 车载 AI 算力需求提升</text>
+        <text x="780" y="170" font-family="Arial Black, Microsoft YaHei" font-size="48" font-weight="bold" fill="#76B900" opacity="0.1">稳定增长</text>
+    </g>
+    
+    <!-- OEM 及其他 -->
+    <g filter="url(#shadow)">
+        <rect x="860" y="140" width="360" height="200" rx="12" fill="#FFFFFF" stroke="#E8EAED" stroke-width="1"/>
+        <rect x="860" y="140" width="8" height="200" rx="4" fill="#76B900"/>
+        <text x="900" y="180" font-family="Arial Black, Microsoft YaHei" font-size="18" font-weight="bold" fill="#1A1A1A">OEM 及其他业务</text>
+        <text x="900" y="220" font-family="Arial Black, Microsoft YaHei" font-size="32" font-weight="bold" fill="#76B900">6.59 亿</text>
+        <text x="900" y="250" font-family="Arial, Microsoft YaHei" font-size="14" fill="#5FA000">同比 +25.0% · 占总营收 0.3%</text>
+        <text x="900" y="285" font-family="Arial, Microsoft YaHei" font-size="12" fill="#666666">• 边缘 AI、嵌入式计算</text>
+        <text x="900" y="305" font-family="Arial, Microsoft YaHei" font-size="12" fill="#666666">• 工业解决方案</text>
+        <text x="1180" y="170" font-family="Arial Black, Microsoft YaHei" font-size="48" font-weight="bold" fill="#76B900" opacity="0.1">补充</text>
+    </g>
+    
+    <!-- 业务对比图 -->
+    <text x="60" y="400" font-family="Arial Black, Microsoft YaHei" font-size="18" font-weight="bold" fill="#1A1A1A">业务收入对比（单位：亿美元）</text>
+    
+    <!-- 柱状图 -->
+    <rect x="100" y="440" width="200" height="150" fill="#F8F9FA" rx="4"/>
+    <rect x="120" y="520" width="160" height="70" fill="#76B900" opacity="0.6"/>
+    <text x="200" y="510" font-family="Arial, Microsoft YaHei" font-size="12" fill="#666666" text-anchor="middle">32.00</text>
+    <text x="200" y="610" font-family="Arial, Microsoft YaHei" font-size="12" fill="#666666" text-anchor="middle">专业可视化</text>
+    
+    <rect x="340" y="440" width="200" height="150" fill="#F8F9FA" rx="4"/>
+    <rect x="360" y="540" width="160" height="50" fill="#76B900" opacity="0.7"/>
+    <text x="440" y="530" font-family="Arial, Microsoft YaHei" font-size="12" fill="#666666" text-anchor="middle">23.00</text>
+    <text x="440" y="610" font-family="Arial, Microsoft YaHei" font-size="12" fill="#666666" text-anchor="middle">汽车</text>
+    
+    <rect x="580" y="440" width="200" height="150" fill="#F8F9FA" rx="4"/>
+    <rect x="600" y="570" width="160" height="20" fill="#76B900" opacity="0.8"/>
+    <text x="680" y="560" font-family="Arial, Microsoft YaHei" font-size="12" fill="#666666" text-anchor="middle">6.59</text>
+    <text x="680" y="610" font-family="Arial, Microsoft YaHei" font-size="12" fill="#666666" text-anchor="middle">其他</text>
+
+    <!-- 页脚 -->
+    <rect x="0" y="680" width="1280" height="40" fill="#F0F0F0" opacity="0.5"/>
+    <text x="60" y="705" font-family="Arial, Microsoft YaHei" font-size="12" fill="#999999">
+        英伟达 2026 财年财报深度分析
+    </text>
+    <text x="1220" y="705" font-family="Arial, Microsoft YaHei" font-size="12" fill="#999999" text-anchor="end">
+        6 / 14
+    </text>
+    
+</svg>

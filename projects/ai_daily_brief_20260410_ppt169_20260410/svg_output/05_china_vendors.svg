@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="headerGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#CF002E"/>
+      <stop offset="100%" stop-color="#8B0020"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  
+  <!-- Header bar -->
+  <rect x="0" y="0" width="1280" height="80" fill="#F8F9FA"/>
+  <rect x="60" y="75" width="1160" height="5" fill="url(#headerGradient)"/>
+  
+  <!-- Page title -->
+  <text x="60" y="50" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="35" font-weight="bold">
+    中国厂商 AI 动态
+  </text>
+  
+  <!-- Card 1: 阿里云 CodingPlan -->
+  <rect x="60" y="120" width="360" height="260" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1" rx="8"/>
+  <rect x="60" y="120" width="8" height="260" fill="#CF002E" rx="8"/>
+  <text x="95" y="165" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold">
+    阿里云 CodingPlan
+  </text>
+  <text x="95" y="200" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    • 四大开源模型自由切换
+  </text>
+  <text x="95" y="225" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    • Qwen3.5 / GLM-5 / MiniMax / Kimi
+  </text>
+  <text x="95" y="250" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    • 不受限于单一模型
+  </text>
+  <rect x="95" y="285" width="295" height="60" fill="#FFF5F5" stroke="#CF002E" stroke-width="1" rx="6"/>
+  <text x="110" y="310" fill="#CF002E" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" font-weight="bold">
+    🌟 全球云厂商中仅阿里云提供
+  </text>
+  <text x="110" y="335" fill="#999999" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13">
+    2 月 25 日发布
+  </text>
+  
+  <!-- Card 2: MiniMax M2.5 -->
+  <rect x="460" y="120" width="360" height="260" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1" rx="8"/>
+  <rect x="460" y="120" width="8" height="260" fill="#0066CC" rx="8"/>
+  <text x="495" y="165" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold">
+    MiniMax M2.5
+  </text>
+  <text x="495" y="200" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    • 登顶 OpenRouter 调用量榜首
+  </text>
+  <text x="495" y="225" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    • 周调用量 3.07T tokens
+  </text>
+  <text x="495" y="250" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    • 超 Kimi+GLM+DeepSeek 总和
+  </text>
+  <rect x="495" y="285" width="295" height="60" fill="#F0F7FF" stroke="#0066CC" stroke-width="1" rx="6"/>
+  <text x="510" y="310" fill="#0066CC" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" font-weight="bold">
+    📈 带动 100K-1M 长文本调用
+  </text>
+  <text x="510" y="335" fill="#999999" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13">
+    Agent 工作流典型消耗场景
+  </text>
+  
+  <!-- Card 3: 腾讯混元 -->
+  <rect x="860" y="120" width="360" height="260" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1" rx="8"/>
+  <rect x="860" y="120" width="8" height="260" fill="#00AA55" rx="8"/>
+  <text x="895" y="165" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold">
+    腾讯混元 2Bit 量化
+  </text>
+  <text x="895" y="200" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    • 业内首个 2Bit 量化端侧大模型
+  </text>
+  <text x="895" y="225" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    • 面向产业场景
+  </text>
+  <text x="895" y="250" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">
+    • 等效参数降低 6 倍
+  </text>
+  <rect x="895" y="285" width="295" height="60" fill="#F0FFF5" stroke="#00AA55" stroke-width="1" rx="6"/>
+  <text x="910" y="310" fill="#00AA55" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" font-weight="bold">
+    ⚡ 端侧生成速度提升 2-3 倍
+  </text>
+  <text x="910" y="335" fill="#999999" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13">
+    2 月 10 日发布
+  </text>
+  
+  <!-- Bottom summary -->
+  <rect x="60" y="420" width="1160" height="180" fill="#F8F9FA" rx="8"/>
+  <text x="90" y="465" fill="#333333" font-family="Arial, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold">
+    中国厂商核心优势
+  </text>
+  
+  <rect x="90" y="485" width="340" height="90" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1" rx="6"/>
+  <text x="110" y="515" fill="#CF002E" font-family="Arial, Microsoft YaHei, sans-serif" font-size="28" font-weight="bold">多模型</text>
+  <text x="110" y="545" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">阿里云 CodingPlan 实现</text>
+  <text x="110" y="565" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">四大模型自由切换</text>
+  
+  <rect x="465" y="485" width="340" height="90" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1" rx="6"/>
+  <text x="485" y="515" fill="#0066CC" font-family="Arial, Microsoft YaHei, sans-serif" font-size="28" font-weight="bold">长文本</text>
+  <text x="485" y="545" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">MiniMax 带动 100K-1M</text>
+  <text x="485" y="565" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">Agent 工作流调用需求</text>
+  
+  <rect x="840" y="485" width="340" height="90" fill="#FFFFFF" stroke="#E5E5E5" stroke-width="1" rx="6"/>
+  <text x="860" y="515" fill="#00AA55" font-family="Arial, Microsoft YaHei, sans-serif" font-size="28" font-weight="bold">端侧部署</text>
+  <text x="860" y="545" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">腾讯 2Bit 量化验证</text>
+  <text x="860" y="565" fill="#666666" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16">边缘 AI 设备机会</text>
+  
+  <!-- Footer -->
+  <text x="1220" y="700" text-anchor="end" fill="#999999" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13">
+    2026-04-10 | 05
+  </text>
+</svg>

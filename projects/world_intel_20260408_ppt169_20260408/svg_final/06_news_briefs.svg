@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0a1628"/>
+  
+  <!-- Header -->
+  <rect x="60" y="50" width="1160" height="60" fill="#1a2744" rx="12"/>
+  <text x="100" y="90" font-family="Microsoft YaHei, Arial" font-size="36" font-weight="bold" fill="#3b82f6">简讯速读</text>
+  
+  <!-- News items -->
+  <rect x="100" y="140" width="1080" height="480" fill="#1a2744" rx="12"/>
+  
+  <text x="140" y="190" font-family="Microsoft YaHei, Arial" font-size="18" fill="#e5e7eb">⚡ 巴基斯坦拟定停火框架方案，拟先实现立即停火</text>
+  <text x="140" y="225" font-family="Microsoft YaHei, Arial" font-size="18" fill="#e5e7eb">⚡ 伊朗称美以袭击造成超 10.5 万处民用设施受损</text>
+  <text x="140" y="260" font-family="Microsoft YaHei, Arial" font-size="18" fill="#e5e7eb">⚡ 乌克兰对俄罗斯列宁格勒州石油设施发动袭击</text>
+  <text x="140" y="295" font-family="Microsoft YaHei, Arial" font-size="18" fill="#e5e7eb">⚡ 俄罗斯防空系统 24 小时内击落 148 架无人机</text>
+  <text x="140" y="330" font-family="Microsoft YaHei, Arial" font-size="18" fill="#e5e7eb">⚡ 欧盟要求成员国限制能源补贴防止金融危机</text>
+  <text x="140" y="365" font-family="Microsoft YaHei, Arial" font-size="18" fill="#e5e7eb">⚡ 中国央行连续 17 个月增持黄金</text>
+  <text x="140" y="400" font-family="Microsoft YaHei, Arial" font-size="18" fill="#e5e7eb">⚡ 日韩时隔九年重启海上搜救联合演习</text>
+  <text x="140" y="435" font-family="Microsoft YaHei, Arial" font-size="18" fill="#e5e7eb">⚡ 美国 3 月 CPI 数据今日公布</text>
+  
+  <!-- Footer -->
+  <text x="1200" y="650" text-anchor="end" font-family="Arial" font-size="14" fill="#9ca3af">6 / 8</text>
+</svg>

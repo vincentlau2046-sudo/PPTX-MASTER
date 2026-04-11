@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect width="1280" height="6" fill="#1565C0"/>
+  <text x="60" y="45" font-family="Microsoft YaHei, Arial" font-size="31" font-weight="bold" fill="#1A1A1A">💰 资本风向</text>
+  <rect x="60" y="55" width="100" height="3" fill="#1565C0" rx="1.5"/>
+  
+  <text x="60" y="90" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">| 公司 | 金额 | 估值 | 投资方 | 赛道 |</text>
+  
+  <text x="60" y="140" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">|------|------|------|--------|------|</text>
+  
+  <text x="60" y="190" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">| Anthropic | - | $3500 亿 | Sequoia | 大模型 |</text>
+  
+  <text x="60" y="240" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">| xAI | $200 亿+ | - | - | 大模型 |</text>
+  
+  <text x="60" y="290" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">| Sierra | $3.5 亿 | $100 亿 | Sequoia/Benchmark | 企业 Agent |</text>
+  
+  <text x="60" y="340" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">| Perplexity | $2 亿 | $200 亿 | - | AI 搜索 |</text>
+  
+  <text x="60" y="390" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">| Harvey | $1.5 亿 | $80 亿 | - | 法律 AI |</text>
+  
+  <text x="60" y="440" font-family="Microsoft YaHei, Arial" font-size="18" fill="#1A1A1A">| OpenEvidence | $2.1 亿 | $35 亿 | GV/Kleiner | 医疗 AI |</text>
+  
+</svg>

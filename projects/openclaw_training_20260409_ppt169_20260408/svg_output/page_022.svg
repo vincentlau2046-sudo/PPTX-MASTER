@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#ffffff"/>
+  <rect width="1280" height="8" fill="#1a365d"/>
+  <text x="60" y="70" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="36" font-weight="bold" fill="#1a365d">输出示例展示</text>
+  <rect x="60" y="90" width="100" height="4" fill="#ed8936" rx="2"/>
+  <rect x="60" y="130" width="1160" height="500" rx="12" fill="#1a365d"/>
+  <text x="90" y="170" font-family="monospace" font-size="16" font-weight="bold" fill="#ffffff"># 🌍 国际形势日报 | 2026 年 4 月 8 日（周三）</text>
+  <text x="90" y="200" font-family="monospace" font-size="14" fill="#a0aec0">**阅读耗时**: 约 5 分钟 | **字数**: 约 1800 字</text>
+  <text x="90" y="240" font-family="monospace" font-size="14" fill="#a0aec0">---</text>
+  <text x="90" y="275" font-family="monospace" font-size="16" font-weight="bold" fill="#ed8936">## 一、【头条・深度解析】</text>
+  <text x="90" y="310" font-family="monospace" font-size="15" font-weight="bold" fill="#38b2ac">### 1. 美伊停火谈判陷入僵局，霍尔木兹海峡持续关闭 🔴</text>
+  <text x="120" y="345" font-family="monospace" font-size="14" fill="#a0aec0">**事件**: 美国和伊朗在巴基斯坦、埃及、土耳其斡旋下讨论 45 天停火协议</text>
+  <text x="120" y="375" font-family="monospace" font-size="14" fill="#a0aec0">**影响**: 霍尔木兹海峡自 2 月底关闭，全球每日减少约 1200-1500 万桶石油供应</text>
+  <text x="120" y="405" font-family="monospace" font-size="14" fill="#e53e3e" font-weight="bold">**风险信号**: 🔴 高危</text>
+  <text x="90" y="450" font-family="monospace" font-size="16" font-weight="bold" fill="#805ad5">## 二、【区域要闻】</text>
+  <text x="90" y="485" font-family="monospace" font-size="14" fill="#a0aec0">### 亚太（3-4 条）</text>
+  <text x="90" y="515" font-family="monospace" font-size="14" fill="#a0aec0">### 欧洲（2-3 条）</text>
+  <text x="90" y="545" font-family="monospace" font-size="14" fill="#a0aec0">### 中东/美洲（2-3 条）</text>
+  <text x="90" y="580" font-family="monospace" font-size="16" font-weight="bold" fill="#38b2ac">## 三、【全球市场】（表格格式）</text>
+  <text x="1240" y="700" text-anchor="end" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#a0aec0">22 / 38</text>
+</svg>

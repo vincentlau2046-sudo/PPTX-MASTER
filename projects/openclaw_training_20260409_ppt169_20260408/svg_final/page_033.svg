@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#ffffff"/>
+  <rect width="1280" height="8" fill="#1a365d"/>
+  <text x="60" y="70" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="36" font-weight="bold" fill="#1a365d">协同问题与解决方案</text>
+  <rect x="60" y="90" width="100" height="4" fill="#ed8936" rx="2"/>
+  <g transform="translate(60, 130)">
+    <rect width="1160" height="520" rx="12" fill="#f7fafc" stroke="#e2e8f0" stroke-width="2"/>
+    <g transform="translate(30, 30)">
+      <rect x="0" y="0" width="540" height="140" rx="8" fill="#ebf8ff" stroke="#3182ce"/>
+      <text x="20" y="35" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#3182ce">问题 1：任务依赖未满足</text>
+      <text x="20" y="65" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#4a5568">现象：content_creator 启动时，ai_intel 材料还没生成</text>
+      <text x="20" y="100" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" font-weight="bold" fill="#1a365d">解决：配置 dependencies，等待依赖完成后再启动</text>
+    </g>
+    <g transform="translate(590, 30)">
+      <rect x="0" y="0" width="540" height="140" rx="8" fill="#e6fffa" stroke="#38b2ac"/>
+      <text x="20" y="35" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#38b2ac">问题 2：结果格式不一致</text>
+      <text x="20" y="65" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#4a5568">现象：各 Agent 输出格式不同，难以汇总</text>
+      <text x="20" y="100" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" font-weight="bold" fill="#1a365d">解决：定义统一的输出规范模板</text>
+    </g>
+    <g transform="translate(30, 190)">
+      <rect x="0" y="0" width="540" height="140" rx="8" fill="#fef3e2" stroke="#ed8936"/>
+      <text x="20" y="35" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#ed8936">问题 3：超时处理不统一</text>
+      <text x="20" y="65" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#4a5568">现象：某些 Agent 超时后无错误处理</text>
+      <text x="20" y="100" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" font-weight="bold" fill="#1a365d">解决：配置 timeoutSeconds，监控超时并标记 failed</text>
+    </g>
+    <g transform="translate(590, 190)">
+      <rect x="0" y="0" width="540" height="140" rx="8" fill="#faf5ff" stroke="#805ad5"/>
+      <text x="20" y="35" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#805ad5">输出规范示例</text>
+      <text x="20" y="70" font-family="monospace" font-size="12" fill="#4a5568">## 输出规范</text>
+      <text x="20" y="95" font-family="monospace" font-size="12" fill="#4a5568">1. 标题：## &lt;任务ID&gt; &lt;任务名称&gt;</text>
+      <text x="20" y="120" font-family="monospace" font-size="12" fill="#4a5568">2. 摘要：100 字以内</text>
+      <text x="20" y="145" font-family="monospace" font-size="12" fill="#4a5568">3. 正文：Markdown 格式</text>
+    </g>
+    <!-- 超时规则 -->
+    <g transform="translate(30, 350)">
+      <text x="0" y="30" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#1a365d">超时配置建议</text>
+      <g transform="translate(0, 60)">
+        <circle cx="15" cy="10" r="6" fill="#e53e3e"/>
+        <text x="40" y="15" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#4a5568">math_tutoring / simple_query: 30 分钟</text>
+      </g>
+      <g transform="translate(280, 60)">
+        <circle cx="15" cy="10" r="6" fill="#ed8936"/>
+        <text x="40" y="15" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#4a5568">intelligence_collection: 2 小时</text>
+      </g>
+      <g transform="translate(0, 90)">
+        <circle cx="15" cy="10" r="6" fill="#38b2ac"/>
+        <text x="40" y="15" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#4a5568">technical_analysis / content_creation: 6 小时</text>
+      </g>
+      <g transform="translate(280, 90)">
+        <circle cx="15" cy="10" r="6" fill="#805ad5"/>
+        <text x="40" y="15" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#4a5568">complex_research: 24 小时</text>
+      </g>
+    </g>
+  </g>
+  <text x="1240" y="700" text-anchor="end" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#a0aec0">33 / 38</text>
+</svg>

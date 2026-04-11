@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="endGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a365d"/>
+      <stop offset="100%" style="stop-color:#2c5282"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#endGrad)"/>
+  <line x1="0" y1="0" x2="400" y2="720" stroke="#3182ce" stroke-width="2" opacity="0.3"/>
+  <line x1="880" y1="0" x2="1280" y2="720" stroke="#3182ce" stroke-width="2" opacity="0.3"/>
+  <text x="640" y="280" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="48" font-weight="bold" fill="#ffffff">感谢参与</text>
+  <rect x="440" y="310" width="400" height="4" fill="url(#accentGrad)" xmlns:linearGradient="http://www.w3.org/2000/svg">
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ed8936"/>
+      <stop offset="100%" style="stop-color:#f6ad55"/>
+    </linearGradient>
+  </rect>
+  <text x="640" y="370" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="24" fill="#a0aec0">OpenClaw 内部培训</text>
+  <text x="640" y="420" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="18" fill="#718096">掌握核心架构与开发实践</text>
+  <g transform="translate(340, 480)">
+    <rect x="0" y="0" width="600" height="120" rx="8" fill="#0f2942" opacity="0.5"/>
+    <text x="30" y="40" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">参考文档</text>
+    <text x="30" y="75" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#a0aec0">• OpenClaw 官方文档：~/.openclaw/workspace/docs/</text>
+    <text x="30" y="100" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#a0aec0">• ClawHub 技能市场：https://clawhub.ai</text>
+  </g>
+  <g transform="translate(440, 620)">
+    <rect x="0" y="0" width="400" height="50" rx="8" fill="#ed8936"/>
+    <text x="200" y="32" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">培训材料版本：v1.0</text>
+  </g>
+  <text x="640" y="700" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#718096">维护者：Vincent | 2026年4月9日</text>
+  <text x="1240" y="700" text-anchor="end" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#a0aec0">38 / 38</text>
+</svg>

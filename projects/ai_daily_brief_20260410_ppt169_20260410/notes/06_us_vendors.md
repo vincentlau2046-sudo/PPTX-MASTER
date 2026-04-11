@@ -1,0 +1,1 @@
+OpenAI 和 Google 的 30 多名员工提交法庭之友简报，支持 Anthropic 在国防部的诉讼，反映了 AI 行业对军事应用的伦理担忧。Google DeepMind 发布 Genie 3 世界模型，用户可生成世界模拟并实时交互，在社交媒体引发热议。

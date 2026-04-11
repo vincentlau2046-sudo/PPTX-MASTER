@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#ffffff"/>
+  <rect width="1280" height="8" fill="#1a365d"/>
+  <text x="60" y="70" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="36" font-weight="bold" fill="#1a365d">技能架构：技能定义</text>
+  <rect x="60" y="90" width="100" height="4" fill="#ed8936" rx="2"/>
+  <text x="60" y="140" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#1a365d">技能是 OpenClaw 的可扩展功能模块</text>
+  <!-- 技能结构图 -->
+  <g transform="translate(100, 180)">
+    <rect x="0" y="0" width="180" height="120" rx="12" fill="#3182ce"/>
+    <text x="90" y="55" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">SKILL.md</text>
+    <text x="90" y="85" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#bee3f8">技能描述、触发规则</text>
+    <text x="90" y="105" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#bee3f8">执行流程</text>
+  </g>
+  <g transform="translate(300, 180)">
+    <rect x="0" y="0" width="180" height="120" rx="12" fill="#38b2ac"/>
+    <text x="90" y="55" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">scripts/</text>
+    <text x="90" y="85" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#b2f5ea">执行脚本</text>
+    <text x="90" y="105" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#b2f5ea">Shell/Python/Node.js</text>
+  </g>
+  <g transform="translate(500, 180)">
+    <rect x="0" y="0" width="180" height="120" rx="12" fill="#ed8936"/>
+    <text x="90" y="55" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">references/</text>
+    <text x="90" y="85" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#feebc8">参考文档</text>
+    <text x="90" y="105" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#feebc8">和模板</text>
+  </g>
+  <g transform="translate(700, 180)">
+    <rect x="0" y="0" width="180" height="120" rx="12" fill="#805ad5"/>
+    <text x="90" y="55" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">templates/</text>
+    <text x="90" y="85" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#e9d8fd">模板库</text>
+    <text x="90" y="105" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#e9d8fd">布局/图表/图标</text>
+  </g>
+  <g transform="translate(900, 180)">
+    <rect x="0" y="0" width="180" height="120" rx="12" fill="#e53e3e"/>
+    <text x="90" y="55" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">output/</text>
+    <text x="90" y="85" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#fed7d7">技能输出目录</text>
+    <text x="90" y="105" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#fed7d7">（可选）</text>
+  </g>
+  <!-- 技能触发机制 -->
+  <g transform="translate(100, 340)">
+    <rect width="1080" height="300" rx="12" fill="#f7fafc" stroke="#e2e8f0" stroke-width="2"/>
+    <text x="30" y="45" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="22" font-weight="bold" fill="#1a365d">技能触发机制</text>
+    <text x="30" y="80" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" fill="#4a5568">SKILL.md 头部定义示例：</text>
+    <rect x="30" y="105" width="500" height="120" rx="8" fill="#1a365d"/>
+    <text x="45" y="135" font-family="monospace" font-size="14" fill="#a0aec0">---</text>
+    <text x="45" y="160" font-family="monospace" font-size="14" fill="#a0aec0">name: ppt-master</text>
+    <text x="45" y="185" font-family="monospace" font-size="14" fill="#a0aec0">description: ></text>
+    <text x="65" y="210" font-family="monospace" font-size="14" fill="#a0aec0">Use when user asks to "create PPT"...</text>
+    <text x="45" y="235" font-family="monospace" font-size="14" fill="#a0aec0">---</text>
+    <!-- 右侧说明 -->
+    <g transform="translate(560, 105)">
+      <text x="0" y="30" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#1a365d">触发关键词匹配：</text>
+      <circle cx="15" cy="70" r="8" fill="#3182ce"/>
+      <text x="35" y="75" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">精确匹配：技能名称、别名</text>
+      <circle cx="15" cy="105" r="8" fill="#38b2ac"/>
+      <text x="35" y="110" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">语义匹配：描述中的动词短语</text>
+      <circle cx="15" cy="140" r="8" fill="#ed8936"/>
+      <text x="35" y="145" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">上下文匹配：当前任务类型</text>
+    </g>
+  </g>
+  <text x="1240" y="700" text-anchor="end" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#a0aec0">11 / 38</text>
+</svg>

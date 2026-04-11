@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#0a1628"/>
+  <rect x="0" y="0" width="1280" height="720" fill="url(#bgDecor)"/>
+  
+  <defs>
+    <radialGradient id="bgDecor" cx="80%" cy="20%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Title -->
+  <text x="640" y="280" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="60" font-weight="bold" fill="url(#titleGradient)">国际形势日报</text>
+  
+  <!-- Date -->
+  <text x="640" y="360" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="32" fill="#e5e7eb">2026 年 4 月 8 日（周三）</text>
+  
+  <!-- Footer -->
+  <text x="640" y="650" text-anchor="middle" font-family="Arial" font-size="16" fill="#9ca3af">AI 自动生成 | 每日更新</text>
+</svg>

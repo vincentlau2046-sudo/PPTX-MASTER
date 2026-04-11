@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#ffffff"/>
+  <rect width="1280" height="8" fill="#1a365d"/>
+  <text x="60" y="70" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="36" font-weight="bold" fill="#1a365d">复盘与避坑指南</text>
+  <rect x="60" y="90" width="100" height="4" fill="#ed8936" rx="2"/>
+  <!-- 三个坑 -->
+  <g transform="translate(60, 140)">
+    <rect width="380" height="420" rx="12" fill="#fff5f5" stroke="#e53e3e" stroke-width="2"/>
+    <text x="30" y="45" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#e53e3e">坑 1：输出目录不一致</text>
+    <text x="30" y="80" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">问题：最初配置输出到 WORK/wechat_articles/，后来改为 wechat_articles/</text>
+    <text x="30" y="120" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">影响：Cron 任务读取路径错误，找不到输入文件</text>
+    <text x="30" y="170" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#1a365d">解决：</text>
+    <text x="30" y="200" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">统一修改所有 Cron 任务的输出路径配置</text>
+    <text x="30" y="250" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#dd6b20">教训：</text>
+    <text x="30" y="280" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">路径配置要集中管理，避免硬编码</text>
+  </g>
+  <g transform="translate(460, 140)">
+    <rect width="380" height="420" rx="12" fill="#fef3e2" stroke="#ed8936" stroke-width="2"/>
+    <text x="30" y="45" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#ed8936">坑 2：搜索超时</text>
+    <text x="30" y="80" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">问题：Tavily 搜索 7 个主题，偶尔超时</text>
+    <text x="30" y="120" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">影响：任务失败，无输出</text>
+    <text x="30" y="170" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#1a365d">解决：</text>
+    <text x="30" y="200" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">增加 timeout 到 1800 秒</text>
+    <text x="30" y="230" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">搜索并行化（同时发起 7 个搜索请求）</text>
+    <text x="30" y="280" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#dd6b20">教训：</text>
+    <text x="30" y="310" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">外部 API 调用要设置合理的超时和重试</text>
+  </g>
+  <g transform="translate(860, 140)">
+    <rect width="380" height="420" rx="12" fill="#faf5ff" stroke="#805ad5" stroke-width="2"/>
+    <text x="30" y="45" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#805ad5">坑 3：飞书推送失败</text>
+    <text x="30" y="80" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">问题：某些时段飞书 API 返回 401 错误</text>
+    <text x="30" y="120" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">影响：任务成功但用户未收到通知</text>
+    <text x="30" y="170" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#1a365d">解决：</text>
+    <text x="30" y="200" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">检查飞书 token 有效期</text>
+    <text x="30" y="230" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">添加失败重试逻辑</text>
+    <text x="30" y="280" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#dd6b20">教训：</text>
+    <text x="30" y="310" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#4a5568">推送失败要有降级方案（如邮件备用）</text>
+  </g>
+  <text x="1240" y="700" text-anchor="end" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#a0aec0">23 / 38</text>
+</svg>

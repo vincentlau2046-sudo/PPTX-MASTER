@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+    <rect width="1280" height="720" fill="#F8F9FA"/>
+    <text x="60" y="70" font-family="Arial Black" font-size="32" fill="#333333">数据基准与财年周期</text>
+    <rect x="60" y="80" width="200" height="4" fill="#2932E1"/>
+    <rect x="60" y="130" width="540" height="200" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="90" y="170" font-family="Arial Black" font-size="18" fill="#2932E1">📊 数据基准</text>
+    <text x="90" y="210" font-family="Arial" font-size="14" fill="#555555">• 百度集团 2026 年 2 月 26 日发布</text>
+    <text x="90" y="235" font-family="Arial" font-size="14" fill="#555555">• 2025 年 Q4 及全年财报</text>
+    <text x="90" y="260" font-family="Arial" font-size="14" fill="#555555">• 电话会官方披露内容</text>
+    <text x="90" y="285" font-family="Arial" font-size="14" fill="#555555">• 官方投资者关系材料</text>
+    <rect x="680" y="130" width="540" height="200" rx="12" fill="#FFFFFF" filter="url(#shadow)"/>
+    <text x="710" y="170" font-family="Arial Black" font-size="18" fill="#2932E1">📅 财年周期</text>
+    <text x="710" y="220" font-family="Arial" font-size="16" fill="#555555">2025 年 1 月 1 日 → 2025 年 12 月 31 日</text>
+    <rect x="710" y="240" width="480" height="60" rx="8" fill="#F5F5F5"/>
+    <text x="950" y="275" font-family="Arial" font-size="14" fill="#666666" text-anchor="middle">百度采用自然年财年</text>
+    <text x="60" y="680" font-family="Arial" font-size="12" fill="#999999">百度智能云 2025 年财报分析 | 2 / 14</text>
+</svg>

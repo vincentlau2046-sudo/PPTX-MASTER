@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+    <defs>
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#F8F9FA;stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#76B900;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#5FA000;stop-opacity:1" />
+        </linearGradient>
+        <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+            <feOffset dx="0" dy="2" result="offsetblur"/>
+            <feComponentTransfer>
+                <feFuncA type="linear" slope="0.15"/>
+            </feComponentTransfer>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    
+    <!-- 背景 -->
+    <rect width="1280" height="720" fill="url(#bgGradient)"/>
+
+    <!-- 标题 -->
+    <text x="60" y="80" font-family="Arial Black, Microsoft YaHei" font-size="32" font-weight="bold" fill="#1A1A1A">
+        核心财务指标概览
+    </text>
+    <rect x="60" y="95" width="120" height="4" rx="2" fill="#76B900"/>
+    
+    <!-- 表格标题 -->
+    <rect x="60" y="130" width="1160" height="40" fill="#76B900" opacity="0.1"/>
+    <text x="100" y="155" font-family="Arial, Microsoft YaHei" font-size="14" font-weight="bold" fill="#333333">指标</text>
+    <text x="300" y="155" font-family="Arial, Microsoft YaHei" font-size="14" font-weight="bold" fill="#333333">2026 财年</text>
+    <text x="500" y="155" font-family="Arial, Microsoft YaHei" font-size="14" font-weight="bold" fill="#333333">2025 财年</text>
+    <text x="700" y="155" font-family="Arial, Microsoft YaHei" font-size="14" font-weight="bold" fill="#333333">同比变化</text>
+    <text x="900" y="155" font-family="Arial, Microsoft YaHei" font-size="14" font-weight="bold" fill="#333333">关键解读</text>
+    
+    <!-- 表格行 1 -->
+    <rect x="60" y="170" width="1160" height="35" fill="#FFFFFF" stroke="#E8EAED" stroke-width="1"/>
+    <text x="100" y="192" font-family="Arial, Microsoft YaHei" font-size="13" fill="#333333">总营收</text>
+    <text x="300" y="192" font-family="Arial Bold, Microsoft YaHei" font-size="14" font-weight="bold" fill="#76B900">2159.38 亿</text>
+    <text x="500" y="192" font-family="Arial, Microsoft YaHei" font-size="13" fill="#666666">1304.97 亿</text>
+    <text x="700" y="192" font-family="Arial, Microsoft YaHei" font-size="13" fill="#5FA000">+65.5%</text>
+    <text x="900" y="192" font-family="Arial, Microsoft YaHei" font-size="12" fill="#666666">连续两年高增长，规模突破 2000 亿</text>
+    
+    <!-- 表格行 2 -->
+    <rect x="60" y="205" width="1160" height="35" fill="#F8F9FA" stroke="#E8EAED" stroke-width="1"/>
+    <text x="100" y="227" font-family="Arial, Microsoft YaHei" font-size="13" fill="#333333">GAAP 净利润</text>
+    <text x="300" y="227" font-family="Arial Bold, Microsoft YaHei" font-size="14" font-weight="bold" fill="#76B900">1200.67 亿</text>
+    <text x="500" y="227" font-family="Arial, Microsoft YaHei" font-size="13" fill="#666666">728.80 亿</text>
+    <text x="700" y="227" font-family="Arial, Microsoft YaHei" font-size="13" fill="#5FA000">+64.8%</text>
+    <text x="900" y="227" font-family="Arial, Microsoft YaHei" font-size="12" fill="#666666">盈利规模翻倍，日均净赚 3.28 亿</text>
+    
+    <!-- 表格行 3 -->
+    <rect x="60" y="240" width="1160" height="35" fill="#FFFFFF" stroke="#E8EAED" stroke-width="1"/>
+    <text x="100" y="262" font-family="Arial, Microsoft YaHei" font-size="13" fill="#333333">GAAP 毛利率</text>
+    <text x="300" y="262" font-family="Arial Bold, Microsoft YaHei" font-size="14" font-weight="bold" fill="#76B900">71.1%</text>
+    <text x="500" y="262" font-family="Arial, Microsoft YaHei" font-size="13" fill="#666666">69.7%</text>
+    <text x="700" y="262" font-family="Arial, Microsoft YaHei" font-size="13" fill="#5FA000">+1.4pct</text>
+    <text x="900" y="262" font-family="Arial, Microsoft YaHei" font-size="12" fill="#666666">高端产品占比提升，规模效应强化</text>
+    
+    <!-- 表格行 4 -->
+    <rect x="60" y="275" width="1160" height="35" fill="#F8F9FA" stroke="#E8EAED" stroke-width="1"/>
+    <text x="100" y="297" font-family="Arial, Microsoft YaHei" font-size="13" fill="#333333">经营现金流</text>
+    <text x="300" y="297" font-family="Arial Bold, Microsoft YaHei" font-size="14" font-weight="bold" fill="#76B900">1027.18 亿</text>
+    <text x="500" y="297" font-family="Arial, Microsoft YaHei" font-size="13" fill="#666666">640.89 亿</text>
+    <text x="700" y="297" font-family="Arial, Microsoft YaHei" font-size="13" fill="#5FA000">+60.3%</text>
+    <text x="900" y="297" font-family="Arial, Microsoft YaHei" font-size="12" fill="#666666">现金流充沛，支撑研发与股东回报</text>
+    
+    <!-- 表格行 5 -->
+    <rect x="60" y="310" width="1160" height="35" fill="#FFFFFF" stroke="#E8EAED" stroke-width="1"/>
+    <text x="100" y="332" font-family="Arial, Microsoft YaHei" font-size="13" fill="#333333">每股收益</text>
+    <text x="300" y="332" font-family="Arial Bold, Microsoft YaHei" font-size="14" font-weight="bold" fill="#76B900">4.93 美元</text>
+    <text x="500" y="332" font-family="Arial, Microsoft YaHei" font-size="13" fill="#666666">2.97 美元</text>
+    <text x="700" y="332" font-family="Arial, Microsoft YaHei" font-size="13" fill="#5FA000">+66.0%</text>
+    <text x="900" y="332" font-family="Arial, Microsoft YaHei" font-size="12" fill="#666666">股东回报显著，业绩兑现度高</text>
+    
+    <!-- 表格行 6 -->
+    <rect x="60" y="345" width="1160" height="35" fill="#F8F9FA" stroke="#E8EAED" stroke-width="1"/>
+    <text x="100" y="367" font-family="Arial, Microsoft YaHei" font-size="13" fill="#333333">资产负债率</text>
+    <text x="300" y="367" font-family="Arial Bold, Microsoft YaHei" font-size="14" font-weight="bold" fill="#76B900">23.9%</text>
+    <text x="500" y="367" font-family="Arial, Microsoft YaHei" font-size="13" fill="#666666">28.9%</text>
+    <text x="700" y="367" font-family="Arial, Microsoft YaHei" font-size="13" fill="#5FA000">-5.0pct</text>
+    <text x="900" y="367" font-family="Arial, Microsoft YaHei" font-size="12" fill="#666666">财务结构稳健，抗风险能力极强</text>
+
+    <!-- 页脚 -->
+    <rect x="0" y="680" width="1280" height="40" fill="#F0F0F0" opacity="0.5"/>
+    <text x="60" y="705" font-family="Arial, Microsoft YaHei" font-size="12" fill="#999999">
+        英伟达 2026 财年财报深度分析
+    </text>
+    <text x="1220" y="705" font-family="Arial, Microsoft YaHei" font-size="12" fill="#999999" text-anchor="end">
+        2 / 14
+    </text>
+    
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a365d"/>
+      <stop offset="100%" style="stop-color:#2c5282"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ed8936"/>
+      <stop offset="100%" style="stop-color:#f6ad55"/>
+    </linearGradient>
+  </defs>
+  <!-- 背景 -->
+  <rect width="1280" height="720" fill="url(#bgGrad)"/>
+  <!-- 装饰线条 -->
+  <line x1="0" y1="0" x2="400" y2="720" stroke="#3182ce" stroke-width="2" opacity="0.3"/>
+  <line x1="880" y1="0" x2="1280" y2="720" stroke="#3182ce" stroke-width="2" opacity="0.3"/>
+  <!-- 主标题 -->
+  <text x="640" y="280" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="56" font-weight="bold" fill="#ffffff">OpenClaw 内部培训</text>
+  <!-- 副标题 -->
+  <text x="640" y="350" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="28" fill="#a0aec0">掌握核心架构与开发实践</text>
+  <!-- 橙色装饰线 -->
+  <rect x="440" y="380" width="400" height="4" fill="url(#accentGrad)" rx="2"/>
+  <!-- 培训信息 -->
+  <text x="640" y="450" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="22" fill="#e2e8f0">培训日期：2026年4月9日</text>
+  <text x="640" y="490" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="22" fill="#e2e8f0">培训对象：部门内部技术团队</text>
+  <!-- 底部标签 -->
+  <rect x="0" y="640" width="1280" height="80" fill="#0f2942" opacity="0.8"/>
+  <text x="640" y="685" text-anchor="middle" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" fill="#718096">AI Agent 操作系统 | 技能系统 | Multi-Agent 协同</text>
+</svg>

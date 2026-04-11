@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#ffffff"/>
+  <rect width="1280" height="8" fill="#1a365d"/>
+  <text x="60" y="70" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="36" font-weight="bold" fill="#1a365d">Multi-Agent 核心概念</text>
+  <rect x="60" y="90" width="100" height="4" fill="#ed8936" rx="2"/>
+  <g transform="translate(100, 150)">
+    <rect width="1080" height="480" rx="12" fill="#f7fafc" stroke="#e2e8f0" stroke-width="2"/>
+    <g transform="translate(30, 30)">
+      <rect x="0" y="0" width="320" height="80" rx="8" fill="#ebf8ff" stroke="#3182ce"/>
+      <text x="30" y="35" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#1a365d">主 Agent</text>
+      <text x="30" y="60" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#4a5568">任务协调者，负责路由和汇总</text>
+    </g>
+    <g transform="translate(380, 30)">
+      <rect x="0" y="0" width="320" height="80" rx="8" fill="#e6fffa" stroke="#38b2ac"/>
+      <text x="30" y="35" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#1a365d">子 Agent</text>
+      <text x="30" y="60" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#4a5568">任务执行者，专注特定领域</text>
+    </g>
+    <g transform="translate(730, 30)">
+      <rect x="0" y="0" width="320" height="80" rx="8" fill="#fef3e2" stroke="#ed8936"/>
+      <text x="30" y="35" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#1a365d">任务路由</text>
+      <text x="30" y="60" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#4a5568">根据关键词匹配任务类型</text>
+    </g>
+    <g transform="translate(30, 130)">
+      <rect x="0" y="0" width="320" height="80" rx="8" fill="#faf5ff" stroke="#805ad5"/>
+      <text x="30" y="35" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#1a365d">会话隔离</text>
+      <text x="30" y="60" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#4a5568">每个 Agent 有独立工作空间</text>
+    </g>
+    <g transform="translate(380, 130)">
+      <rect x="0" y="0" width="320" height="80" rx="8" fill="#fff5f5" stroke="#e53e3e"/>
+      <text x="30" y="35" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#1a365d">状态跟踪</text>
+      <text x="30" y="60" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#4a5568">通过共享文件同步状态</text>
+    </g>
+    <g transform="translate(730, 130)">
+      <rect x="0" y="0" width="320" height="80" rx="8" fill="#f7fafc" stroke="#dd6b20"/>
+      <text x="30" y="35" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="16" font-weight="bold" fill="#1a365d">结果汇总</text>
+      <text x="30" y="60" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="13" fill="#4a5568">主 Agent 收集并整合输出</text>
+    </g>
+    <!-- 任务路由规则 -->
+    <text x="30" y="250" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#1a365d">任务路由规则（task_routing_rules.yaml）</text>
+    <rect x="30" y="280" width="1020" height="140" rx="8" fill="#1a365d"/>
+    <text x="50" y="315" font-family="monospace" font-size="13" fill="#a0aec0">task_classification:</text>
+    <text x="70" y="345" font-family="monospace" font-size="13" fill="#38b2ac">- type: complex_research</text>
+    <text x="90" y="370" font-family="monospace" font-size="13" fill="#a0aec0">keywords: ["深度研究", "综合分析", "战略报告"]</text>
+    <text x="90" y="395" font-family="monospace" font-size="13" fill="#a0aec0">primary_agent: tech_analyst</text>
+    <text x="90" y="420" font-family="monospace" font-size="13" fill="#a0aec0">secondary_agents: [ai_intel, official_operate]</text>
+  </g>
+  <text x="1240" y="700" text-anchor="end" font-family="Source Han Sans CN, Microsoft YaHei, sans-serif" font-size="14" fill="#a0aec0">29 / 38</text>
+</svg>

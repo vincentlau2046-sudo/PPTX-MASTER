@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#ffffff"/>
+  <rect x="0" y="0" width="1280" height="8" fill="#1a365d"/>
+  <text x="60" y="60" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#718096">国际形势日报 | 2026-04-09</text>
+  <text x="60" y="100" font-family="Noto Sans CJK SC, sans-serif" font-size="32" font-weight="bold" fill="#1a365d">区域要闻</text>
+  <rect x="60" y="115" width="100" height="4" fill="#ed8936" rx="2"/>
+  <!-- 亚太 -->
+  <rect x="60" y="150" width="360" height="230" rx="8" fill="#f7fafc" stroke="#e2e8f0"/>
+  <text x="80" y="180" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="bold" fill="#1a365d">📍 亚太</text>
+  <text x="80" y="210" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#2d3748">• 中美关系：特朗普计划访华</text>
+  <text x="80" y="230" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#2d3748">• 台海：美军售转向"不对称防御"</text>
+  <text x="80" y="250" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#2d3748">• 朝鲜：战略忍耐时代终结</text>
+  <text x="80" y="270" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#2d3748">• 南海：首次无人集群跨域演习</text>
+  <text x="80" y="300" font-family="Noto Sans CJK SC, sans-serif" font-size="12" fill="#718096">风险：🟡 🟡 🟡 🟡</text>
+  <!-- 欧洲 -->
+  <rect x="440" y="150" width="360" height="230" rx="8" fill="#f7fafc" stroke="#e2e8f0"/>
+  <text x="460" y="180" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="bold" fill="#1a365d">📍 欧洲</text>
+  <text x="460" y="210" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#2d3748">• 匈牙利大选：4月12日国会选举</text>
+  <text x="460" y="230" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#2d3748">• 欧盟能源危机：价格飙升</text>
+  <text x="460" y="250" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#2d3748">• 极右翼：勒庞、维尔德斯聚会</text>
+  <text x="460" y="280" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#2d3748">• 欧盟与澳大利亚达成贸易协定</text>
+  <text x="460" y="310" font-family="Noto Sans CJK SC, sans-serif" font-size="12" fill="#718096">风险：🟡 🟡 🟡 🟢</text>
+  <!-- 中东/美洲 -->
+  <rect x="820" y="150" width="400" height="230" rx="8" fill="#f7fafc" stroke="#e2e8f0"/>
+  <text x="840" y="180" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="bold" fill="#1a365d">📍 中东 · 美洲</text>
+  <text x="840" y="210" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#2d3748">• 伊朗局势：美伊停火谈判进行中</text>
+  <text x="840" y="230" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#2d3748">• 美国政治：特朗普威胁打击伊朗</text>
+  <text x="840" y="250" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#2d3748">• 拉美：美对委内瑞拉矿产设限</text>
+  <text x="840" y="280" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#2d3748">• OPEC+同意每日增产20.6万桶</text>
+  <text x="840" y="310" font-family="Noto Sans CJK SC, sans-serif" font-size="12" fill="#718096">风险：🟡 🟡 🔴 🟡</text>
+  <!-- 底部说明 -->
+  <rect x="60" y="420" width="1160" height="1" fill="#e2e8f0"/>
+  <text x="60" y="450" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="bold" fill="#1a365d">重点关注</text>
+  <text x="60" y="480" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">• 4月12日匈牙利国会选举结果</text>
+  <text x="60" y="510" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">• 美伊停火协议进展</text>
+  <text x="60" y="540" font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#2d3748">• 日本修改"防卫装备转移三原则"</text>
+  <!-- 图例 -->
+  <text x="1000" y="620" font-family="Noto Sans CJK SC, sans-serif" font-size="14" fill="#718096">🔴 高风险  🟡 中风险  🟢 低风险</text>
+</svg>
