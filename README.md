@@ -4,6 +4,34 @@ AI-driven multi-format SVG content generation system for professional presentati
 
 ## Version History
 
+### v1.2.0 (2026-04-18) - Content Review & Auto-Repair
+
+**Added:**
+- **SVG Content Checker** (`scripts/svg_content_checker.py`)
+  - Blank page detection (text elements < 2 AND file size < 500 bytes)
+  - Content density scoring (0-100%)
+  - Design consistency checking (colors, fonts)
+  - Structure completeness evaluation
+- **SVG Repair Coordinator** (`scripts/svg_repair_coordinator.py`)
+  - Automatic repair workflow
+  - Regeneration prompt generation for blank pages
+  - Fallback to placeholder pages when repair fails
+- **Step 6.5** in workflow: Content Review & Auto-Repair
+  - Automatic check after SVG generation
+  - Non-blocking: warnings allow continuation
+  - Blocking: blank pages trigger repair workflow
+
+**Changed:**
+- `SKILL.md`: Added Step 6.5 between SVG generation and post-processing
+- Tool list: Added svg_content_checker.py and svg_repair_coordinator.py
+
+**Use Case:**
+- Automatically detect blank pages before PPTX export
+- Generate repair prompts for manual regeneration
+- Ensure presentation quality before delivery
+
+---
+
 ### v1.1.1 (2026-04-11) - Huawei Template Integration
 
 **Added:**

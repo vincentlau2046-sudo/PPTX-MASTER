@@ -1,4 +1,4 @@
-# Page Layout Template Library (21 Templates)
+# Page Layout Template Library (22 Templates)
 
 Pre-built PPT page layout templates supporting multiple styles and use cases.
 
@@ -25,6 +25,7 @@ Pre-built PPT page layout templates supporting multiple styles and use cases.
 | `华为技术` | Brand | Enterprise reports, solution showcases, annual reports, B2B communication | Huawei Red `#E60012` | Minimalist tech, professional & rigorous, global business style |
 | `exhibit` | General | Exhibit-driven strategic reports, executive presentations, board briefings | Gradient top bar + Gold accents | Conclusion-first, data-driven, confidential |
 | `academic_defense` | Scenario | Thesis defense, academic reports, grant proposals | Deep Blue + Red accents | Clear hierarchy, academic standards |
+| `red_grey` | Scenario | Thesis defense, academic reports, research presentations | Academic Red `#D9001B` + Light Gray | Modern minimalist, professional rigorous |
 | `psychology_attachment` | Scenario | Psychotherapy training, counseling lectures | Blue-green gradient + Colorful semantic colors | Warm professional, therapeutic feel |
 | `medical_university` | Scenario | Medical reports, case discussions, research presentations | Medical Blue `#0066B3` | Professional rigorous, life-affirming |
 | `government_red` | Government/Enterprise | Government work reports, party-building presentations | Government Red `#8B0000` | Solemn authority, grand and imposing |
@@ -73,6 +74,7 @@ Designed for **specific use cases**, with content structures tailored to scenari
 | Template | Description |
 |----------|-------------|
 | `academic_defense` | Academic defense, clear research content hierarchy |
+| `red_grey` | Academic template with minimalist design, academic red accents, suitable for thesis defense and research presentations |
 | `psychology_attachment` | Psychotherapy theme, warm and professional color palette |
 | `medical_university` | Hospital / medical university template, suitable for medical reports |
 | `重庆大学` | Chongqing University template, blending mountain-city layered imagery with modern academic style |

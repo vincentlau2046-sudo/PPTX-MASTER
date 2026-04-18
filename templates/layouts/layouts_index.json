@@ -1,6 +1,6 @@
 {
   "meta": {
-    "total": 21,
+    "total": 22,
     "defaultViewBox": "0 0 1280 720",
     "formats": [
       "ppt169"
@@ -50,6 +50,7 @@
       "label": "Scenario-Specific Templates",
       "layouts": [
         "academic_defense",
+        "red_grey",
         "psychology_attachment",
         "medical_university",
         "重庆大学"
@@ -89,6 +90,7 @@
       "anthropic",
       "google_style",
       "smart_red",
+      "red_grey",
       "ai_ops",
       "华为技术"
     ],
@@ -99,6 +101,7 @@
     ],
     "academic": [
       "academic_defense",
+      "red_grey",
       "重庆大学"
     ],
     "medical": [
@@ -424,6 +427,19 @@
         "Solution showcase",
         "B2B",
         "Tech business"
+      ]
+    },
+    "red_grey": {
+      "label": "Red Grey Academic Template",
+      "summary": "A modern academic template for thesis defenses, academic reports, and research presentations with minimalist design",
+      "tone": "Professional, rigorous, academic, clear hierarchy, modern minimalist",
+      "themeMode": "Light theme (light gray background + academic red accents)",
+      "keywords": [
+        "Academic",
+        "Defense",
+        "Thesis",
+        "Research",
+        "Professional"
       ]
     }
   }

@@ -52,6 +52,8 @@ description: >
 | `${SKILL_DIR}/scripts/analyze_images.py` | Image analysis |
 | `${SKILL_DIR}/scripts/image_gen.py` | AI image generation (multi-provider) |
 | `${SKILL_DIR}/scripts/svg_quality_checker.py` | SVG quality check |
+| `${SKILL_DIR}/scripts/svg_content_checker.py` | SVG content completeness check (blank page detection) |
+| `${SKILL_DIR}/scripts/svg_repair_coordinator.py` | SVG auto-repair coordinator |
 | `${SKILL_DIR}/scripts/total_md_split.py` | Speaker notes splitting |
 | `${SKILL_DIR}/scripts/finalize_svg.py` | SVG post-processing (unified entry) |
 | `${SKILL_DIR}/scripts/svg_to_pptx.py` | Export to PPTX |
@@ -247,11 +249,54 @@ Read references/executor-consultant-top.md # Top consulting style (MBB level)
 **Logic Construction Phase**:
 - Generate speaker notes → `<project_path>/notes/total.md`
 
-**✅ Checkpoint — Confirm all SVGs and notes are fully generated. Proceed directly to Step 7 post-processing**:
+**✅ Checkpoint — Confirm all SVGs and notes are fully generated. Proceed directly to Step 6.5 for content review**:
 ```markdown
 ## ✅ Executor Phase Complete
 - [x] All SVGs generated to svg_output/
 - [x] Speaker notes generated at notes/total.md
+```
+
+---
+
+### Step 6.5: Content Review & Auto-Repair (Automated)
+
+🚧 **GATE**: Step 6 complete; all SVGs generated to `svg_output/`.
+
+⛔ **BLOCKING**: This step runs automatically. If blank pages are detected, they will be flagged for repair.
+
+**Automated content review**:
+```bash
+python3 ${SKILL_DIR}/scripts/svg_content_checker.py <project_path>
+```
+
+**Check results**:
+- ✅ All pages pass → Auto-proceed to Step 7.1
+- ⚠️ Warnings only (color/design) → Auto-proceed to Step 7.1 with warnings logged
+- ❌ Blank pages detected → Run auto-repair:
+  ```bash
+  python3 ${SKILL_DIR}/scripts/svg_repair_coordinator.py <project_path>
+  ```
+
+**Auto-repair workflow**:
+1. Identify blank/low-content pages
+2. Attempt to regenerate (if context available)
+3. Apply fallback strategy (placeholder) if regeneration fails
+4. Re-check to verify all pages have content
+
+**What is checked**:
+| Check Type | Criteria | Status |
+|------------|----------|--------|
+| Blank page detection | `<text>` elements < 2 AND file < 500 bytes | ❌ Error |
+| Content density | < 30% of viewBox has content | ⚠️ Warning |
+| Structure completeness | Missing title/body/visuals | ⚠️ Warning |
+| Design consistency | Colors/fonts deviate from spec | ⚠️ Warning |
+
+**✅ Checkpoint — Content review passed (or issues resolved). Proceed to Step 7.1**:
+```markdown
+## ✅ Content Review Complete
+- [x] Content check: X/X pages passed
+- [x] Blank pages: 0
+- [x] Issues resolved (if any)
 ```
 
 ---
