@@ -160,6 +160,20 @@ class SVGContentChecker:
     
     def _check_content_elements(self, content: str, result: Dict):
         """Check for presence of content elements"""
+        
+        # XML parsing validation (CRITICAL)
+        try:
+            import xml.etree.ElementTree as ET
+            ET.fromstring(content)
+        except ET.ParseError as e:
+            result['errors'].append(f'XML语法错误: {str(e)[:100]}')
+            result['passed'] = False
+            return  # Stop further checks if XML is invalid
+        except Exception as e:
+            result['errors'].append(f'XML解析失败: {str(e)[:100]}')
+            result['passed'] = False
+            return
+        
         # Count text elements
         text_count = content.count('<text')
         tspan_count = content.count('<tspan')

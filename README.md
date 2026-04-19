@@ -4,6 +4,25 @@ AI-driven multi-format SVG content generation system for professional presentati
 
 ## Version History
 
+### v1.2.1 (2026-04-19) - XML Validation Enhancement
+
+**Fixed:**
+- **SVG Content Checker** now validates XML syntax before content analysis
+- Detects mismatched tags (e.g., `<tspan>...</text>`)
+- Catches malformed SVG that would cause rendering failures
+
+**Technical Details:**
+- Added `xml.etree.ElementTree.fromstring()` validation in `_check_content_elements()`
+- XML parse errors now block the workflow with clear error messages
+- Prevents false-positive "passes" on malformed SVG files
+
+**Issue Resolved:**
+- Page 7 of AI Weekly Report PPT was blank due to XML tag mismatch
+- Root cause: `<tspan>` closed with `</text>` instead of `</tspan>`
+- Old checker missed it because it only counted string occurrences
+
+---
+
 ### v1.2.0 (2026-04-18) - Content Review & Auto-Repair
 
 **Added:**
