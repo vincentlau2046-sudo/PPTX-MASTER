@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1A2E"/>
+      <stop offset="100%" style="stop-color:#0F0F1A"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1565C0"/>
+      <stop offset="100%" style="stop-color:#00BFA5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bgGrad)"/>
+  <text x="640" y="280" font-family="Microsoft YaHei, Arial" font-size="54" font-weight="bold" fill="#FFFFFF" text-anchor="middle">AI 全球情报日报</text>
+  <text x="640" y="340" font-family="Microsoft YaHei, Arial" font-size="26" fill="#FFFFFF" fill-opacity="0.85" text-anchor="middle">2026-04-11 | 第 109 期 | 零壹情报</text>
+  <rect x="540" y="380" width="200" height="3" fill="url(#accentGrad)" rx="1.5"/>
+</svg>

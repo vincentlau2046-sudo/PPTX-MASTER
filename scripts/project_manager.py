@@ -355,13 +355,6 @@ class ProjectManager:
         source_items: list[str],
         move: bool = False,
     ) -> dict[str, list[str]]:
-        """Import source files into project.
-
-        Args:
-            project_path: Path to project directory
-            source_items: List of source file paths or URLs
-            move: If True, move files (default: False = copy, preserve originals)
-        """
         project_dir = Path(project_path)
         if not project_dir.exists() or not project_dir.is_dir():
             raise FileNotFoundError(f"Project directory not found: {project_dir}")
@@ -409,8 +402,7 @@ class ProjectManager:
                 summary["skipped"].append(f"{item}: directories are not supported")
                 continue
 
-            # Default to copy (preserve original files); --move flag forces move
-            effective_move = move
+            effective_move = move or is_within_path(source_path, REPO_ROOT)
             suffix = source_path.suffix.lower()
 
             if suffix in {".md", ".markdown"}:

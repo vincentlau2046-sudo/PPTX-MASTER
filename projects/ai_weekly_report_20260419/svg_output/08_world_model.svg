@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <!-- 技术突破：世界模型 -->
+  
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect y="0" width="1280" height="8" fill="#005587"/>
+  <rect x="0" y="0" width="8" height="720" fill="#005587"/>
+  
+  <!-- Title -->
+  <text x="80" y="60" font-family="Arial" font-size="32" font-weight="bold" fill="#005587">
+    <tspan>技术突破：世界模型成为 AGI 共识方向</tspan>
+  </text>
+  <rect x="80" y="75" width="60" height="4" fill="#E74C3C"/>
+  
+  <!-- Core Concept -->
+  <rect x="80" y="100" width="1120" height="140" rx="8" fill="#E8F4F8" stroke="#005587" stroke-width="2"/>
+  <text x="100" y="130" font-family="Arial" font-size="20" fill="#005587" font-weight="bold">
+    <tspan>智源研究院定义：训练范式升级</tspan>
+  </text>
+  <text x="100" y="165" font-family="Arial" font-size="18" fill="#2C3E50">
+    <tspan>从"Next-Token Prediction"（预测下一个词）</tspan>
+  </text>
+  <text x="100" y="200" font-family="Arial" font-size="18" fill="#E74C3C" font-weight="bold">
+    <tspan>→ 转向"Next-State Prediction"（预测下一状态）</tspan>
+  </text>
+  <text x="100" y="225" font-family="Arial" font-size="14" fill="#5D6D7E">
+    <tspan>AI 不再只会"码字作图"，而是能理解物理规律、时空关系</tspan>
+  </text>
+  
+  <!-- Tencent vs Alibaba -->
+  <rect x="80" y="260" width="540" height="180" rx="8" fill="#F8F9FA" stroke="#DEE2E6" stroke-width="1"/>
+  <rect x="80" y="260" width="8" height="180" fill="#005587"/>
+  <text x="100" y="290" font-family="Arial" font-size="18" fill="#005587" font-weight="bold">
+    <tspan>腾讯混元 3D 世界模型 2.0</tspan>
+  </text>
+  <g font-family="Arial" font-size="13" fill="#5D6D7E">
+    <text x="100" y="320">• 直接生成可二次编辑的 3D 资产</text>
+    <text x="100" y="345">• 支持格式：Mesh、3DGS、点云</text>
+    <text x="100" y="370">• 应用：游戏、影视、机器人</text>
+  </g>
+  <rect x="100" y="395" width="80" height="26" rx="4" fill="#005587"/>
+  <text x="140" y="415" text-anchor="middle" font-family="Arial" font-size="11" fill="#FFFFFF">同日发布</text>
+  
+  <rect x="660" y="260" width="540" height="180" rx="8" fill="#F8F9FA" stroke="#DEE2E6" stroke-width="1"/>
+  <rect x="660" y="260" width="8" height="180" fill="#E74C3C"/>
+  <text x="680" y="290" font-family="Arial" font-size="18" fill="#E74C3C" font-weight="bold">
+    <tspan>阿里 Happy Oyster 世界模型</tspan>
+  </text>
+  <g font-family="Arial" font-size="13" fill="#5D6D7E">
+    <text x="680" y="320">• 基于原生多模态架构</text>
+    <text x="680" y="345">• 支持多模态理解与音视频联合生成</text>
+    <text x="680" y="370">• 应用：具身智能、自动驾驶</text>
+  </g>
+  <rect x="680" y="395" width="80" height="26" rx="4" fill="#E74C3C"/>
+  <text x="720" y="415" text-anchor="middle" font-family="Arial" font-size="11" fill="#FFFFFF">同日发布</text>
+  
+  <!-- Business Impact -->
+  <rect x="80" y="460" width="1120" height="140" rx="8" fill="#FFF9E6" stroke="#E74C3C" stroke-width="1"/>
+  <text x="100" y="490" font-family="Arial" font-size="16" fill="#E74C3C" font-weight="bold">
+    <tspan>🎯 商业影响</tspan>
+  </text>
+  <g font-family="Arial" font-size="14" fill="#2C3E50">
+    <text x="100" y="520">• 市场规模：世界模型相关投资 2026 年有望突破百亿美元</text>
+    <text x="100" y="550">• 竞争格局：从"模型参数"转向"物理理解能力"</text>
+    <text x="100" y="580">• 时间窗口：2026-2027 是关键落地期</text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="1200" y="680" text-anchor="end" font-family="Arial" font-size="14" fill="#7F8C8D">
+    <tspan>8/15</tspan>
+  </text>
+</svg>

@@ -1,0 +1,118 @@
+{
+  "createdAt": "2026-04-11T06:03:19.958Z",
+  "inputFiles": 19,
+  "classifiedFiles": {
+    "ppt": [
+      {
+        "original": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/nvidia_2026_financial_ppt169_20260410/nvidia_2026_financial_20260410_163545.pptx",
+        "copied": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/ppt/nvidia_2026_financial_20260410_163545.pptx",
+        "name": "nvidia_2026_financial_20260410_163545.pptx"
+      },
+      {
+        "original": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/nvidia_2026_financial_ppt169_20260410/nvidia_2026_financial_20260410_163545_svg.pptx",
+        "copied": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/ppt/nvidia_2026_financial_20260410_163545_svg.pptx",
+        "name": "nvidia_2026_financial_20260410_163545_svg.pptx"
+      }
+    ],
+    "readme": [
+      {
+        "original": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/nvidia_2026_financial_ppt169_20260410/README.md",
+        "copied": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/readme/README.md",
+        "name": "README.md"
+      }
+    ],
+    "script": [
+      {
+        "original": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/nvidia_2026_financial_ppt169_20260410/notes_export/page_01_notes.md",
+        "copied": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/other/page_01_notes.md",
+        "name": "page_01_notes.md"
+      },
+      {
+        "original": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/nvidia_2026_financial_ppt169_20260410/notes_export/page_02_notes.md",
+        "copied": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/other/page_02_notes.md",
+        "name": "page_02_notes.md"
+      },
+      {
+        "original": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/nvidia_2026_financial_ppt169_20260410/notes_export/page_03_notes.md",
+        "copied": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/other/page_03_notes.md",
+        "name": "page_03_notes.md"
+      },
+      {
+        "original": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/nvidia_2026_financial_ppt169_20260410/notes_export/page_04_notes.md",
+        "copied": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/other/page_04_notes.md",
+        "name": "page_04_notes.md"
+      },
+      {
+        "original": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/nvidia_2026_financial_ppt169_20260410/notes_export/page_05_notes.md",
+        "copied": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/other/page_05_notes.md",
+        "name": "page_05_notes.md"
+      },
+      {
+        "original": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/nvidia_2026_financial_ppt169_20260410/notes_export/page_06_notes.md",
+        "copied": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/other/page_06_notes.md",
+        "name": "page_06_notes.md"
+      },
+      {
+        "original": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/nvidia_2026_financial_ppt169_20260410/notes_export/page_07_notes.md",
+        "copied": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/other/page_07_notes.md",
+        "name": "page_07_notes.md"
+      },
+      {
+        "original": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/nvidia_2026_financial_ppt169_20260410/notes_export/page_08_notes.md",
+        "copied": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/other/page_08_notes.md",
+        "name": "page_08_notes.md"
+      },
+      {
+        "original": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/nvidia_2026_financial_ppt169_20260410/notes_export/page_09_notes.md",
+        "copied": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/other/page_09_notes.md",
+        "name": "page_09_notes.md"
+      },
+      {
+        "original": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/nvidia_2026_financial_ppt169_20260410/notes_export/page_10_notes.md",
+        "copied": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/other/page_10_notes.md",
+        "name": "page_10_notes.md"
+      },
+      {
+        "original": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/nvidia_2026_financial_ppt169_20260410/notes_export/page_11_notes.md",
+        "copied": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/other/page_11_notes.md",
+        "name": "page_11_notes.md"
+      },
+      {
+        "original": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/nvidia_2026_financial_ppt169_20260410/notes_export/page_12_notes.md",
+        "copied": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/other/page_12_notes.md",
+        "name": "page_12_notes.md"
+      },
+      {
+        "original": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/nvidia_2026_financial_ppt169_20260410/notes_export/page_13_notes.md",
+        "copied": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/other/page_13_notes.md",
+        "name": "page_13_notes.md"
+      },
+      {
+        "original": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/nvidia_2026_financial_ppt169_20260410/notes_export/page_14_notes.md",
+        "copied": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/other/page_14_notes.md",
+        "name": "page_14_notes.md"
+      }
+    ],
+    "material": [
+      {
+        "original": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/nvidia_2026_financial_ppt169_20260410/design_spec.md",
+        "copied": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/other/design_spec.md",
+        "name": "design_spec.md"
+      },
+      {
+        "original": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/nvidia_2026_financial_ppt169_20260410/sources/英伟达2026财报.md",
+        "copied": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/other/英伟达2026财报.md",
+        "name": "英伟达2026财报.md"
+      }
+    ],
+    "other": []
+  },
+  "structure": {
+    "root": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955",
+    "ppt": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/ppt",
+    "readme": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/readme",
+    "scripts": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/scripts",
+    "materials": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/materials",
+    "other": "/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/.temp_project_1775887399955/other"
+  }
+}

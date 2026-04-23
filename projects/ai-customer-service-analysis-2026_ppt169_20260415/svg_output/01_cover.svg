@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <!-- Cover page based on McKinsey template -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  
+  <!-- Top blue bar -->
+  <rect y="0" width="1280" height="4" fill="#005587"/>
+  
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="8" height="720" fill="#005587"/>
+  
+  <!-- Title -->
+  <text x="60" y="200" font-family="Arial" font-size="52" font-weight="bold" fill="#2C3E50">
+    <tspan x="60" dy="0">AI客服产业深度分析</tspan>
+    <tspan x="60" dy="60" font-size="36">2026年市场洞察与投资机会</tspan>
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="60" y="320" font-family="Arial" font-size="24" fill="#5D6D7E">
+    <tspan x="60" dy="0">全球市场规模 · 竞争格局 · 技术趋势 · 商业价值</tspan>
+  </text>
+  
+  <!-- Project info -->
+  <text x="60" y="600" font-family="Arial" font-size="16" fill="#7F8C8D">
+    <tspan x="60" dy="0">Project: AI-Customer-Service-2026</tspan>
+    <tspan x="60" dy="20">Date: 2026年4月15日</tspan>
+  </text>
+  
+  <!-- Confidential label -->
+  <text x="1220" y="680" text-anchor="end" font-family="Arial" font-size="14" fill="#7F8C8D">
+    <tspan>Confidential</tspan>
+  </text>
+  
+  <!-- Geometric decoration (simplified) -->
+  <g opacity="0.1">
+    <circle cx="1100" cy="200" r="40" fill="#005587"/>
+    <rect x="1050" y="250" width="60" height="60" fill="#005587"/>
+    <polygon points="1150,300 1180,350 1120,350" fill="#005587"/>
+  </g>
+</svg>

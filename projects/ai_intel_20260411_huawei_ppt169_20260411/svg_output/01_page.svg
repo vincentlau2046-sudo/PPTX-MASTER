@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+    <defs>
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#F8F9FA;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    <rect width="1280" height="720" fill="url(#bgGradient)"/>
+
+    <rect x="0" y="0" width="1280" height="200" fill="url(#linearGradient)"/>
+    <rect x="0" y="0" width="1280" height="200" fill="#E60012" opacity="0.9"/>
+    
+    <text x="640" y="90" font-family="Arial Black, Microsoft YaHei" font-size="40" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+        AI 每日洞察报告
+    </text>
+    
+    <text x="640" y="140" font-family="Arial, Microsoft YaHei" font-size="20" fill="#FFE0E0" text-anchor="middle">
+        2026 年 4 月 11 日 | 全球 AI 前沿动态
+    </text>
+    
+    <rect x="440" y="220" width="400" height="4" rx="2" fill="#E60012"/>
+    
+    <text x="640" y="300" font-family="Arial, Microsoft YaHei" font-size="24" fill="#191919" text-anchor="middle">
+        大模型竞赛 · AI 监管框架 · 多模态突破
+    </text>
+    
+    <text x="640" y="350" font-family="Arial, Microsoft YaHei" font-size="16" fill="#595959" text-anchor="middle">
+        零壹情报每日更新
+    </text>
+
+    <rect x="0" y="680" width="1280" height="40" fill="#F0F0F0" opacity="0.5"/>
+    <text x="60" y="705" font-family="Arial, Microsoft YaHei" font-size="12" fill="#999999">
+        AI 每日洞察报告 | 2026-04-11
+    </text>
+    <text x="1220" y="705" font-family="Arial, Microsoft YaHei" font-size="12" fill="#999999" text-anchor="end">
+        1 / 18
+    </text>
+</svg>

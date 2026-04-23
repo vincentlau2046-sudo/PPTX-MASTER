@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+    <defs>
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#F8F9FA;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    <rect width="1280" height="720" fill="url(#bgGradient)"/>
+
+    <rect x="0" y="0" width="1280" height="60" fill="#F8F9FA"/>
+    <rect x="0" y="55" width="1280" height="5" fill="#E60012"/>
+    <text x="60" y="38" font-family="Arial, Microsoft YaHei" font-size="18" fill="#191919" font-weight="bold">
+        🔮 趋势洞察与预判性输出
+    </text>
+
+    <text x="60" y="120" font-family="Arial, Microsoft YaHei" font-size="16" fill="#595959">
+        ### 当日趋势提炼
+    </text>
+
+    <text x="60" y="155" font-family="Arial, Microsoft YaHei" font-size="16" fill="#595959">
+        趋势 1：大模型竞争从"规模竞赛"转向"场景渗透"
+    </text>
+
+    <text x="60" y="190" font-family="Arial, Microsoft YaHei" font-size="16" fill="#595959">
+        - 证据：OpenAI 发布 mini/nano 轻量模型、NVIDIA 推出高效 MoE 架构
+    </text>
+
+    <text x="60" y="225" font-family="Arial, Microsoft YaHei" font-size="16" fill="#595959">
+        - 背景：边缘设备部署需求增长，企业更关注推理成本而非参数规模
+    </text>
+
+    <text x="60" y="260" font-family="Arial, Microsoft YaHei" font-size="16" fill="#595959">
+        趋势 2：中美 AI 技术生态加速分化
+    </text>
+
+    <rect x="0" y="680" width="1280" height="40" fill="#F0F0F0" opacity="0.5"/>
+    <text x="60" y="705" font-family="Arial, Microsoft YaHei" font-size="12" fill="#999999">
+        AI 每日洞察报告 | 2026-04-11
+    </text>
+    <text x="1220" y="705" font-family="Arial, Microsoft YaHei" font-size="12" fill="#999999" text-anchor="end">
+        4 / 18
+    </text>
+</svg>

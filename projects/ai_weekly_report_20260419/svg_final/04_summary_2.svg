@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  
+  
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <rect y="0" width="1280" height="8" fill="#005587" />
+  <rect x="0" y="0" width="8" height="720" fill="#005587" />
+  
+  
+  <text x="80" y="80" font-family="Arial" font-size="36" font-weight="bold" fill="#005587">
+    <tspan>核心摘要</tspan>
+  </text>
+  <text x="80" y="110" font-family="Arial" font-size="18" fill="#5D6D7E">
+    <tspan>关键趋势提示与核心结论</tspan>
+  </text>
+  <rect x="80" y="130" width="100" height="4" fill="#E74C3C" />
+  
+  
+  <path fill="#FFF0F0" stroke="#E74C3C" stroke-width="2" d="M88,160 H1192 A8,8 0 0 1 1200,168 V302 A8,8 0 0 1 1192,310 H88 A8,8 0 0 1 80,302 V168 A8,8 0 0 1 88,160 Z" />
+  <text x="100" y="200" font-family="Arial" font-size="20" fill="#E74C3C" font-weight="bold">
+    <tspan>⚠️ 关键趋势提示</tspan>
+  </text>
+  <text x="100" y="240" font-family="Arial" font-size="18" fill="#2C3E50">
+    <tspan>云厂商从"卖资源"向"卖能力"转型加速</tspan>
+  </text>
+  <text x="100" y="280" font-family="Arial" font-size="16" fill="#5D6D7E">
+    <tspan>阿里云上调价格 2-7%、腾讯云上调 5%，算力供需关系发生根本性逆转</tspan>
+  </text>
+  
+  
+  <path fill="#E8F4F8" stroke="#005587" stroke-width="2" d="M88,340 H1192 A8,8 0 0 1 1200,348 V512 A8,8 0 0 1 1192,520 H88 A8,8 0 0 1 80,512 V348 A8,8 0 0 1 88,340 Z" />
+  <text x="100" y="380" font-family="Arial" font-size="20" fill="#005587" font-weight="bold">
+    <tspan>🎯 核心结论</tspan>
+  </text>
+  <text x="100" y="420" font-family="Arial" font-size="18" fill="#2C3E50" font-weight="bold">
+    <tspan>2026 年 AI 行业进入"去伪存真"阶段</tspan>
+  </text>
+  <g font-family="Arial" font-size="16" fill="#5D6D7E">
+    <text x="100" y="460">
+      <tspan>• 资本和资源向具备全栈能力和清晰商业化路径的头部企业集中</tspan>
+    </text>
+    <text x="100" y="490">
+      <tspan>• 垂直应用和基础设施两端迎来黄金窗口期</tspan>
+    </text>
+  </g>
+  
+  
+  <g font-family="Arial">
+    <path fill="#005587" d="M88,550 H322 A8,8 0 0 1 330,558 V622 A8,8 0 0 1 322,630 H88 A8,8 0 0 1 80,622 V558 A8,8 0 0 1 88,550 Z" />
+    <text x="205" y="585" text-anchor="middle" font-size="32" fill="#FFFFFF" font-weight="bold">3000亿</text>
+    <text x="205" y="615" text-anchor="middle" font-size="14" fill="#B8D4E8">Q1 AI 融资总额（美元）</text>
+    
+    <path fill="#E74C3C" d="M358,550 H592 A8,8 0 0 1 600,558 V622 A8,8 0 0 1 592,630 H358 A8,8 0 0 1 350,622 V558 A8,8 0 0 1 358,550 Z" />
+    <text x="475" y="585" text-anchor="middle" font-size="32" fill="#FFFFFF" font-weight="bold">80%</text>
+    <text x="475" y="615" text-anchor="middle" font-size="14" fill="#F8D7DA">占全球创投比例</text>
+    
+    <path fill="#5D6D7E" d="M628,550 H862 A8,8 0 0 1 870,558 V622 A8,8 0 0 1 862,630 H628 A8,8 0 0 1 620,622 V558 A8,8 0 0 1 628,550 Z" />
+    <text x="745" y="585" text-anchor="middle" font-size="32" fill="#FFFFFF" font-weight="bold">180亿</text>
+    <text x="745" y="615" text-anchor="middle" font-size="14" fill="#D5D8DC">月之暗面估值（美元）</text>
+  </g>
+  
+  
+  <text x="1200" y="680" text-anchor="end" font-family="Arial" font-size="14" fill="#7F8C8D">
+    <tspan>4/15</tspan>
+  </text>
+</svg>

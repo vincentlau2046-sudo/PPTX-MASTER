@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <!-- 信号与噪声 -->
+  
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect y="0" width="1280" height="8" fill="#005587"/>
+  <rect x="0" y="0" width="8" height="720" fill="#005587"/>
+  
+  <!-- Title -->
+  <text x="80" y="60" font-family="Arial" font-size="32" font-weight="bold" fill="#005587">
+    <tspan>信号与噪声</tspan>
+  </text>
+  <rect x="80" y="75" width="60" height="4" fill="#E74C3C"/>
+  
+  <!-- Strong Signals -->
+  <rect x="80" y="100" width="350" height="280" rx="8" fill="#E8F4E8" stroke="#28A745" stroke-width="2"/>
+  <text x="100" y="130" font-family="Arial" font-size="18" fill="#28A745" font-weight="bold">
+    <tspan>✅ 强信号（3条）</tspan>
+  </text>
+  <g font-family="Arial" font-size="13" fill="#2C3E50">
+    <text x="100" y="165">1. 世界模型成为 AGI 共识方向</text>
+    <text x="115" y="190">• 智源研究院定义</text>
+    <text x="115" y="215">• 腾讯阿里发布</text>
+    <text x="115" y="240">• 资本投入</text>
+    
+    <text x="100" y="280">2. AI 融资 3000 亿美元寡头化</text>
+    <text x="115" y="305">• 数据详实</text>
+    <text x="115" y="330">• 头部集中</text>
+    <text x="115" y="355">• 并购加速</text>
+  </g>
+  
+  <!-- Noise -->
+  <rect x="465" y="100" width="350" height="280" rx="8" fill="#FFF0F0" stroke="#E74C3C" stroke-width="2"/>
+  <text x="485" y="130" font-family="Arial" font-size="18" fill="#E74C3C" font-weight="bold">
+    <tspan>❌ 噪声过滤（2条）</tspan>
+  </text>
+  <g font-family="Arial" font-size="13" fill="#2C3E50">
+    <text x="485" y="165">1. "AGI 明年实现"过度炒作</text>
+    <text x="500" y="190">• 技术路线尚不明确</text>
+    <text x="500" y="215">• 需多年发展</text>
+    
+    <text x="485" y="255">2. 中小模型公司"挑战 OpenAI"</text>
+    <text x="500" y="280">• 资源差距过大</text>
+    <text x="500" y="305">• 可能性低</text>
+  </g>
+  
+  <!-- Pending Verification -->
+  <rect x="850" y="100" width="350" height="280" rx="8" fill="#FFF9E6" stroke="#FFA500" stroke-width="2"/>
+  <text x="870" y="130" font-family="Arial" font-size="18" fill="#FFA500" font-weight="bold">
+    <tspan>🤔 待验证（2条）</tspan>
+  </text>
+  <g font-family="Arial" font-size="13" fill="#2C3E50">
+    <text x="870" y="165">1. 欧盟 AI 法案执法松紧差异</text>
+    <text x="885" y="190">• 各成员国实施细则</text>
+    <text x="885" y="215">• 待明确</text>
+    
+    <text x="870" y="255">2. 智谱 MiniMax 股价后续走势</text>
+    <text x="885" y="280">• 商业化能力</text>
+    <text x="885" y="305">• 待验证</text>
+  </g>
+  
+  <!-- Info Sources -->
+  <rect x="80" y="400" width="1120" height="220" rx="8" fill="#F8F9FA" stroke="#DEE2E6" stroke-width="1"/>
+  <text x="100" y="430" font-family="Arial" font-size="16" fill="#005587" font-weight="bold">
+    <tspan>📊 信息来源与可信度</tspan>
+  </text>
+  
+  <g font-family="Arial" font-size="13">
+    <!-- Source Table Header -->
+    <rect x="100" y="450" width="250" height="30" fill="#005587"/>
+    <text x="225" y="470" text-anchor="middle" fill="#FFFFFF" font-weight="bold">来源</text>
+    
+    <rect x="350" y="450" width="150" height="30" fill="#005587"/>
+    <text x="425" y="470" text-anchor="middle" fill="#FFFFFF" font-weight="bold">可信度</text>
+    
+    <rect x="500" y="450" width="150" height="30" fill="#005587"/>
+    <text x="575" y="470" text-anchor="middle" fill="#FFFFFF" font-weight="bold">链接数</text>
+    
+    <!-- Row 1 -->
+    <rect x="100" y="480" width="250" height="28" fill="#FFFFFF" stroke="#DEE2E6" stroke-width="1"/>
+    <text x="225" y="500" text-anchor="middle">TechCrunch</text>
+    <rect x="350" y="480" width="150" height="28" fill="#FFFFFF" stroke="#DEE2E6" stroke-width="1"/>
+    <text x="425" y="500" text-anchor="middle">⭐⭐⭐⭐⭐</text>
+    <rect x="500" y="480" width="150" height="28" fill="#FFFFFF" stroke="#DEE2E6" stroke-width="1"/>
+    <text x="575" y="500" text-anchor="middle">5</text>
+    
+    <!-- Row 2 -->
+    <rect x="100" y="508" width="250" height="28" fill="#F8F9FA" stroke="#DEE2E6" stroke-width="1"/>
+    <text x="225" y="528" text-anchor="middle">证券时报</text>
+    <rect x="350" y="508" width="150" height="28" fill="#F8F9FA" stroke="#DEE2E6" stroke-width="1"/>
+    <text x="425" y="528" text-anchor="middle">⭐⭐⭐⭐⭐</text>
+    <rect x="500" y="508" width="150" height="28" fill="#F8F9FA" stroke="#DEE2E6" stroke-width="1"/>
+    <text x="575" y="528" text-anchor="middle">3</text>
+    
+    <!-- Row 3 -->
+    <rect x="100" y="536" width="250" height="28" fill="#FFFFFF" stroke="#DEE2E6" stroke-width="1"/>
+    <text x="225" y="556" text-anchor="middle">智源研究院</text>
+    <rect x="350" y="536" width="150" height="28" fill="#FFFFFF" stroke="#DEE2E6" stroke-width="1"/>
+    <text x="425" y="556" text-anchor="middle">⭐⭐⭐⭐⭐</text>
+    <rect x="500" y="536" width="150" height="28" fill="#FFFFFF" stroke="#DEE2E6" stroke-width="1"/>
+    <text x="575" y="556" text-anchor="middle">2</text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="1200" y="680" text-anchor="end" font-family="Arial" font-size="14" fill="#7F8C8D">
+    <tspan>13/15</tspan>
+  </text>
+</svg>

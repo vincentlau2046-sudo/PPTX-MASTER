@@ -1,0 +1,6 @@
+file '/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/clips/clip_05.mp4'
+file '/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/clips/clip_06.mp4'
+file '/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/clips/clip_08.mp4'
+file '/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/clips/clip_11.mp4'
+file '/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/clips/clip_12.mp4'
+file '/home/Vincent/.openclaw/workspace/skills/ppt-master/projects/clips/clip_13.mp4'

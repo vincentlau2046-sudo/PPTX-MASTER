@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  
+  
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <rect y="0" width="1280" height="8" fill="#005587" />
+  <rect x="0" y="0" width="8" height="720" fill="#005587" />
+  
+  
+  <text x="80" y="60" font-family="Arial" font-size="32" font-weight="bold" fill="#005587">
+    <tspan>下周关注清单</tspan>
+  </text>
+  <rect x="80" y="75" width="60" height="4" fill="#E74C3C" />
+  
+  
+  <g font-family="Arial">
+    
+    <path fill="#FFF9E6" stroke="#E74C3C" stroke-width="2" d="M88,100 H1192 A8,8 0 0 1 1200,108 V172 A8,8 0 0 1 1192,180 H88 A8,8 0 0 1 80,172 V108 A8,8 0 0 1 88,100 Z" />
+    <text x="100" y="130" font-size="18" fill="#E74C3C" font-weight="bold">
+      <tspan>🔴 腾讯混元 3.0 正式发布</tspan>
+    </text>
+    <text x="100" y="160" font-size="14" fill="#5D6D7E">
+      <tspan>预计时间：4月下旬 | 影响：高 | 引入前 OpenAI 高级研究员姚顺雨带队</tspan>
+    </text>
+    
+    
+    <path fill="#FFF9E6" stroke="#E74C3C" stroke-width="2" d="M88,200 H1192 A8,8 0 0 1 1200,208 V272 A8,8 0 0 1 1192,280 H88 A8,8 0 0 1 80,272 V208 A8,8 0 0 1 88,200 Z" />
+    <text x="100" y="230" font-size="18" fill="#E74C3C" font-weight="bold">
+      <tspan>🔴 阶跃星辰港股递表进展</tspan>
+    </text>
+    <text x="100" y="260" font-size="14" fill="#5D6D7E">
+      <tspan>预计时间：6月30日前 | 影响：高 | 目标估值 100 亿美元，已拆除 VIE 架构</tspan>
+    </text>
+    
+    
+    <path fill="#E8F4F8" stroke="#005587" stroke-width="2" d="M88,300 H1192 A8,8 0 0 1 1200,308 V372 A8,8 0 0 1 1192,380 H88 A8,8 0 0 1 80,372 V308 A8,8 0 0 1 88,300 Z" />
+    <text x="100" y="330" font-size="18" fill="#005587" font-weight="bold">
+      <tspan>🔵 Google I/O 2026 Gemini 更新</tspan>
+    </text>
+    <text x="100" y="360" font-size="14" fill="#5D6D7E">
+      <tspan>预计时间：5月中旬 | 影响：高 | 预计发布 Gemini 新版本</tspan>
+    </text>
+    
+    
+    <path fill="#F0F4F8" stroke="#5D6D7E" stroke-width="2" d="M88,400 H1192 A8,8 0 0 1 1200,408 V472 A8,8 0 0 1 1192,480 H88 A8,8 0 0 1 80,472 V408 A8,8 0 0 1 88,400 Z" />
+    <text x="100" y="430" font-size="18" fill="#5D6D7E" font-weight="bold">
+      <tspan>🟡 DeepSeek V4 华为/寒武纪芯片优化</tspan>
+    </text>
+    <text x="100" y="460" font-size="14" fill="#5D6D7E">
+      <tspan>预计时间：4月下旬 | 影响：中 | 万亿参数开源模型，国产芯片适配进展</tspan>
+    </text>
+    
+    
+    <path fill="#F0F4F8" stroke="#5D6D7E" stroke-width="2" d="M88,500 H1192 A8,8 0 0 1 1200,508 V572 A8,8 0 0 1 1192,580 H88 A8,8 0 0 1 80,572 V508 A8,8 0 0 1 88,500 Z" />
+    <text x="100" y="530" font-size="18" fill="#5D6D7E" font-weight="bold">
+      <tspan>🟡 欧盟 AI 法案实施细则</tspan>
+    </text>
+    <text x="100" y="560" font-size="14" fill="#5D6D7E">
+      <tspan>预计时间：5-7月 | 影响：中 | 各成员国具体实施细则待明确</tspan>
+    </text>
+  </g>
+  
+  
+  <text x="1200" y="680" text-anchor="end" font-family="Arial" font-size="14" fill="#7F8C8D">
+    <tspan>12/15</tspan>
+  </text>
+</svg>

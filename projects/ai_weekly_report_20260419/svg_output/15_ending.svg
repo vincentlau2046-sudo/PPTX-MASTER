@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <!-- 结语 -->
+  
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect y="0" width="1280" height="8" fill="#005587"/>
+  <rect x="0" y="0" width="8" height="720" fill="#005587"/>
+  
+  <!-- Title -->
+  <text x="640" y="120" text-anchor="middle" font-family="Arial" font-size="40" font-weight="bold" fill="#005587">
+    <tspan>谢谢观看</tspan>
+  </text>
+  
+  <!-- Divider -->
+  <rect x="540" y="140" width="200" height="4" fill="#E74C3C"/>
+  
+  <!-- Key Takeaways -->
+  <rect x="80" y="180" width="1120" height="280" rx="8" fill="#E8F4F8" stroke="#005587" stroke-width="2"/>
+  <text x="100" y="210" font-family="Arial" font-size="20" fill="#005587" font-weight="bold">
+    <tspan>🎯 核心要点</tspan>
+  </text>
+  
+  <g font-family="Arial" font-size="16" fill="#2C3E50">
+    <text x="100" y="250">1. 2026 Q1 AI 融资达 3000 亿美元，资本向头部集中</text>
+    <text x="100" y="285">2. 世界模型成为 AGI 共识方向，训练范式从"预测词"转向"预测状态"</text>
+    <text x="100" y="320">3. 中国大模型 IPO 竞速白热化，月之暗面、阶跃星辰争当"第三股"</text>
+    <text x="100" y="355">4. 算力价格回归理性，云厂商从"卖资源"转向"卖能力"</text>
+    <text x="100" y="390">5. AI 行业进入"去伪存真"阶段，垂直应用和基础设施两端迎黄金窗口期</text>
+    <text x="100" y="425">6. 下周关注：腾讯混元 3.0 发布、阶跃星辰港股递表、Google I/O</text>
+  </g>
+  
+  <!-- Info -->
+  <rect x="80" y="480" width="1120" height="120" rx="8" fill="#F8F9FA" stroke="#DEE2E6" stroke-width="1"/>
+  <text x="100" y="510" font-family="Arial" font-size="14" fill="#5D6D7E">
+    <tspan>编辑：零壹情报 | 数据来源：Tavily 搜索（一级搜索源）+ 每日日报汇总</tspan>
+  </text>
+  <text x="100" y="540" font-family="Arial" font-size="14" fill="#5D6D7E">
+    <tspan>报告日期：2026年4月19日（第16周）</tspan>
+  </text>
+  <text x="100" y="570" font-family="Arial" font-size="12" fill="#7F8C8D">
+    <tspan>本报告基于公开信息整理，不构成投资建议。市场有风险，决策需谨慎。</tspan>
+  </text>
+  
+  <!-- Geometric decoration -->
+  <g opacity="0.1">
+    <circle cx="1100" cy="180" r="60" fill="#005587"/>
+    <rect x="1050" y="250" width="80" height="80" fill="#005587"/>
+    <polygon points="1150,340 1190,410 1110,410" fill="#005587"/>
+  </g>
+  
+  <!-- Footer -->
+  <text x="1200" y="680" text-anchor="end" font-family="Arial" font-size="14" fill="#7F8C8D">
+    <tspan>15/15</tspan>
+  </text>
+</svg>

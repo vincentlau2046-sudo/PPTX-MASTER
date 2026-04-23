@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <!-- TOC page based on McKinsey template -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  
+  <!-- Top blue bar -->
+  <rect y="0" width="1280" height="4" fill="#005587"/>
+  
+  <!-- Title -->
+  <text x="60" y="100" font-family="Arial" font-size="36" font-weight="bold" fill="#2C3E50">
+    <tspan>Agenda</tspan>
+  </text>
+  
+  <!-- TOC items -->
+  <g font-family="Arial" fill="#5D6D7E">
+    <text x="60" y="180" font-size="24" font-weight="bold">
+      <tspan>1. 执行摘要</tspan>
+    </text>
+    <text x="100" y="210" font-size="16">
+      <tspan>• 核心发现与关键洞察</tspan>
+    </text>
+    
+    <text x="60" y="260" font-size="24" font-weight="bold">
+      <tspan>2. 市场规模分析</tspan>
+    </text>
+    <text x="100" y="290" font-size="16">
+      <tspan>• 全球市场全景 · 中国市场深度 · 细分赛道对比</tspan>
+    </text>
+    
+    <text x="60" y="340" font-size="24" font-weight="bold">
+      <tspan>3. 竞争格局</tspan>
+    </text>
+    <text x="100" y="370" font-size="16">
+      <tspan>• 市场集中度 · TOP5厂商对比 · 定位矩阵</tspan>
+    </text>
+    
+    <text x="60" y="420" font-size="24" font-weight="bold">
+      <tspan>4. 技术演进</tspan>
+    </text>
+    <text x="100" y="450" font-size="16">
+      <tspan>• 五大技术趋势 · 架构演进 · 关键指标</tspan>
+    </text>
+    
+    <text x="60" y="500" font-size="24" font-weight="bold">
+      <tspan>5. 商业价值与挑战</tspan>
+    </text>
+    <text x="100" y="530" font-size="16">
+      <tspan>• 价值量化 · 用户痛点 · 技术局限</tspan>
+    </text>
+    
+    <text x="60" y="580" font-size="24" font-weight="bold">
+      <tspan>6. 未来展望</tspan>
+    </text>
+    <text x="100" y="610" font-size="16">
+      <tspan>• 发展趋势 · 行动建议 · 投资机会</tspan>
+    </text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="60" y="680" font-family="Arial" font-size="14" fill="#7F8C8D">
+    <tspan>Page 2</tspan>
+  </text>
+  <text x="1220" y="680" text-anchor="end" font-family="Arial" font-size="14" fill="#7F8C8D">
+    <tspan>Data Source: IDC, Gartner, 艾瑞咨询</tspan>
+  </text>
+</svg>

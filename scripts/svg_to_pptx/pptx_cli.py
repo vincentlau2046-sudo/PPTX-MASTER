@@ -55,7 +55,6 @@ Speaker notes (enabled by default):
       1. Match by filename (recommended): 01_cover.md corresponds to 01_cover.svg
       2. Match by index: slide01.md corresponds to the 1st SVG (backward compatible)
     - Use --no-notes to disable
-    - Use --export-notes to export notes as separate MD files (page_01_notes.md, page_02_notes.md, etc.)
 ''',
     )
 
@@ -86,9 +85,6 @@ Speaker notes (enabled by default):
 
     parser.add_argument('--no-notes', action='store_true',
                         help='Disable speaker notes embedding (enabled by default)')
-
-    parser.add_argument('--export-notes', action='store_true',
-                        help='Export speaker notes as separate MD files (page_01_notes.md, page_02_notes.md, etc.)')
 
     args = parser.parse_args()
 
@@ -196,31 +192,5 @@ Speaker notes (enabled by default):
             **shared_kwargs,
         )
         success = success and ok
-
-    # --- Export speaker notes as separate MD files ---
-    if args.export_notes and notes:
-        notes_output_dir = project_path / 'notes_export'
-        notes_output_dir.mkdir(parents=True, exist_ok=True)
-        
-        if verbose:
-            print()
-            print("-" * 50)
-            print(f"Exporting speaker notes to: {notes_output_dir}")
-        
-        for i, (svg_stem, note_content) in enumerate(sorted(notes.items()), 1):
-            page_num = f"{i:02d}"
-            notes_file = notes_output_dir / f"page_{page_num}_notes.md"
-            
-            # Add page title header
-            header = f"# Page {page_num}: {svg_stem}\n\n"
-            
-            with open(notes_file, 'w', encoding='utf-8') as f:
-                f.write(header + note_content)
-            
-            if verbose:
-                print(f"  ✓ {notes_file.name} ({len(note_content)} chars)")
-        
-        if verbose:
-            print(f"\nTotal: {len(notes)} notes files exported")
 
     sys.exit(0 if success else 1)

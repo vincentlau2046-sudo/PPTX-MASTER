@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  
+  
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <rect y="0" width="1280" height="8" fill="#005587" />
+  <rect x="0" y="0" width="8" height="720" fill="#005587" />
+  
+  
+  <text x="80" y="80" font-family="Arial" font-size="36" font-weight="bold" fill="#005587">
+    <tspan>核心摘要</tspan>
+  </text>
+  <text x="80" y="110" font-family="Arial" font-size="18" fill="#5D6D7E">
+    <tspan>本周核心亮点（3条）</tspan>
+  </text>
+  <rect x="80" y="130" width="100" height="4" fill="#E74C3C" />
+  
+  
+  <path fill="#FFF9E6" stroke="#E74C3C" stroke-width="2" d="M88,160 H1192 A8,8 0 0 1 1200,168 V282 A8,8 0 0 1 1192,290 H88 A8,8 0 0 1 80,282 V168 A8,8 0 0 1 88,160 Z" />
+  <circle cx="120" cy="225" r="25" fill="#E74C3C" />
+  <text x="120" y="233" text-anchor="middle" font-family="Arial" font-size="24" fill="#FFFFFF" font-weight="bold">1</text>
+  <text x="160" y="200" font-family="Arial" font-size="20" fill="#2C3E50" font-weight="bold">
+    <tspan>2026 Q1 AI 融资创纪录达 3000 亿美元</tspan>
+  </text>
+  <text x="160" y="230" font-family="Arial" font-size="16" fill="#5D6D7E">
+    <tspan>占全球创投资金 80%，OpenAI 1220亿、Anthropic 300亿、xAI 200亿</tspan>
+  </text>
+  <text x="160" y="260" font-family="Arial" font-size="14" fill="#E74C3C" font-weight="bold">
+    <tspan>→ 资本向头部集中趋势加剧</tspan>
+  </text>
+  
+  
+  <path fill="#E8F4F8" stroke="#005587" stroke-width="2" d="M88,310 H1192 A8,8 0 0 1 1200,318 V432 A8,8 0 0 1 1192,440 H88 A8,8 0 0 1 80,432 V318 A8,8 0 0 1 88,310 Z" />
+  <circle cx="120" cy="375" r="25" fill="#005587" />
+  <text x="120" y="383" text-anchor="middle" font-family="Arial" font-size="24" fill="#FFFFFF" font-weight="bold">2</text>
+  <text x="160" y="350" font-family="Arial" font-size="20" fill="#2C3E50" font-weight="bold">
+    <tspan>世界模型成为 AGI 共识方向</tspan>
+  </text>
+  <text x="160" y="380" font-family="Arial" font-size="16" fill="#5D6D7E">
+    <tspan>智源研究院定义：训练范式从"预测词"升级为"预测状态"</tspan>
+  </text>
+  <text x="160" y="410" font-family="Arial" font-size="14" fill="#005587" font-weight="bold">
+    <tspan>→ 腾讯、阿里同日发布世界模型</tspan>
+  </text>
+  
+  
+  <path fill="#F0F4F8" stroke="#5D6D7E" stroke-width="2" d="M88,460 H1192 A8,8 0 0 1 1200,468 V582 A8,8 0 0 1 1192,590 H88 A8,8 0 0 1 80,582 V468 A8,8 0 0 1 88,460 Z" />
+  <circle cx="120" cy="525" r="25" fill="#5D6D7E" />
+  <text x="120" y="533" text-anchor="middle" font-family="Arial" font-size="24" fill="#FFFFFF" font-weight="bold">3</text>
+  <text x="160" y="500" font-family="Arial" font-size="20" fill="#2C3E50" font-weight="bold">
+    <tspan>中国大模型 IPO 竞速白热化</tspan>
+  </text>
+  <text x="160" y="530" font-family="Arial" font-size="16" fill="#5D6D7E">
+    <tspan>月之暗面估值 180 亿美元冲刺港股，阶跃星辰目标 100 亿美元</tspan>
+  </text>
+  <text x="160" y="560" font-family="Arial" font-size="14" fill="#5D6D7E" font-weight="bold">
+    <tspan>→ 智谱、MiniMax 已上市，市值均超 3000 亿港元</tspan>
+  </text>
+  
+  
+  <text x="1200" y="680" text-anchor="end" font-family="Arial" font-size="14" fill="#7F8C8D">
+    <tspan>3/15</tspan>
+  </text>
+</svg>

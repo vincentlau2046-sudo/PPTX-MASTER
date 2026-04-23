@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <!-- 趋势洞察 Page 1 -->
+  
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect y="0" width="1280" height="8" fill="#005587"/>
+  <rect x="0" y="0" width="8" height="720" fill="#005587"/>
+  
+  <!-- Title -->
+  <text x="80" y="60" font-family="Arial" font-size="32" font-weight="bold" fill="#005587">
+    <tspan>趋势洞察</tspan>
+  </text>
+  <rect x="80" y="75" width="60" height="4" fill="#E74C3C"/>
+  
+  <!-- Trend 1 -->
+  <rect x="80" y="100" width="1120" height="160" rx="8" fill="#FFF9E6" stroke="#E74C3C" stroke-width="2"/>
+  <circle cx="120" cy="180" r="30" fill="#E74C3C"/>
+  <text x="120" y="188" text-anchor="middle" font-family="Arial" font-size="24" fill="#FFFFFF" font-weight="bold">1</text>
+  <text x="170" y="135" font-family="Arial" font-size="20" fill="#E74C3C" font-weight="bold">
+    <tspan>世界模型——从"语言"迈向"物理智能"</tspan>
+  </text>
+  <g font-family="Arial" font-size="14" fill="#5D6D7E">
+    <text x="170" y="165">• 训练目标从"预测词"转向"预测状态"</text>
+    <text x="170" y="190">• 应用：具身智能、机器人、自动驾驶、游戏、影视</text>
+    <text x="170" y="215">• 时间窗口：2026-2027 年是关键落地期</text>
+  </g>
+  <rect x="170" y="230" width="100" height="20" rx="4" fill="#28A745"/>
+  <text x="220" y="245" text-anchor="middle" font-family="Arial" font-size="11" fill="#FFFFFF">强信号 ✅</text>
+  
+  <!-- Trend 2 -->
+  <rect x="80" y="280" width="1120" height="160" rx="8" fill="#E8F4F8" stroke="#005587" stroke-width="2"/>
+  <circle cx="120" cy="360" r="30" fill="#005587"/>
+  <text x="120" y="368" text-anchor="middle" font-family="Arial" font-size="24" fill="#FFFFFF" font-weight="bold">2</text>
+  <text x="170" y="315" font-family="Arial" font-size="20" fill="#005587" font-weight="bold">
+    <tspan>AI 融资进入"寡头时代"，资本集中度创纪录</tspan>
+  </text>
+  <g font-family="Arial" font-size="14" fill="#5D6D7E">
+    <text x="170" y="345">• Q1 AI 融资 3000 亿美元，占创投 80%</text>
+    <text x="170" y="370">• 仅 24 笔基础 AI 投资吸走 1780 亿美元</text>
+    <text x="170" y="395">• 尾部初创公司生存空间被压缩</text>
+  </g>
+  <rect x="170" y="410" width="100" height="20" rx="4" fill="#28A745"/>
+  <text x="220" y="425" text-anchor="middle" font-family="Arial" font-size="11" fill="#FFFFFF">强信号 ✅</text>
+  
+  <!-- Trend 3 -->
+  <rect x="80" y="460" width="1120" height="160" rx="8" fill="#F0F4F8" stroke="#5D6D7E" stroke-width="2"/>
+  <circle cx="120" cy="540" r="30" fill="#5D6D7E"/>
+  <text x="120" y="548" text-anchor="middle" font-family="Arial" font-size="24" fill="#FFFFFF" font-weight="bold">3</text>
+  <text x="170" y="495" font-family="Arial" font-size="20" fill="#5D6D7E" font-weight="bold">
+    <tspan>中国大模型 IPO 竞速——第三股花落谁家</tspan>
+  </text>
+  <g font-family="Arial" font-size="14" fill="#5D6D7E">
+    <text x="170" y="525">• 月之暗面（180亿估值）vs 阶跃星辰（100亿目标）</text>
+    <text x="170" y="550">• VIE 架构监管趋严，主动调整成为必然</text>
+    <text x="170" y="575">• 行业进入"合规化、资本化、商业化"下半场</text>
+  </g>
+  <rect x="170" y="590" width="100" height="20" rx="4" fill="#28A745"/>
+  <text x="220" y="605" text-anchor="middle" font-family="Arial" font-size="11" fill="#FFFFFF">强信号 ✅</text>
+  
+  <!-- Footer -->
+  <text x="1200" y="680" text-anchor="end" font-family="Arial" font-size="14" fill="#7F8C8D">
+    <tspan>9/15</tspan>
+  </text>
+</svg>

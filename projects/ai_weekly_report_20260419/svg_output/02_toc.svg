@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <!-- Table of Contents -->
+  
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  
+  <!-- Header -->
+  <rect y="0" width="1280" height="8" fill="#005587"/>
+  <rect x="0" y="0" width="8" height="720" fill="#005587"/>
+  
+  <!-- Title -->
+  <text x="80" y="80" font-family="Arial" font-size="36" font-weight="bold" fill="#005587">
+    <tspan>目录</tspan>
+  </text>
+  
+  <!-- Divider -->
+  <rect x="80" y="100" width="100" height="4" fill="#E74C3C"/>
+  
+  <!-- TOC Items -->
+  <g font-family="Arial" fill="#2C3E50">
+    <!-- Item 1 -->
+    <rect x="80" y="140" width="40" height="40" rx="4" fill="#005587"/>
+    <text x="100" y="170" text-anchor="middle" font-size="20" fill="#FFFFFF" font-weight="bold">01</text>
+    <text x="140" y="170" font-size="24">核心摘要</text>
+    <text x="1100" y="170" font-size="16" fill="#7F8C8D">2 页</text>
+    
+    <!-- Item 2 -->
+    <rect x="80" y="210" width="40" height="40" rx="4" fill="#005587"/>
+    <text x="100" y="240" text-anchor="middle" font-size="20" fill="#FFFFFF" font-weight="bold">02</text>
+    <text x="140" y="240" font-size="24">本周核心动态</text>
+    <text x="1100" y="240" font-size="16" fill="#7F8C8D">6 页</text>
+    
+    <!-- Item 3 -->
+    <rect x="80" y="280" width="40" height="40" rx="4" fill="#005587"/>
+    <text x="100" y="310" text-anchor="middle" font-size="20" fill="#FFFFFF" font-weight="bold">03</text>
+    <text x="140" y="310" font-size="24">趋势洞察</text>
+    <text x="1100" y="310" font-size="16" fill="#7F8C8D">2 页</text>
+    
+    <!-- Item 4 -->
+    <rect x="80" y="350" width="40" height="40" rx="4" fill="#005587"/>
+    <text x="100" y="380" text-anchor="middle" font-size="20" fill="#FFFFFF" font-weight="bold">04</text>
+    <text x="140" y="380" font-size="24">机会矩阵</text>
+    <text x="1100" y="380" font-size="16" fill="#7F8C8D">1 页</text>
+    
+    <!-- Item 5 -->
+    <rect x="80" y="420" width="40" height="40" rx="4" fill="#005587"/>
+    <text x="100" y="450" text-anchor="middle" font-size="20" fill="#FFFFFF" font-weight="bold">05</text>
+    <text x="140" y="450" font-size="24">行动建议</text>
+    <text x="1100" y="450" font-size="16" fill="#7F8C8D">1 页</text>
+  </g>
+  
+  <!-- Dimensions highlight -->
+  <rect x="80" y="520" width="1120" height="100" rx="8" fill="#F8F9FA" stroke="#DEE2E6" stroke-width="1"/>
+  <text x="100" y="550" font-family="Arial" font-size="16" fill="#5D6D7E" font-weight="bold">
+    <tspan>本周覆盖维度</tspan>
+  </text>
+  <g font-family="Arial" font-size="14" fill="#5D6D7E">
+    <text x="100" y="590">🧠 大模型动态</text>
+    <text x="280" y="590">🇨🇳 中国厂商</text>
+    <text x="440" y="590">🇺🇸 美国厂商</text>
+    <text x="600" y="590">📜 政策监管</text>
+    <text x="760" y="590">💰 投融资</text>
+    <text x="900" y="590">🔬 技术突破</text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="1200" y="680" text-anchor="end" font-family="Arial" font-size="14" fill="#7F8C8D">
+    <tspan>2/15</tspan>
+  </text>
+</svg>

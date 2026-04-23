@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <!-- 行动建议 -->
+  
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect y="0" width="1280" height="8" fill="#005587"/>
+  <rect x="0" y="0" width="8" height="720" fill="#005587"/>
+  
+  <!-- Title -->
+  <text x="80" y="60" font-family="Arial" font-size="32" font-weight="bold" fill="#005587">
+    <tspan>行动建议</tspan>
+  </text>
+  <rect x="80" y="75" width="60" height="4" fill="#E74C3C"/>
+  
+  <!-- Short Term -->
+  <rect x="80" y="100" width="350" height="250" rx="8" fill="#FFF9E6" stroke="#E74C3C" stroke-width="2"/>
+  <text x="100" y="130" font-family="Arial" font-size="18" fill="#E74C3C" font-weight="bold">
+    <tspan>短期（1-3月）</tspan>
+  </text>
+  <g font-family="Arial" font-size="14" fill="#2C3E50">
+    <text x="100" y="165">• 关注腾讯混元 3.0、阿里</text>
+    <text x="110" y="190">Happy Oyster 世界模型落地</text>
+    <text x="100" y="220">• 游戏行业率先接入 3D 生成</text>
+    <text x="100" y="250">• 影视行业探索 AI 资产生成</text>
+    <text x="100" y="280">• 机器人行业评估物理仿真</text>
+    <text x="100" y="310">• 自动驾驶关注时空建模</text>
+  </g>
+  
+  <!-- Mid Term -->
+  <rect x="465" y="100" width="350" height="250" rx="8" fill="#E8F4F8" stroke="#005587" stroke-width="2"/>
+  <text x="485" y="130" font-family="Arial" font-size="18" fill="#005587" font-weight="bold">
+    <tspan>中期（3-6月）</tspan>
+  </text>
+  <g font-family="Arial" font-size="14" fill="#2C3E50">
+    <text x="485" y="165">• 关注中国大模型第三股</text>
+    <text x="495" y="190">上市进展</text>
+    <text x="485" y="220">• Agent 商业化落地加速</text>
+    <text x="485" y="250">• 中小企业优先采用开源</text>
+    <text x="495" y="275">模型 + 混合部署策略</text>
+    <text x="485" y="305">• 避开单一云厂商锁定</text>
+  </g>
+  
+  <!-- Long Term -->
+  <rect x="850" y="100" width="350" height="250" rx="8" fill="#F0F4F8" stroke="#5D6D7E" stroke-width="2"/>
+  <text x="870" y="130" font-family="Arial" font-size="18" fill="#5D6D7E" font-weight="bold">
+    <tspan>长期（6-12月）</tspan>
+  </text>
+  <g font-family="Arial" font-size="14" fill="#2C3E50">
+    <text x="870" y="165">• 物理智能成为新战场</text>
+    <text x="870" y="195">• 端侧 AI 加速渗透</text>
+    <text x="870" y="225">• 国产算力替代加速</text>
+    <text x="870" y="255">• 从业者学习跨领域技能：</text>
+    <text x="880" y="280">3D生成、物理仿真、</text>
+    <text x="880" y="305">游戏引擎对接</text>
+  </g>
+  
+  <!-- Tools -->
+  <rect x="80" y="370" width="1120" height="140" rx="8" fill="#F8F9FA" stroke="#DEE2E6" stroke-width="1"/>
+  <text x="100" y="400" font-family="Arial" font-size="16" fill="#005587" font-weight="bold">
+    <tspan>🛠️ 推荐工具</tspan>
+  </text>
+  <g font-family="Arial" font-size="13" fill="#5D6D7E">
+    <rect x="100" y="420" width="200" height="30" rx="4" fill="#005587"/>
+    <text x="200" y="440" text-anchor="middle" fill="#FFFFFF">OpenRouter（Token监控）</text>
+    
+    <rect x="320" y="420" width="200" height="30" rx="4" fill="#E74C3C"/>
+    <text x="420" y="440" text-anchor="middle" fill="#FFFFFF">WorldArena（模型评测）</text>
+    
+    <rect x="540" y="420" width="200" height="30" rx="4" fill="#5D6D7E"/>
+    <text x="640" y="440" text-anchor="middle" fill="#FFFFFF">智源AI枢纽（科研追踪）</text>
+    
+    <rect x="760" y="420" width="200" height="30" rx="4" fill="#28A745"/>
+    <text x="860" y="440" text-anchor="middle" fill="#FFFFFF">Crunchbase（融资数据）</text>
+  </g>
+  <text x="100" y="480" font-family="Arial" font-size="12" fill="#7F8C8D">
+    <tspan>提示：火山引擎 AI 节省计划可监控 Token 消耗，OpenRouter 可对比多模型价格</tspan>
+  </text>
+  
+  <!-- Key Insight -->
+  <rect x="80" y="530" width="1120" height="80" rx="8" fill="#E8F4F8" stroke="#005587" stroke-width="1"/>
+  <text x="100" y="560" font-family="Arial" font-size="15" fill="#005587" font-weight="bold">
+    <tspan>💡 核心洞察</tspan>
+  </text>
+  <text x="100" y="590" font-family="Arial" font-size="14" fill="#2C3E50">
+    <tspan>世界模型技术门槛高，中小企业建议优先使用开源世界模型 API，性价比提升 10-100 倍</tspan>
+  </text>
+  
+  <!-- Footer -->
+  <text x="1200" y="680" text-anchor="end" font-family="Arial" font-size="14" fill="#7F8C8D">
+    <tspan>11/15</tspan>
+  </text>
+</svg>

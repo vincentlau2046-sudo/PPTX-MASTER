@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <!-- 投融资 & 行业事件 -->
+  
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <rect y="0" width="1280" height="8" fill="#005587"/>
+  <rect x="0" y="0" width="8" height="720" fill="#005587"/>
+  
+  <!-- Title -->
+  <text x="80" y="60" font-family="Arial" font-size="32" font-weight="bold" fill="#005587">
+    <tspan>投融资 &amp; 行业事件</tspan>
+  </text>
+  <rect x="80" y="75" width="60" height="4" fill="#E74C3C"/>
+  
+  <!-- Main Funding -->
+  <rect x="80" y="100" width="700" height="180" rx="8" fill="#FFF9E6" stroke="#E74C3C" stroke-width="2"/>
+  <text x="100" y="130" font-family="Arial" font-size="22" fill="#E74C3C" font-weight="bold">
+    <tspan>2026 Q1 AI 融资创纪录</tspan>
+  </text>
+  <text x="100" y="170" font-family="Arial" font-size="42" fill="#E74C3C" font-weight="bold">
+    <tspan>3000 亿美元</tspan>
+  </text>
+  <text x="100" y="205" font-family="Arial" font-size="18" fill="#2C3E50" font-weight="bold">
+    <tspan>占全球创投资金 80%</tspan>
+  </text>
+  <g font-family="Arial" font-size="14" fill="#5D6D7E">
+    <text x="100" y="240">• 17 家美国 AI 初创公司完成单轮超 1 亿美元融资</text>
+    <text x="100" y="265">• 仅 24 笔基础 AI 投资就吸走 1780 亿美元</text>
+  </g>
+  
+  <!-- IPO Stats -->
+  <rect x="820" y="100" width="380" height="180" rx="8" fill="#E8F4F8" stroke="#005587" stroke-width="2"/>
+  <text x="840" y="130" font-family="Arial" font-size="18" fill="#005587" font-weight="bold">
+    <tspan>中国大模型上市</tspan>
+  </text>
+  <g font-family="Arial" font-size="14" fill="#2C3E50">
+    <text x="840" y="165">智谱上市市值</text>
+    <text x="840" y="190" font-size="24" fill="#005587" font-weight="bold">4227 亿港元</text>
+    <text x="840" y="225">MiniMax 上市市值</text>
+    <text x="840" y="250" font-size="24" fill="#005587" font-weight="bold">2983 亿港元</text>
+  </g>
+  
+  <!-- Capital Concentration -->
+  <rect x="80" y="300" width="1120" height="150" rx="8" fill="#F0F4F8" stroke="#5D6D7E" stroke-width="2"/>
+  <text x="100" y="330" font-family="Arial" font-size="18" fill="#5D6D7E" font-weight="bold">
+    <tspan>💰 资本寡头化：头部 3 家吸走 57% 融资</tspan>
+  </text>
+  <g font-family="Arial" font-size="16" fill="#2C3E50">
+    <rect x="100" y="355" width="200" height="50" rx="4" fill="#E74C3C"/>
+    <text x="200" y="385" text-anchor="middle" fill="#FFFFFF" font-weight="bold">OpenAI 1220亿</text>
+    
+    <rect x="320" y="355" width="200" height="50" rx="4" fill="#005587"/>
+    <text x="420" y="385" text-anchor="middle" fill="#FFFFFF" font-weight="bold">Anthropic 300亿</text>
+    
+    <rect x="540" y="355" width="200" height="50" rx="4" fill="#5D6D7E"/>
+    <text x="640" y="385" text-anchor="middle" fill="#FFFFFF" font-weight="bold">xAI 200亿</text>
+    
+    <text x="780" y="385" font-size="24" fill="#E74C3C" font-weight="bold">= 1720 亿美元</text>
+  </g>
+  
+  <!-- Other Events -->
+  <rect x="80" y="470" width="540" height="130" rx="8" fill="#F8F9FA" stroke="#DEE2E6" stroke-width="1"/>
+  <text x="100" y="500" font-family="Arial" font-size="16" fill="#005587" font-weight="bold">
+    <tspan>其他重要事件</tspan>
+  </text>
+  <g font-family="Arial" font-size="13" fill="#5D6D7E">
+    <text x="100" y="530">• Cerebras 拟以 220 亿美元估值融资 10 亿美元</text>
+    <text x="100" y="555">• 第一资本以 51.5 亿美元收购 Brex</text>
+    <text x="100" y="580">• Meta Llama 团队人才流失：14 名原始研究人员中 11 人已离职</text>
+  </g>
+  
+  <!-- Warning -->
+  <rect x="660" y="470" width="540" height="130" rx="8" fill="#FFF0F0" stroke="#E74C3C" stroke-width="1"/>
+  <text x="680" y="500" font-family="Arial" font-size="16" fill="#E74C3C" font-weight="bold">
+    <tspan>⚠️ 风险提示</tspan>
+  </text>
+  <g font-family="Arial" font-size="13" fill="#5D6D7E">
+    <text x="680" y="530">• AI 投资对比愈发接近 90 年代末互联网泡沫</text>
+    <text x="680" y="555">• 尾部初创公司生存空间被压缩</text>
+    <text x="680" y="580">• 融资窗口收窄，中小企业需聚焦垂直场景</text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="1200" y="680" text-anchor="end" font-family="Arial" font-size="14" fill="#7F8C8D">
+    <tspan>14/15</tspan>
+  </text>
+</svg>

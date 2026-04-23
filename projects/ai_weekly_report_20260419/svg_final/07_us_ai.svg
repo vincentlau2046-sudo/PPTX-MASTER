@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  
+  
+  <rect width="1280" height="720" fill="#FFFFFF" />
+  <rect y="0" width="1280" height="8" fill="#005587" />
+  <rect x="0" y="0" width="8" height="720" fill="#005587" />
+  
+  
+  <text x="80" y="60" font-family="Arial" font-size="32" font-weight="bold" fill="#005587">
+    <tspan>美国厂商 AI 动态</tspan>
+  </text>
+  <rect x="80" y="75" width="60" height="4" fill="#E74C3C" />
+  
+  
+  <path fill="#FFF9E6" stroke="#E74C3C" stroke-width="2" d="M88,100 H772 A8,8 0 0 1 780,108 V312 A8,8 0 0 1 772,320 H88 A8,8 0 0 1 80,312 V108 A8,8 0 0 1 88,100 Z" />
+  <text x="100" y="130" font-family="Arial" font-size="22" fill="#E74C3C" font-weight="bold">
+    <tspan>OpenAI 完成 1220 亿美元融资</tspan>
+  </text>
+  <text x="100" y="165" font-family="Arial" font-size="48" fill="#E74C3C" font-weight="bold">
+    <tspan>估值达 8520 亿美元</tspan>
+  </text>
+  <g font-family="Arial" font-size="14" fill="#5D6D7E">
+    <text x="100" y="205">• 历史最大融资纪录（2026年4月1日）</text>
+    <text x="100" y="230">• Amazon（500亿）、Nvidia（300亿）、SoftBank（300亿）领投</text>
+    <text x="100" y="255">• 月营收达 20 亿美元，企业营收占比超 40%</text>
+    <text x="100" y="280">• 开始使用 Amazon Trainium 芯片，减少对微软依赖</text>
+  </g>
+  
+  
+  <path fill="#E8F4F8" stroke="#005587" stroke-width="2" d="M828,100 H1192 A8,8 0 0 1 1200,108 V312 A8,8 0 0 1 1192,320 H828 A8,8 0 0 1 820,312 V108 A8,8 0 0 1 828,100 Z" />
+  <text x="840" y="130" font-family="Arial" font-size="18" fill="#005587" font-weight="bold">
+    <tspan>Anthropic 300亿美元 G轮</tspan>
+  </text>
+  <text x="840" y="170" font-family="Arial" font-size="36" fill="#005587" font-weight="bold">
+    <tspan>估值 3800亿</tspan>
+  </text>
+  <g font-family="Arial" font-size="13" fill="#5D6D7E">
+    <text x="840" y="210">• AI 领域最大单笔融资之一</text>
+    <text x="840" y="235">• 持续获得 Google 算力支持</text>
+  </g>
+  
+  
+  <path fill="#F0F4F8" stroke="#5D6D7E" stroke-width="2" d="M88,340 H1192 A8,8 0 0 1 1200,348 V482 A8,8 0 0 1 1192,490 H88 A8,8 0 0 1 80,482 V348 A8,8 0 0 1 88,340 Z" />
+  <text x="100" y="370" font-family="Arial" font-size="18" fill="#5D6D7E" font-weight="bold">
+    <tspan>⚡ OpenAI 加速"去微软化"</tspan>
+  </text>
+  <g font-family="Arial" font-size="14" fill="#2C3E50">
+    <text x="100" y="405">• 内部备忘录：微软"限制了我们的客户触达能力"</text>
+    <text x="100" y="435">• 正加强与 Amazon 联盟，减少对 Azure 的依赖</text>
+    <text x="100" y="465">• xAI 完成 200 亿美元 Series E，估值超 2000 亿美元</text>
+  </g>
+  
+  
+  <path fill="#FFF0F0" stroke="#E74C3C" stroke-width="1" d="M88,510 H1192 A8,8 0 0 1 1200,518 V602 A8,8 0 0 1 1192,610 H88 A8,8 0 0 1 80,602 V518 A8,8 0 0 1 88,510 Z" />
+  <text x="100" y="540" font-family="Arial" font-size="14" fill="#E74C3C" font-weight="bold">
+    <tspan>💰 资本寡头化加剧</tspan>
+  </text>
+  <text x="100" y="570" font-family="Arial" font-size="14" fill="#5D6D7E">
+    <tspan>仅 OpenAI（1220亿）+ Anthropic（300亿）+ xAI（200亿）= 1720 亿美元，占 Q1 AI 融资 57%</tspan>
+  </text>
+  
+  
+  <text x="1200" y="680" text-anchor="end" font-family="Arial" font-size="14" fill="#7F8C8D">
+    <tspan>7/15</tspan>
+  </text>
+</svg>

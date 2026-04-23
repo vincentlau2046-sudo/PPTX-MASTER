@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+    <defs>
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#F8F9FA;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    <rect width="1280" height="720" fill="url(#bgGradient)"/>
+
+    <rect x="0" y="0" width="1280" height="60" fill="#F8F9FA"/>
+    <rect x="0" y="55" width="1280" height="5" fill="#E60012"/>
+    <text x="60" y="38" font-family="Arial, Microsoft YaHei" font-size="18" fill="#191919" font-weight="bold">
+        📰 每日核心动态（信息分级呈现）
+    </text>
+
+    <text x="60" y="120" font-family="Arial, Microsoft YaHei" font-size="16" fill="#595959">
+        ### 🧠 维度 1：大模型动态
+    </text>
+
+    <text x="60" y="155" font-family="Arial, Microsoft YaHei" font-size="16" fill="#595959">
+        🔴 核心信息
+    </text>
+
+    <text x="60" y="190" font-family="Arial, Microsoft YaHei" font-size="16" fill="#595959">
+        > OpenAI 发布 GPT-5.4 mini 和 nano 模型
+    </text>
+
+    <text x="60" y="225" font-family="Arial, Microsoft YaHei" font-size="16" fill="#595959">
+        > - 发布时间：过去 24 小时内
+    </text>
+
+    <text x="60" y="260" font-family="Arial, Microsoft YaHei" font-size="16" fill="#595959">
+        > - 定位：轻量级边缘部署模型
+    </text>
+
+    <rect x="0" y="680" width="1280" height="40" fill="#F0F0F0" opacity="0.5"/>
+    <text x="60" y="705" font-family="Arial, Microsoft YaHei" font-size="12" fill="#999999">
+        AI 每日洞察报告 | 2026-04-11
+    </text>
+    <text x="1220" y="705" font-family="Arial, Microsoft YaHei" font-size="12" fill="#999999" text-anchor="end">
+        3 / 18
+    </text>
+</svg>

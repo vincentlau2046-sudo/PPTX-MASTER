@@ -1,4 +1,4 @@
-# Page Layout Template Library (22 Templates)
+# Page Layout Template Library (20 Templates)
 
 Pre-built PPT page layout templates supporting multiple styles and use cases.
 
@@ -22,10 +22,8 @@ Pre-built PPT page layout templates supporting multiple styles and use cases.
 | `中国电建_常规` | Brand | Power & energy, engineering, state-owned enterprise reports | PowerChina Blue `#00418D` | Craftsmanship, steady and reliable |
 | `中国电建_现代` | Brand | International engineering, premium roadshows, tech innovation | Deep Sea Blue `#001F45` | [Modern] Grand narrative, digital tech |
 | `招商银行` | Brand | Premium reports, VIP services, annual reports | CMB Red `#C41230` | Minimalist luxury, financial texture, borderless |
-| `华为技术` | Brand | Enterprise reports, solution showcases, annual reports, B2B communication | Huawei Red `#E60012` | Minimalist tech, professional & rigorous, global business style |
 | `exhibit` | General | Exhibit-driven strategic reports, executive presentations, board briefings | Gradient top bar + Gold accents | Conclusion-first, data-driven, confidential |
 | `academic_defense` | Scenario | Thesis defense, academic reports, grant proposals | Deep Blue + Red accents | Clear hierarchy, academic standards |
-| `red_grey` | Scenario | Thesis defense, academic reports, research presentations | Academic Red `#D9001B` + Light Gray | Modern minimalist, professional rigorous |
 | `psychology_attachment` | Scenario | Psychotherapy training, counseling lectures | Blue-green gradient + Colorful semantic colors | Warm professional, therapeutic feel |
 | `medical_university` | Scenario | Medical reports, case discussions, research presentations | Medical Blue `#0066B3` | Professional rigorous, life-affirming |
 | `government_red` | Government/Enterprise | Government work reports, party-building presentations | Government Red `#8B0000` | Solemn authority, grand and imposing |
@@ -55,7 +53,6 @@ Templates mimicking **specific well-known brands/institutions** with their exclu
 | `中国电建_常规` | PowerChina standard style (v1), suitable for power, energy, and engineering SOEs |
 | `中国电建_现代` | PowerChina modern style (v2), emphasis on grand narrative and digital tech |
 | `招商银行` | China Merchants Bank v2.0, minimalist luxury, borderless open layout |
-| `华为技术` | Huawei Technologies style, minimalist tech, professional & rigorous, global business |
 
 ### 2. General Style Templates
 
@@ -74,7 +71,6 @@ Designed for **specific use cases**, with content structures tailored to scenari
 | Template | Description |
 |----------|-------------|
 | `academic_defense` | Academic defense, clear research content hierarchy |
-| `red_grey` | Academic template with minimalist design, academic red accents, suitable for thesis defense and research presentations |
 | `psychology_attachment` | Psychotherapy theme, warm and professional color palette |
 | `medical_university` | Hospital / medical university template, suitable for medical reports |
 | `重庆大学` | Chongqing University template, blending mountain-city layered imagery with modern academic style |

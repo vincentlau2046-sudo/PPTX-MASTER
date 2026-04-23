@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <!-- Cover Page - AI Weekly Report -->
+  
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  
+  <!-- Top accent bar -->
+  <rect y="0" width="1280" height="8" fill="#005587"/>
+  
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="8" height="720" fill="#005587"/>
+  
+  <!-- Main Title -->
+  <text x="80" y="200" font-family="Arial" font-size="56" font-weight="bold" fill="#005587">
+    <tspan x="80" dy="0">AI 周度洞察报告</tspan>
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="80" y="280" font-family="Arial" font-size="32" fill="#5D6D7E">
+    <tspan x="80" dy="0">2026年4月19日 | 第16周</tspan>
+  </text>
+  
+  <!-- Divider -->
+  <rect x="80" y="320" width="200" height="4" fill="#E74C3C"/>
+  
+  <!-- Keywords -->
+  <g font-family="Arial" font-size="18" fill="#5D6D7E">
+    <rect x="80" y="360" width="140" height="36" rx="4" fill="#F0F4F8"/>
+    <text x="150" y="385" text-anchor="middle" fill="#005587" font-weight="bold">世界模型</text>
+    
+    <rect x="240" y="360" width="140" height="36" rx="4" fill="#F0F4F8"/>
+    <text x="310" y="385" text-anchor="middle" fill="#005587" font-weight="bold">融资狂潮</text>
+    
+    <rect x="400" y="360" width="140" height="36" rx="4" fill="#F0F4F8"/>
+    <text x="470" y="385" text-anchor="middle" fill="#005587" font-weight="bold">IPO竞速</text>
+  </g>
+  
+  <!-- Highlight Box -->
+  <rect x="80" y="440" width="600" height="100" rx="8" fill="#FFF9E6" stroke="#E74C3C" stroke-width="2"/>
+  <text x="100" y="480" font-family="Arial" font-size="20" fill="#E74C3C" font-weight="bold">
+    <tspan x="100" dy="0">本周最大洞察</tspan>
+  </text>
+  <text x="100" y="510" font-family="Arial" font-size="16" fill="#5D6D7E">
+    <tspan x="100" dy="0">2026 Q1 AI 融资达 3000 亿美元，占全球 VC 80%</tspan>
+  </text>
+  
+  <!-- Bottom info -->
+  <text x="80" y="660" font-family="Arial" font-size="14" fill="#7F8C8D">
+    <tspan>编辑：零壹情报 | 数据来源：Tavily 搜索</tspan>
+  </text>
+  
+  <!-- Page number -->
+  <text x="1200" y="680" text-anchor="end" font-family="Arial" font-size="14" fill="#7F8C8D">
+    <tspan>1/15</tspan>
+  </text>
+  
+  <!-- Geometric decoration -->
+  <g opacity="0.1">
+    <circle cx="1100" cy="180" r="60" fill="#005587"/>
+    <rect x="1050" y="250" width="80" height="80" fill="#005587"/>
+    <polygon points="1150,340 1190,410 1110,410" fill="#005587"/>
+  </g>
+</svg>
